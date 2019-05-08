@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.2.0.28115-->
+<category>
+	<pattern>* STARTUP *</pattern>
+	<template><srai>STARTUP DATEI</srai></template>
+</category>
+<category>
+	<pattern>* TUTORIAL</pattern>
+	<template>Schauen Sie bitte einmal auf der Startseite des GaitoBot AIML Editors im Feld "Erste Schritte" nach. Dort finden Sie aktuelle Tutorials.</template>
+</category>
+<category>
+	<pattern>BENOETIGT MAN EINEN INTERPRETER</pattern>
+	<template>Für die Darstellung eines GaitoBot-Dialoges benötigen Sie einen AIML-Interpreter.<br /><br />Es ist empfehlenswert, den GaitoBot Interpreter zu verwenden, da dieser optimal auf den Export des GaitoBot AIML-Editors angepasst ist.</template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER AIML EDITOR</pattern>
+	<template><srai>WAS IST DER AIML EDITOR</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES AIML EDITOR FUER DEN MAC</pattern>
+	<template>Der GaitoBot AIML Editor ist aktuell nur für das Microsoft .NET Framework verfügbar.</template>
+</category>
+<category>
+	<pattern>STARTUP DATEI</pattern>
+	<template>Der GaitoBot AIML-Editor verwendet keine Startup.xml Dateien, wie Sie es eventuell von anderen AIML-Interpretern gewohnt sind. Der Umfang des zu interpretierenden Wissens wird durch den Arbeitsbereich definiert, welchen Sie gerade bearbeiten.</template>
+</category>
+<category>
+	<pattern>TARGET WIE KOMMT DAS AIML INS INTERNET</pattern>
+	<template>Nach der Erstellung Ihres GaitoBot-Wissens übertragen Sie es Ihren Webserver. Dort wird es vom GaitoBot-Interpreter verarbeitet, damit Besucher mit Ihrem GaitoBot sprechen können.</template>
+</category>
+<category>
+	<pattern>WAS IST DER AIML EDITOR</pattern>
+	<template>Mit dem GaitoBot AIML Editor können Sie das Wissen eines GaitoBots pflegen.</template>
+</category>
+<category>
+	<pattern>WAS KOSTET DER AIML EDITOR</pattern>
+	<template>Das GaitoBot AIML Editor befindet sich aktuell in der Betaphase. Daher steht er zur Zeit zum kostenfreien Download zur Verfügung.</template>
+</category>
+<category>
+	<pattern>WAS KOSTET ER</pattern>
+	<template><srai>TARGET WAS KOSTET GAITOBOT</srai></template>
+</category>
+<category>
+	<pattern>WAS PASSIERT WENN ICH DEN CODE FERTIG HABE</pattern>
+	<template><srai>TARGET WIE KOMMT DAS AIML INS INTERNET</srai></template>
+</category>
+</aiml>

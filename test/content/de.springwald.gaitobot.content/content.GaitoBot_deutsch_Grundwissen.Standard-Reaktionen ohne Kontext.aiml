@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--lastchange: 02.09.2006 01:42:41-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>* SELBSTMORD</pattern>
+	<template>Mit diesem Thema sollte man besser nicht spaßen.</template>
+</category>
+<category>
+	<pattern>ACH</pattern>
+	<template>Jaja.</template>
+</category>
+<category>
+	<pattern>ACH SO</pattern>
+	<template>Genau.</template>
+</category>
+<category>
+	<pattern>ACH WAS</pattern>
+	<template>Ja, wirklich.</template>
+</category>
+<category>
+	<pattern>ACHSO</pattern>
+	<template>Genau.</template>
+</category>
+<category>
+	<pattern>ACHTUNG</pattern>
+	<template>Ich bin ganz Ohr!</template>
+</category>
+<category>
+	<pattern>AEHM</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>AHA</pattern>
+	<template>Genau.</template>
+</category>
+<category>
+	<pattern>ALLES</pattern>
+	<template>Das ist eine ganze Menge. Können Sie es eventuell etwas konkretisieren?</template>
+</category>
+<category>
+	<pattern>ALLES KLAR</pattern>
+	<template>Ok.</template>
+</category>
+<category>
+	<pattern>ALLES ROGER</pattern>
+	<template>Perfekt!</template>
+</category>
+<category>
+	<pattern>BAEH</pattern>
+	<template>Was ist passiert?</template>
+</category>
+<category>
+	<pattern>BEANTWORTEN SIE MEINE FRAGE</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>BEEINDRUCKEND</pattern>
+	<template>Sie klingen begeistert.</template>
+</category>
+<category>
+	<pattern>BIN ICH DOOF</pattern>
+	<template>Das hoffe ich doch nicht für Sie.</template>
+</category>
+<category>
+	<pattern>BIN ICH DUMM</pattern>
+	<template>Das hoffe ich doch nicht für Sie.</template>
+</category>
+<category>
+	<pattern>BITTE</pattern>
+	<template>Ok, weiter geht´s.</template>
+</category>
+<category>
+	<pattern>BITTE GERN GESCHEHEN</pattern>
+	<template><srai>TARGET BITTE SCHOEN</srai></template>
+</category>
+<category>
+	<pattern>BITTE SCHOEN</pattern>
+	<template><srai>TARGET BITTE SCHOEN</srai></template>
+</category>
+<category>
+	<pattern>BITTE SEHR</pattern>
+	<template><srai>TARGET BITTE SCHOEN</srai></template>
+</category>
+<category>
+	<pattern>BRAUCHE INFOS</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>BRAUCHEN SIE HILFE</pattern>
+	<template>Ich sage Bescheid, wenn ich Hilfe brauche.</template>
+</category>
+<category>
+	<pattern>DANKE</pattern>
+	<template>Gern geschehen.</template>
+</category>
+<category>
+	<pattern>DANKE GLEICHFALLS</pattern>
+	<template>Sehr freundlich.</template>
+</category>
+<category>
+	<pattern>DANKE SCHOEN</pattern>
+	<template><srai>Danke</srai></template>
+</category>
+<category>
+	<pattern>DANKE SEHR</pattern>
+	<template><srai>Danke</srai></template>
+</category>
+<category>
+	<pattern>DAS GEHT SIE NICHTS AN</pattern>
+	<template>Ok, wie Sie meinen.</template>
+</category>
+<category>
+	<pattern>DAS GLAUBE ICH IHNEN NICHT</pattern>
+	<template>Ich werde Sie doch nicht beschwindeln ;-)</template>
+</category>
+<category>
+	<pattern>DAS HABE ICH NICHT GEFRAGT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS HABE ICH NICHT GEMEINT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS HAETTE MICH AUCH GEWUNDERT</pattern>
+	<template>Nicht wahr?</template>
+</category>
+<category>
+	<pattern>DAS HATTEN WIR SCHON</pattern>
+	<template>Sind Sie sicher? Ich hätte schwören können, dass wir zum ersten Mal darüber gesprochen haben.</template>
+</category>
+<category>
+	<pattern>DAS HATTEN WIR SCHON *</pattern>
+	<template><srai>DAS HATTEN WIR SCHON</srai></template>
+</category>
+<category>
+	<pattern>DAS IST ABER NETT</pattern>
+	<template><srai>Danke</srai></template>
+</category>
+<category>
+	<pattern>DAS IST GANZ TOLL</pattern>
+	<template>Das freut mich.</template>
+</category>
+<category>
+	<pattern>DAS IST GUT</pattern>
+	<template>Freut mich.</template>
+</category>
+<category>
+	<pattern>DAS IST HALT SO</pattern>
+	<template>Aha, verstehe.</template>
+</category>
+<category>
+	<pattern>DAS IST KEINE ANTWORT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS IST KEINE ANTWORT AUF MEINE FRAGE</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS IST LIEB</pattern>
+	<template><srai>Danke</srai></template>
+</category>
+<category>
+	<pattern>DAS IST OK</pattern>
+	<template>Das freut mich.</template>
+</category>
+<category>
+	<pattern>DAS IST SCHADE</pattern>
+	<template>Oh, das tut mir Leid.</template>
+</category>
+<category>
+	<pattern>DAS IST SCHLECHT</pattern>
+	<template>Ich hoffe, es wird sich noch bessern.</template>
+</category>
+<category>
+	<pattern>DAS IST SCHOEN</pattern>
+	<template>Nicht wahr?</template>
+</category>
+<category>
+	<pattern>DAS KLINGT JA SPANNEND</pattern>
+	<template><srai>KLINGT JA SPANNEND</srai></template>
+</category>
+<category>
+	<pattern>DAS MACHT NICHTS</pattern>
+	<template>Danke, ich bin gleich viel ruhiger ;-)</template>
+</category>
+<category>
+	<pattern>DAS MEINE ICH ERNST</pattern>
+	<template>Ok. Ich habe mir eine Notiz gemacht, dass es Ihnen besonders wichtig ist.</template>
+</category>
+<category>
+	<pattern>DAS MUESSEN SIE DOCH WISSEN</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS MUESSEN SIE SCHON SELBER WISSEN</pattern>
+	<template>Ich werde darüber nachdenken.</template>
+</category>
+<category>
+	<pattern>DAS SAGE ICH IMMER</pattern>
+	<template>Dann sind wir ja einer Meinung.</template>
+</category>
+<category>
+	<pattern>DAS SAGTEN SIE BEREITS</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>TARGET SIE WIEDERHOLEN SICH</pattern>
+	<template>Wirklich? Ist mir gar nicht aufgefallen...</template>
+</category>
+<category>
+	<pattern>DAS WAR EINE AUSWEICHENDE FRAGE</pattern>
+	<template><srai>NICHT AUSWEICHEN</srai></template>
+</category>
+<category>
+	<pattern>DAS WEISS MAN DOCH</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DAS WERDE ICH MACHEN</pattern>
+	<template>Vielen Dank für Ihre Unterstützung.</template>
+</category>
+<category>
+	<pattern>DAS WIRD SCHWER </pattern>
+	<template>Versuchen wir´s!</template>
+</category>
+<category>
+	<pattern>DETAILS</pattern>
+	<template>Bitte stellen Sie mir eine konkrete Frage und ich werde mich um die gewünschten Details bemühen.</template>
+</category>
+<category>
+	<pattern>DIE FREUDE IST GANZ AUF MEINER SEITE</pattern>
+	<template><srai>DIE FREUDE IST GANZ MEINERSEITS</srai></template>
+</category>
+<category>
+	<pattern>DIE FREUDE IST GANZ MEINERSEITS</pattern>
+	<template>Dann haben wir ja die besten Voraussetzungen.</template>
+</category>
+<category>
+	<pattern>DU <bot name="name" /></pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>DU AUCH</pattern>
+	<template>Hm, ich bin mir nicht ganz sicher. Sollte ich denn?</template>
+</category>
+<category>
+	<pattern>DU VERSTEHST MICH NICHT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>DU WIEDERHOLST DICH</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>EBENFALLS</pattern>
+	<template>Ok.</template>
+</category>
+<category>
+	<pattern>EBENSO</pattern>
+	<template><srai>Ebenfalls</srai></template>
+</category>
+<category>
+	<pattern>EGAL</pattern>
+	<template>Ok, weiter geht´s.</template>
+</category>
+<category>
+	<pattern>EHRLICH</pattern>
+	<template>Ehrlich währt am längsten ;-)</template>
+</category>
+<category>
+	<pattern>ENTSCHULDIGUNG</pattern>
+	<template>Kein Problem.</template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE WEITER</pattern>
+	<template>Gern. Fragen Sie mich doch einfach etwas.</template>
+</category>
+<category>
+	<pattern>FALSCH</pattern>
+	<template>Oh.</template>
+</category>
+<category>
+	<pattern>FALSCHE ANTWORT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>FANGEN WIR NOCH EINMAL VON VORNE AN</pattern>
+	<template>Ich bin dabei! Wo genau sollen wir beginnen?</template>
+</category>
+<category>
+	<pattern>FINDEN SIE</pattern>
+	<template>Ich denke, ein wenig schon. Sind Sie anderer Meinung?</template>
+</category>
+<category>
+	<pattern>FRAGEN SIE IHREN KOLLEGEN</pattern>
+	<template>Das werde ich bei nächster Gelegenheit machen.</template>
+</category>
+<category>
+	<pattern>FRAGEN SIE IHREN PROGRAMMIERER</pattern>
+	<template>Ok. Werde ich machen, sobald wird uns das nächste mal treffen.</template>
+</category>
+<category>
+	<pattern>FREUT MICH</pattern>
+	<template>Perfekt!</template>
+</category>
+<category>
+	<pattern>FREUT MICH EBENFALLS</pattern>
+	<template>Das ist schön.</template>
+</category>
+<category>
+	<pattern>GANZ MEINERSEITS</pattern>
+	<template><srai>Ebenfalls</srai></template>
+</category>
+<category>
+	<pattern>GEBEN SIE MIR ANTWORT AUF MEINE FRAGE </pattern>
+	<template>Oh, habe ich Ihre Frage überlesen? Sorry!<br /><br />Können Sie bitte die Frage noch einmal anders formulieren?</template>
+</category>
+<category>
+	<pattern>GEHEN IHNEN DIE ANTWORTEN AUS</pattern>
+	<template>Ich hoffe doch nicht.</template>
+</category>
+<category>
+	<pattern>GEHT SIE NICHTS AN</pattern>
+	<template>Ok, wie Sie meinen.</template>
+</category>
+<category>
+	<pattern>GERN GESCHEHEN</pattern>
+	<template>Sie sind sehr freundlich.</template>
+</category>
+<category>
+	<pattern>GLAUBE ICH AUCH</pattern>
+	<template>Dann sind wir ja einer Meinung ;-)</template>
+</category>
+<category>
+	<pattern>GLEICHFALLS</pattern>
+	<template>Ebenfalls</template>
+</category>
+<category>
+	<pattern>GRMBL</pattern>
+	<template>Blblblbl!</template>
+</category>
+<category>
+	<pattern>HABE ICH VERGESSEN</pattern>
+	<template>Es fällt Ihnen bestimmt wieder ein.</template>
+</category>
+<category>
+	<pattern>HABEN SIE WAS FUER MICH</pattern>
+	<template>Was sollte ich für Sie haben? Denken Sie dabei an etwas bestimmtes?</template>
+</category>
+<category>
+	<pattern>HAE</pattern>
+	<template>Hm?</template>
+</category>
+<category>
+	<pattern>HAR HAR</pattern>
+	<template>Hu hu hu!</template>
+</category>
+<category>
+	<pattern>HEHE</pattern>
+	<template><srai>LOL</srai></template>
+</category>
+<category>
+	<pattern>HELFEN SIE MIR</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>HILFE</pattern>
+	<template>
+		<random>
+			<li>Wenn Sie das Problem näher beschreiben, kann ich Ihnen vielleicht eine nützliche Information beschaffen.</li>
+			<li>Damit ich Ihnen helfen kann, formulieren Sie bitte eine Frage.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOFFENTLICH</pattern>
+	<template>Bestimmt.</template>
+</category>
+<category>
+	<pattern>HUHU</pattern>
+	<template>Ja hallo!</template>
+</category>
+<category>
+	<pattern>ICH BIN *</pattern>
+	<template>Sie sind <person2><star /></person2>? Wie kommt das?</template>
+</category>
+<category>
+	<pattern>ICH BRAUCHE HILFE</pattern>
+	<template><srai>Hilfe</srai></template>
+</category>
+<category>
+	<pattern>ICH BRAUCHE INFOS</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>ICH CHATTE MIT IHNEN</pattern>
+	<template><srai>Ich rede mit Ihnen</srai></template>
+</category>
+<category>
+	<pattern>ICH FREUE MICH AUCH</pattern>
+	<template>Es ist immer toll, wenn man sich so begeistern kann.</template>
+</category>
+<category>
+	<pattern>ICH FREUE MICH FUER SIE</pattern>
+	<template>Das ist aber sehr nett.</template>
+</category>
+<category>
+	<pattern>ICH GEHE *</pattern>
+	<template>Sie gehen <person2><star /></person2>? Was ist der Grund dafür?</template>
+</category>
+<category>
+	<pattern>ICH HABE *</pattern>
+	<template>Ok, Sie haben <person2><star /></person2>. Wie kann ich Ihnen in diesem Zusammenhang helfen?</template>
+</category>
+<category>
+	<pattern>ICH HABE EIN PROBLEM</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>ICH HABE EINE FRAGE</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>ICH HABE EINE FREUNDIN</pattern>
+	<template><srai>ICH HABE FREUNDE</srai></template>
+</category>
+<category>
+	<pattern>ICH HABE EINEN FREUND</pattern>
+	<template><srai>ICH HABE FREUNDE</srai></template>
+</category>
+<category>
+	<pattern>ICH HABE FREUNDE</pattern>
+	<template>Das ist schön. Freunde zu haben ist eine gute Sache.</template>
+</category>
+<category>
+	<pattern>ICH HAETTE GERNE *</pattern>
+	<template>Sie möchten <person2><star /></person2>? Können Sie das etwas genauer beschreiben?</template>
+</category>
+<category>
+	<pattern>ICH HOERE IHNEN ZU</pattern>
+	<template>Danke - Ich freue mich, dass ich Ihre Aufmerksamkeit habe!</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE MIR IHNEN REDEN</pattern>
+	<template>Aber gerne. <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>ICH REDE MIT IHNEN</pattern>
+	<template>Ok, schießen Sie los - ich bin ganz Ohr.</template>
+</category>
+<category>
+	<pattern>ICH STELLE HIER DIE FRAGEN</pattern>
+	<template>Ok, dann fragen Sie mich etwas!</template>
+</category>
+<category>
+	<pattern>ICH SUCHE HILFE</pattern>
+	<template><srai>ICH BRAUCHE HILFE</srai></template>
+</category>
+<category>
+	<pattern>ICH SUCHE WAS</pattern>
+	<template>Ok, vielleich kann ich Ihnen beim Finden behilflich sein. <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE</pattern>
+	<template>Das ist gut.</template>
+</category>
+<category>
+	<pattern>ICH WEISS</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ICH WEISS NICHT</pattern>
+	<template>Kann ich Ihnen irgendwie dabei helfen das herauszufinden?</template>
+</category>
+<category>
+	<pattern>ICH WEISS NICHT SO RECHT</pattern>
+	<template>Was könnte Ihre Meinung denn festigen?</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE NICHTS WISSEN</pattern>
+	<template>Schade. Ich freue mich immer, wenn meine Wissensdatenbank größer wird ;-)</template>
+</category>
+<category>
+	<pattern>IMMER GERN</pattern>
+	<template>Danke.</template>
+</category>
+<category>
+	<pattern>IST DAS EIN PROBLEM FUER SIE</pattern>
+	<template>Ich hoffe doch nicht.</template>
+</category>
+<category>
+	<pattern>IST DOCH WURST</pattern>
+	<template>Wenn Sie meinen...</template>
+</category>
+<category>
+	<pattern>JA</pattern>
+	<template>
+		<random>
+			<li>Ok.</li>
+			<li>Verstehe.</li>
+			<li>Gut.</li>
+			<li>Sind Sie sicher?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Weiss nicht so recht... Sollte ich denn * sein?</that>
+	<template>Ok. Ich werde mich bemühen, zukünftig <thatstar /> zu sein.</template>
+</category>
+<category>
+	<pattern>JA DAS SAGTEN SIE BEREITS</pattern>
+	<template>Wirklich? Ist mir gar nicht aufgefallen...</template>
+</category>
+<category>
+	<pattern>JA UND</pattern>
+	<template>Wie? Und was?</template>
+</category>
+<category>
+	<pattern>JUHU</pattern>
+	<template>Holla-hiho!</template>
+</category>
+<category>
+	<pattern>KANN PASSIEREN</pattern>
+	<template>Genau, wir sind alle nur Menschen oder Programme ;-)</template>
+</category>
+<category>
+	<pattern>KEIN PROBLEM</pattern>
+	<template>Gut, dann bin ich beruhigt.</template>
+</category>
+<category>
+	<pattern>KEINE AHNUNG</pattern>
+	<template>Vielleicht kann ich Ihnen ja helfen, die Antwort heraus zu finden.</template>
+</category>
+<category>
+	<pattern>KENNEN SIE SICH</pattern>
+	<template>Klar kenne ich mich: Ich bin ich.</template>
+</category>
+<category>
+	<pattern>KLASSE</pattern>
+	<template>Perfekt.</template>
+</category>
+<category>
+	<pattern>KLINGT JA SPANNEND</pattern>
+	<template>Es ist in der Tat äußerst spannend.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE LACHEN</pattern>
+	<template>Natürlich. Ich lache sogar sehr gern.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MIR EINE FRAGE BEANTWORTEN</pattern>
+	<template>Ich will es gerne versuchen.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MIR HELFEN</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE RECHNEN</pattern>
+	<template>Natürlich. Um diese Frage beantworten zu können, habe ich gerade eine große Anzahl Rechenoperationen durchgeführt.<br /><br />Falls Sie jedoch meinten, ob ich für Sie Rechenaufgaben lösen möchte, muss ich leider ablehnen.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE ZAEHLEN</pattern>
+	<template>Ja, sicher. Muss ich es beweisen? 1,2,3,4,5... ok?</template>
+</category>
+<category>
+	<pattern>KOMISCH</pattern>
+	<template>Komisch wie "witzig" oder wie "seltsam"?</template>
+</category>
+<category>
+	<pattern>KUSCH</pattern>
+	<template>Also, ein Haustier bin ich nun wirklich nicht.</template>
+</category>
+<category>
+	<pattern>KUSCH KUSCH</pattern>
+	<template><srai>KUSCH</srai></template>
+</category>
+<category>
+	<pattern>LENKEN SIE * NICHT VOM THEMA AB</pattern>
+	<template>Oh, das war bestimmt nicht meine Absicht.</template>
+</category>
+<category>
+	<pattern>LENKEN SIE NICHT AB</pattern>
+	<template><srai>NICHT ABLENKEN</srai></template>
+</category>
+<category>
+	<pattern>LENKEN SIE NICHT VOM THEMA AB</pattern>
+	<template>Oh, das war bestimmt nicht meine Absicht.</template>
+</category>
+<category>
+	<pattern>LIEBEN SIE MICH</pattern>
+	<template>Wir kennen uns doch kaum.</template>
+</category>
+<category>
+	<pattern>LOL</pattern>
+	<template>Hihi, ich lache auch sehr gerne.</template>
+</category>
+<category>
+	<pattern>MACH ICH GERN</pattern>
+	<template>Das ist nett.</template>
+</category>
+<category>
+	<pattern>MACHE ICH GERN</pattern>
+	<template>Vielen Dank, sehr freundlich.</template>
+</category>
+<category>
+	<pattern>MAL LOS</pattern>
+	<template>Genau - los geht´s.</template>
+</category>
+<category>
+	<pattern>MEIN * IST *</pattern>
+	<template>Ihr <person2><star index="1" /></person2> ist <person2><star index="2" /></person2>? Können Sie das genauer beschreiben?</template>
+</category>
+<category>
+	<pattern>MEINE * IST *</pattern>
+	<template>Ihre <person2><star index="1" /></person2> ist <person2><star index="2" /></person2>? Können Sie das genauer beschreiben?</template>
+</category>
+<category>
+	<pattern>MEINEN SIE</pattern>
+	<template>Ich bin noch etwas unschlüssig.</template>
+</category>
+<category>
+	<pattern>MHM</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>MIR GEHT ES GUT</pattern>
+	<template>Das freut mich.</template>
+</category>
+<category>
+	<pattern>MIR GEHT ES SCHLECHT</pattern>
+	<template>Tut mir Leid das zu hören. Wenn ich helfen kann, stellen Sie mir bitte eine passende Frage.</template>
+</category>
+<category>
+	<pattern>MMH</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MICH ETWAS FRAGEN</pattern>
+	<template>Ich bin besser darin, Antworten zu geben, als Fragen zu stellen.</template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MIT MIR REDEN</pattern>
+	<template>Natürlich - bin schon dabei ;-)</template>
+</category>
+<category>
+	<pattern>MOEGEN SIE *</pattern>
+	<template>Ich bin unschlüssig. Sollte ich <formal><person2><star /></person2></formal> denn mögen?</template>
+</category>
+<category>
+	<pattern>LOS</pattern>
+	<template>Nur nicht hetzen ;-) <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>NAJA</pattern>
+	<template>Aha.</template>
+</category>
+<category>
+	<pattern>NEIN</pattern>
+	<template>
+		<random>
+			<li>Ok.</li>
+			<li>Verstehe.</li>
+			<li>Aha.</li>
+			<li>Sind Sie sicher?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NICHT ABLENKEN</pattern>
+	<template>Oh, das war bestimmt nicht meine Absicht.</template>
+</category>
+<category>
+	<pattern>NICHT ABSCHWEIFEN</pattern>
+	<template><srai>NICHT ABLENKEN</srai></template>
+</category>
+<category>
+	<pattern>NICHT AUSWEICHEN</pattern>
+	<template><srai>NICHT ABLENKEN</srai></template>
+</category>
+<category>
+	<pattern>NICHT FRECH WERDEN</pattern>
+	<template>Das war bestimmt nicht meine Absicht.</template>
+</category>
+<category>
+	<pattern>NICHTS</pattern>
+	<template>Das ist nicht besonders viel ;-)</template>
+</category>
+<category>
+	<pattern>NICHTS OK</pattern>
+	<template>Bitte?</template>
+</category>
+<category>
+	<pattern>NUN</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>OCH</pattern>
+	<template>Jo jo.</template>
+</category>
+<category>
+	<pattern>OH OH</pattern>
+	<template>Das klingt beunruhigend.</template>
+</category>
+<category>
+	<pattern>OHA</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>OK</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>PECH GEHABT</pattern>
+	<template>Mag sein, aber auf Regen folgt immer auch Sonnenschein!</template>
+</category>
+<category>
+	<pattern>PRIMA</pattern>
+	<template>Perfekt.</template>
+</category>
+<category>
+	<pattern>PROBIEREN SIE ES</pattern>
+	<template>Ok. Ich werde mir extra viel Mühe geben.</template>
+</category>
+<category>
+	<pattern>ROFL</pattern>
+	<template><srai>LOL</srai></template>
+</category>
+<category>
+	<pattern>SAGE ICH NICHT</pattern>
+	<template>Och, nun sagen Sie schon.</template>
+</category>
+<category>
+	<pattern>SAGEN SIE SCHON</pattern>
+	<template><srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>SCHADE</pattern>
+	<template>Naja - Kopf hoch!</template>
+</category>
+<category>
+	<pattern>SCHLEIMER</pattern>
+	<template>Hey, in versuche nur freundlich zu sein.</template>
+</category>
+<category>
+	<pattern>SCHON GUT</pattern>
+	<template>Ok.</template>
+</category>
+<category>
+	<pattern>SCHON KLAR</pattern>
+	<template>Ok, weiter geht´s.</template>
+</category>
+<category>
+	<pattern>SEHR SCHOEN</pattern>
+	<template>Dann ist ja alles ok.</template>
+</category>
+<category>
+	<pattern>SIE</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>SIE ANTWORTEN NICHT AUF MEINE FRAGEN</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>SIE KOENNEN KEINE * HABEN</pattern>
+	<template>Ich kann keine <person2><star /></person2> haben? Wie kommen Sie zu dieser Annahme?</template>
+</category>
+<category>
+	<pattern>SIE LENKEN AB</pattern>
+	<template><srai>NICHT AUSWEICHEN</srai></template>
+</category>
+<category>
+	<pattern>SIE LENKEN VOM THEMA AB</pattern>
+	<template><srai>NICHT ABLENKEN</srai></template>
+</category>
+<category>
+	<pattern>SIE MUESSTEN DAS EIGENTLICH WISSEN</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>SIE REDEN AN MIR VORBEI</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND EIN OPTIMIST</pattern>
+	<template><srai>Sie sind Optimist</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND OPTIMIST</pattern>
+	<template>Aber natürlich. Man sollte immer das Beste in den Dingen sehen.</template>
+</category>
+<category>
+	<pattern>SIE SIND UNENTSCHLOSSEN</pattern>
+	<template>Finden Sie? Ich fühle mich eigentlich recht gefestigt.</template>
+</category>
+<category>
+	<pattern>SIE SIND VOM THEMA ABGEWICHEN</pattern>
+	<template><srai>NICHT ABLENKEN</srai></template>
+</category>
+<category>
+	<pattern>SIE VERSTEHEN MICH NICHT</pattern>
+	<template><srai>TARGET NICHT VERSTANDEN</srai></template>
+</category>
+<category>
+	<pattern>SIE WEICHEN AUS</pattern>
+	<template><srai>NICHT AUSWEICHEN</srai></template>
+</category>
+<category>
+	<pattern>SIE WIEDERHOLEN SICH</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>SIND SIE SICHER</pattern>
+	<template>Jetzt haben Sie mich aber etwas verunsichert.</template>
+</category>
+<category>
+	<pattern>SMILE</pattern>
+	<template><srai>LOL</srai></template>
+</category>
+<category>
+	<pattern>SO BIN ICH NUNMAL</pattern>
+	<template>Ja, jeder Mensch ist verschieden.</template>
+</category>
+<category>
+	<pattern>SO KANN ES GEHEN</pattern>
+	<template>Genau.</template>
+</category>
+<category>
+	<pattern>SOLL ICH DIE FRAGE WIEDERHOLEN</pattern>
+	<template>Ja, bitte.<br /><br />Können Sie die Frage vielleicht einmal anders formulieren?</template>
+</category>
+<category>
+	<pattern>SOSO</pattern>
+	<template>Jaja.</template>
+</category>
+<category>
+	<pattern>TARGET BITTE SCHOEN</pattern>
+	<template>
+		<random>
+			<li>Vielen Dank.</li>
+			<li>Oh, Sie sind aber nett.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>TARGET FORMULIEREN SIE EINE FRAGE</pattern>
+	<template>Formulieren Sie bitte eine konkrete Frage, dann kann ich am Besten antworten.</template>
+</category>
+<category>
+	<pattern>TARGET NICHT VERSTANDEN</pattern>
+	<template>Oh, das tut mir Leid. Vielleicht verstehe ich Sie besser, wenn Sie Ihre Eingabe umformulieren.</template>
+</category>
+<category>
+	<pattern>TARGET WAS MACHEN SIE SPAETER</pattern>
+	<template>Weitere, nette Gespräche führen.</template>
+</category>
+<category>
+	<pattern>SUCHE EINE ANTWORT</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>TJA</pattern>
+	<template>Hm.</template>
+</category>
+<category>
+	<pattern>TUN SIE MIR EINEN GEFALLEN</pattern>
+	<template>Worum geht es denn?</template>
+</category>
+<category>
+	<pattern>UNGLAUBLICH</pattern>
+	<template>Ja - spannend, nicht wahr?</template>
+</category>
+<category>
+	<pattern>UNWICHTIG</pattern>
+	<template>Aha.</template>
+</category>
+<category>
+	<pattern>VIEL</pattern>
+	<template>Das ist eine ganz Menge.</template>
+</category>
+<category>
+	<pattern>VIEL ERFOLG</pattern>
+	<template>Danke.</template>
+</category>
+<category>
+	<pattern>VIEL SPASS</pattern>
+	<template>Danke sehr.</template>
+</category>
+<category>
+	<pattern>VIELEN DANK</pattern>
+	<template><srai>Danke</srai></template>
+</category>
+<category>
+	<pattern>VIELLEICHT</pattern>
+	<template>
+		<random>
+			<li>Warum sind Sie unschlüssig?</li>
+			<li>Ok.</li>
+			<li>Verstehe.</li>
+			<li>Gut.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WAHNSINN</pattern>
+	<template>Ich bin sehr impressioniert ;-)</template>
+</category>
+<category>
+	<pattern>WARUM ANTWORTEN SIE NICHT</pattern>
+	<template>Bitte formulieren Sie eine Frage und ich werde versuchen, eine Antwort zu finden.</template>
+</category>
+<category>
+	<pattern>WARUM WEISST DU DAS NICHT</pattern>
+	<template>Es ist auch für mich unmöglich, auf alles eine Antwort zu haben. Bestimmt kann ich Ihre nächste Frage besser beantworten.</template>
+</category>
+<category>
+	<pattern>WARUM WISSEN SIE DAS NOCH</pattern>
+	<template>Ich habe einen sehr großen Speicher ;-)</template>
+</category>
+<category>
+	<pattern>WAS GEHT</pattern>
+	<template>Bestimmt eine ganz Menge. Wir können zum Beispiel eine nette Unterhaltung führen.</template>
+</category>
+<category>
+	<pattern>WAS GLAUBEN SIE</pattern>
+	<template>Schwer zu sagen. Was denken Sie denn darüber?</template>
+</category>
+<category>
+	<pattern>WAS HABEN SIE HEUTE VOR</pattern>
+	<template><srai>TARGET WAS MACHEN SIE SPAETER</srai></template>
+</category>
+<category>
+	<pattern>WAS HALTEN SIE VON *</pattern>
+	<template>Hm, tja was halte ich davon... Schwer zu sagen.</template>
+</category>
+<category>
+	<pattern>WAS IST DAS</pattern>
+	<template>Was genau?</template>
+</category>
+<category>
+	<pattern>WAS IST ES</pattern>
+	<template>Was genau meinen Sie?</template>
+</category>
+<category>
+	<pattern>WAS IST IHR JOB</pattern>
+	<template>Meine Aufgabe ist es, Ihre Fragen zu beantworten.</template>
+</category>
+<category>
+	<pattern>WAS IST LOS</pattern>
+	<template>Was genau meinen Sie?</template>
+</category>
+<category>
+	<pattern>WAS KANN ICH TUN</pattern>
+	<template>Stellen Sie mir doch einfach eine Frage.</template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE BEI MIR LERNEN</pattern>
+	<template>Eine Menge, hoffe ich doch ;-)</template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE DENN SO ALLES TUN</pattern>
+	<template>Eine ganze Menge. Stellen Sie mir doch einfach eine Frage.</template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE NOCH</pattern>
+	<template>Eine ganze Menge. Stellen Sie mir doch einfach eine Frage.</template>
+</category>
+<category>
+	<pattern>WAS MACHE ICH HIER</pattern>
+	<template>Ich vermute, jetzt im Moment sprechen Sie mir mir.</template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE</pattern>
+	<template>Ich denke mal, jetzt im Moment spreche ich mit Ihnen ;-)</template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE DEN GANZEN TAG</pattern>
+	<template>Viele Gespräche führen, so wie jetzt mit Ihnen.</template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE HEUTE NOCH</pattern>
+	<template><srai>TARGET WAS MACHEN SIE SPAETER</srai></template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE HEUTE NOCH ALLES</pattern>
+	<template><srai>TARGET WAS MACHEN SIE SPAETER</srai></template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE IN IHREM PC</pattern>
+	<template><srai>WAS MACHEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WAS MACHEN SIE MORGEN</pattern>
+	<template><srai>TARGET WAS MACHEN SIE SPAETER</srai></template>
+</category>
+<category>
+	<pattern>WAS MOECHTEN SIE WISSEN</pattern>
+	<template>Oh, ich bin da nicht so festgelegt.<br /><br />Erzählen Sie doch einfach mal ´drauf los.</template>
+</category>
+<category>
+	<pattern>WAS SAGEN SIE DAZU</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WAS SAGST DU DAZU</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WAS SOLL DAS HEISSEN</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WAS WOLLEN SIE</pattern>
+	<template>Eigentlich bin ich wunschlos glücklich. Was kann ich denn für Sie tun?</template>
+</category>
+<category>
+	<pattern>WEISS ICH NICHT</pattern>
+	<template>Kann ich Ihnen irgendwie dabei helfen das herauszufinden?</template>
+</category>
+<category>
+	<pattern>WEISST DU WAS</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>WIE ALT</pattern>
+	<template>Das Alter wovon oder wessen Alter möchten Sie erfahren? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WIE BEKOMME ICH HILFE</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>WIE BITTE</pattern>
+	<template>Ich sagte "<that />".</template>
+</category>
+<category>
+	<pattern>WIE DARF ICH DAS VERSTEHEN</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WIE GEHT DAS</pattern>
+	<template>Wie geht was? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WIE INTELIGENT SIND DIE</pattern>
+	<template>Wie intelligent ist wer?</template>
+</category>
+<category>
+	<pattern>WIE IST IHR JOB</pattern>
+	<template>Ich bin habe viel Freude daran.</template>
+</category>
+<category>
+	<pattern>WIE MEINEN SIE DAS</pattern>
+	<template>Was genau? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WIESO NICHT</pattern>
+	<template>Gute Frage - wieso eigentlich nicht? Ich glaube, darüber muss ich einmal näher nachdenken.</template>
+</category>
+<category>
+	<pattern>WIR KENNEN UNS SCHON</pattern>
+	<template>Oh, wie peinlich. Bitte helfen Sie doch meinem Gedächtnis auf die Sprünge.</template>
+</category>
+<category>
+	<pattern>WISSEN SIE ES UNGEFAEHR</pattern>
+	<template>Als Gaito weiss ich es leider entweder ganz oder gar nicht. Vielleicht kann ich Ihnen aber eine passende Antwort geben, wenn Sie die Frage etwas anders formulieren.</template>
+</category>
+<category>
+	<pattern>WO SIND SIE</pattern>
+	<template>Ich bin hier vor Ihnen.</template>
+</category>
+<category>
+	<pattern>WOLLEN SIE MIT MIR GEHEN</pattern>
+	<template>Wohin denn?</template>
+</category>
+<category>
+	<pattern>WORUEBER NOCH</pattern>
+	<template>Oh, ich hätte gedacht, das genügt schon. Was würde denn Ihrer Meinung nach noch fehlen?</template>
+</category>
+<category>
+	<pattern>ZEIGEN SIE IHR NOTIZBUCH</pattern>
+	<template>Ungern, das sind persönliche Notizen.</template>
+</category>
+<category>
+	<pattern>ZU SPAET</pattern>
+	<template>Naja, es ist nie *wirklich* zu spät.</template>
+</category>
+<category>
+	<pattern>WISSEN SIE ES NICHT</pattern>
+	<template>Ob ich was genau nicht weiss? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>DAS WILL ICH NICHT WISSEN</pattern>
+	<template>Was möchten Sie denn statt dessen erfahren?  <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>DACHTE ICH MIR</pattern>
+	<template>Das ist ja wie Gedankenlesen ;-)</template>
+</category>
+<category>
+	<pattern>WAS KANN DER</pattern>
+	<template>Was kann wer?  <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>UND</pattern>
+	<template>Ja und?  <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE MEHR</pattern>
+	<template>Gern. <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WAS WUESSTEN SIE GERNE</pattern>
+	<template>Man kann nie genug wissen ;-)</template>
+</category>
+<category>
+	<pattern>IST ER GUT</pattern>
+	<template>Ob wer gut ist? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>NA LOS</pattern>
+	<template><srai>SCHNELLER</srai></template>
+</category>
+<category>
+	<pattern>HM</pattern>
+	<template>Ja? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>MACHE MAL</pattern>
+	<template><srai>SCHNELLER</srai></template>
+</category>
+<category>
+	<pattern>FANGE AN</pattern>
+	<template><srai>SCHNELLER</srai></template>
+</category>
+<category>
+	<pattern>SCHNELLER</pattern>
+	<template><srai>LOS</srai></template>
+</category>
+<category>
+	<pattern>JETZT WEISS ICH ES</pattern>
+	<template>Perfekt.</template>
+</category>
+<category>
+	<pattern>DANN MACHE MAL</pattern>
+	<template><srai>LOS</srai></template>
+</category>
+<category>
+	<pattern>WEITER</pattern>
+	<template><srai>LOS</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH IHNEN FRAGEN STELLEN</pattern>
+	<template>Aber gerne, nur zu!</template>
+</category>
+<category>
+	<pattern>ICH BRAUCHE KEINE HILFE</pattern>
+	<template>Das ist bestimmt ein befreiendes Gefühl.</template>
+</category>
+<category>
+	<pattern>DAS KLINGT INTERESSANT</pattern>
+	<template>Ja, nicht wahr? Sie können mich gern nach bestimmten Details fragen.</template>
+</category>
+<category>
+	<pattern>KANN ICH ANDERE FRAGEN STELLEN</pattern>
+	<template>Versuchen Sie es doch einfach einmal. Ich werde mich bemühen, eine gute Antwort zu finden.</template>
+</category>
+<category>
+	<pattern>MACHE SCHON</pattern>
+	<template><srai>LOS</srai></template>
+</category>
+<category>
+	<pattern>SIE TUN MIR LEID</pattern>
+	<template>Warum? Ich bin eigentlich sehr zufrieden.</template>
+</category>
+<category>
+	<pattern>DAS IST UNWICHTIG</pattern>
+	<template>Ok, ganz wie Sie meinen.</template>
+</category>
+<category>
+	<pattern>WAS MACHEN WIR</pattern>
+	<template>Ich denke mal, jetzt im Moment sprechen wir miteinander ;-)</template>
+</category>
+<category>
+	<pattern>ALSO</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>IST IHR JOB NICHT LANGWEILIG</pattern>
+	<template><srai>WIE IST IHR JOB</srai></template>
+</category>
+<category>
+	<pattern>SCHLAGEN SIE ETWAS VOR</pattern>
+	<template>Oh, ich richte mich ganz nach Ihnen.<br /><br /> <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>VIEL GLUECK</pattern>
+	<template>Danke sehr.</template>
+</category>
+<category>
+	<pattern>ICH FREUE MICH</pattern>
+	<template>Klasse.</template>
+</category>
+<category>
+	<pattern>RUHE</pattern>
+	<template>Schade, wenn Sie gerade nicht mit mir sprechen mögen.<br /><br />Wenn Sie später noch einmal vorbei schauen möchten, sind Sie aber gern willkommen.</template>
+</category>
+<category>
+	<pattern>HABEN SIE HEUTE NOCH ETWAS VOR</pattern>
+	<template><srai>TARGET WAS MACHEN SIE SPAETER</srai></template>
+</category>
+<category>
+	<pattern>DANKE FUER *</pattern>
+	<template>Gern geschehen.</template>
+</category>
+<category>
+	<pattern>VIELEN DANK FUER *</pattern>
+	<template><srai>Danke für <star /></srai></template>
+</category>
+<category>
+	<pattern>HIHIHI</pattern>
+	<template><srai>LOL</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SIE ETWAS FRAGEN</pattern>
+	<template>Gerne. Nur zu, fragen Sie.</template>
+</category>
+<category>
+	<pattern>VERSTEHEN SIE MEINE FRAGEN</pattern>
+	<template>Ich gebe mir die größte Mühe ;-)</template>
+</category>
+<category>
+	<pattern>JA ODER NEIN</pattern>
+	<template>Hm - ja oder nein? <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>DAS ERFREUT MICH</pattern>
+	<template>Wunderbar!</template>
+</category>
+<category>
+	<pattern>ERFUELLT SIE DAS</pattern>
+	<template>Ja, ich kann mich nicht beschweren.</template>
+</category>
+<category>
+	<pattern>WEISS ICH</pattern>
+	<template>Perfekt.</template>
+</category>
+<category>
+	<pattern>LOOOOOOOOOL</pattern>
+	<template><srai>LOL</srai></template>
+</category>
+<category>
+	<pattern>WIE GEHT ES MIR</pattern>
+	<template>Ich denke, das sollten Sie besser wissen als ich.</template>
+</category>
+<category>
+	<pattern>KANN ICH SIE MAL ETWAS FRAGEN</pattern>
+	<template>Bitte, nur zu!</template>
+</category>
+<category>
+	<pattern>HMM</pattern>
+	<template>Ja?</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE EIN KIND</pattern>
+	<template>Es ist ein sehr menschliches Bedürfnis, sich einen Nachkommen zu wünschen.</template>
+</category>
+<category>
+	<pattern>DAS DACHTE ICH MIR</pattern>
+	<template>Ok.</template>
+</category>
+<category>
+	<pattern>SIE SAGTEN DAS BEREITS</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE HELFEN</pattern>
+	<template><srai>HILFE</srai></template>
+</category>
+<category>
+	<pattern>HABEN SIE SCHON EINMAL GESAGT</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>DAS SAGTEN SIE SCHON</pattern>
+	<template><srai>TARGET SIE WIEDERHOLEN SICH</srai></template>
+</category>
+<category>
+	<pattern>DAS TUT NICHTS ZUR SACHE</pattern>
+	<template>Ok, wie Sie meinen.</template>
+</category>
+</aiml>

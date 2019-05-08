@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>UEBER WAS WOLLEN WIR UNS UNTERHALTEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>UEBER WELCHE THEMEN KOENNEN SIE *</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS FUER FRAGEN KOENNEN SIE BEANTWORTEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS HABEN SIE ZU SAGEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS IST IHR GEBIET</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS KANN ICH FRAGEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS KENNEN SIE</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE MIR ERZAEHLEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS SIND IHRE WISSENSTHEMEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS VERSTEHEN SIE</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS WISSEN SIE</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS WISSEN SIE</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS WISSEN SIE ALLES</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS WISSEN SIE NOCH</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS WISSEN SIE SONST</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WECHSELN WIR DAS THEMA</pattern>
+	<template>Gern. <srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WELCHE ANTWORTEN HABEN SIE PARAT</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WELCHE FRAGEN KOENNEN SIE BEANTWORTEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WELCHE GESPRAECHSTHEMEN BIETEN SIE AN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WELCHE THEMEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE ETWAS</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WO KENNEN SIE SICH GUT AUS</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WOBEI KENNEN SIE SICH DENN AUS</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WOBEI KOENNEN SIE MIR HELFEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WOMIT KENNEN SIE SICH AUS</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER INFORMIEREN SIE MICH</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER MOECHTEN SIE REDEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER REDEN SIE SO</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER SPRECHEN WIR</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER WOLLEN SIE REDEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER WOLLEN WIR REDEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER WOLLEN WIR SPRECHEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WORUEBER WUERDEST DU GERNE REDEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>ZU WELCHEM THEMA KOENNEN SIE *</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>ZU WELCHEN THEMEN KOENNEN SIE *</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE IRGENDWAS</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>UEBER WELCHE THEMEN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>WAS BESPRECHEN WIR NUN</pattern>
+	<template><srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+</aiml>

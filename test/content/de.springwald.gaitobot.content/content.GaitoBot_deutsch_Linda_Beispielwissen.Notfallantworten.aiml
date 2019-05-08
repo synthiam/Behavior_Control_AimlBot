@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.0.28457-->
+<category>
+	<pattern>*</pattern>
+	<template><condition name="gefragtobschongaito"><li exists="false"><think><set name="gefragtobschongaito">true</set></think>Haben Sie vorher schon einmal mit einem Gaito gesprochen?</li><li exists="true"><srai>UNBEKANNTE EINGABE</srai></li></condition></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Fragen Sie mich doch bitte, was Sie gern über Gaitos erfahren möchten.</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Ich habe Sie nicht genau verstanden.<br /><br /><srai>TARGET WERBUNG</srai></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Ich verstehe leider nicht alle Eingaben. Aber wir arbeiten daran, das gespeicherte Wissen ständig zu verbessern.</template>
+</category>
+<category>
+	<pattern>*</pattern><that>Das freut mich sehr. Was gefällt Ihnen denn besonders an Gaitos</that>
+	<template>Vielen Dank. Für Feedback bin ich immer dankbar.</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Leider habe ich nicht verstanden, was Sie über Gaitos erfahren möchten.<br /><br />Einen umfassenden Überblick finden Sie auf der <a href="http://www.gaito.de" target="_blank">Gaito-Homepage</a></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Mir ist nicht ganz klar, was Sie mir damit sagen möchten...<br /><br /><srai>TARGET WERBUNG</srai></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Das sagt mir gerade nichts.<br /><br /><srai>TARGET WERBUNG</srai></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Das habe ich jetzt nicht ganz verstanden.<br /><br /><srai>TARGET WERBUNG</srai></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Möchten Sie gern einen eigenen Gaito?</that>
+	<template>Es freut mich sehr, dass Sie einen Gaito für Ihre Website wünschen.<br /><br /><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Möchten Sie mehr über die Vorteile eines Gaitos erfahren?</that>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>HABEN SIE VORHER SCHON EINMAL MIT EINEM GAITO GESPROCHEN</that>
+	<template>Das freut mich sehr. Was gefällt Ihnen denn besonders an Gaitos?</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Haben Sie vorher schon einmal mit einem Gaito gesprochen</that>
+	<template>Oh, dann werde ich mich mal ganz besonders ins Zeug legen, um Sie nicht zu enttäuschen.</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Möchten Sie gern einen eigenen Gaito?</that>
+	<template>Das ist schade, aber vielleicht überlegen Sie es sich ja noch einmal.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>NICHTS</pattern><that>Das freut mich sehr. Was gefällt Ihnen denn besonders an Gaitos</that>
+	<template>Hm, das ist schade. <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>TARGET GAITOWERBUNG</pattern>
+	<template>
+		<random>
+			<li>Sie können übrigens auch selbst <a href="http://www.gaito.de/de/tutorial/eigenedarsteller.htm" target="_blank">eigene Gaito-Darsteller</a> erstellen.</li>
+			<li>Wussten Sie übrigens, dass ein Gaito in nahezu jedes Kostüm schlüpfen kann? <a href="http://www.gaito.de/de/darsteller/default.htm" target="_blank"><br /><br />Besuchen Sie doch einfach einmal unsere Gaito-Darsteller.</a></li>
+			<li>Sie können Gaito übrigens auf Ihrer eigenen Homepage ohne Risiko selbst ausprobieren.<br /><br /><a href="http://www.gaito.de/content/produkte/default.asp?language=de" target="_blank">Machen Sie den gratis Test!</a></li>
+			<li>Kennen Sie schon die <a href="http://www.gaito.de/de/content/fotogaito.htm " target="_blank">FotoGaito-Funktion</a>? Damit können Sie in nur 5 Minuten aus Ihrem Foto einen eigenen Gaito-Darsteller erstellen.</li>
+			<li><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></li>
+			<li>Übrigens: Wussten Sie, dass die Presse sehr positiv über Gaito schreibt?<br /><br />Einen Auszug der <a href="http://www.gaito.de/de/referenzen/default.htm" target="_blank">Presseberichte können Sie sich hier anschauen</a>.</li>
+			<li>Wussten Sie, dass die Auswahl an <a href="http://www.gaito.de/de/darsteller/default.htm" target="_blank">Gaito-Darstellern ständig erweitert wird?</a></li>
+			<li><srai>TARGET MOECHTEN SIE EINEN EIGENEN GAITO</srai></li>
+		</random></template>
+</category>
+<category>
+	<pattern>TARGET MOECHTEN SIE EINEN EIGENEN GAITO</pattern>
+	<template>Möchten Sie gern einen eigenen Gaito?</template>
+</category>
+<category>
+	<pattern>VIELLEICHT</pattern><that>Möchten Sie gern einen eigenen Gaito?</that>
+	<template>Vielleicht kann ich Ihnen helfen, sich eine genaue Meinung zu bilden.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+</aiml>

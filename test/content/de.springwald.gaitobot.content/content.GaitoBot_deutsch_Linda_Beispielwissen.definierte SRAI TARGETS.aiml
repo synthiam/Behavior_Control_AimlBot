@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.0.28457-->
+<category>
+	<pattern>TARGET BOTSTART</pattern>
+	<template><think>Am Anfang des Gespräches den Beleidigungszähler zurücksetzen:<set name="beleidigungsstufe"></set></think><condition name="warschonmalda"><li exists="true"><condition name="name"><li exists="true">Hallo, <get name="name" />!</li><li exists="false">Oh, hallo.</li></condition> Schön Sie wieder zu sehen.<br /><br />Auch heute beantworte ich gern Ihre Fragen zu GAITO, dem virtuellen Moderator.<think><set name="SchonNachNamenGefragt"></set></think></li><li exists="false"><think><set name="warschonmalda">true</set></think>
+		<random>
+			<li>Hallo, schön Sie zu sehen.<br /><br />Ich beantworte gern Ihre Fragen zu GAITO, dem virtuellen Moderator.</li>
+		</random></li></condition><think>Damit der Bot den Benutzer bei einem "Hallo" vom Benutzer ständig nochmal begrüßt, wird hier vermerkt, dass der Bot bereits begrüßt hat <set name="schonBegruesst">ja</set></think></template>
+</category>
+<category>
+	<pattern>TARGET EMPTYINPUT</pattern>
+	<template>
+		<random>
+			<li>Oh, da haben Sie wohl aus Versehen auf die Enter-Taste getippt ;-)</li>
+			<li>Sie müssen schon etwas eingeben, damit ich Ihnen eine Antwort geben kann ;-)</li>
+		</random></template>
+</category>
+<category>
+	<pattern>TARGET FIRSTBADANSWER</pattern>
+	<template><condition name="name"><li exists="true"><srai>UNBEKANNTE EINGABE</srai></li><li exists="false"><condition name="SchonNachNamenGefragt"><li exists="true"><srai>UNBEKANNTE EINGABE</srai></li><li exists="false"><think><set name="SchonNachNamenGefragt">true</set></think>
+		<random>
+			<li>Ich weiss ja noch gar nicht, wie ich Sie ansprechen soll.</li>
+			<li>Sie haben mir noch gar nicht Ihren Namen gesagt.</li>
+		</random><srai>TARGET USER NACH NAMEN FRAGEN</srai></li></condition></li></condition></template>
+</category>
+<category>
+	<pattern>TARGET ONLYONEWORD</pattern>
+	<template><condition name="SchonNurEinWortHinweisGegeben"><li exists="false"><think><set name="SchonNurEinWortHinweisGegeben">true</set></think>
+		<random>
+			<li>Ich verstehe Sie am besten, wenn Sie in ganzen Sätzen mit mir sprechen.</li>
+			<li>Sie können in ganzen Sätzen mit mir sprechen.<br /><br />Ich bin doch keine Suchmaschine ;-)</li>
+		</random></li><li exists="true"><srai>--UNBEKANNTE--EINGABE--</srai></li></condition></template>
+</category>
+<category>
+	<pattern>TARGET WERBUNG</pattern>
+	<template><srai>TARGET GAITOWERBUNG</srai></template>
+</category>
+<category>
+	<pattern>TARGET BEVORZUGTES THEMA</pattern>
+	<template>Ich weiss am meisten über Gaitos.</template>
+</category>
+</aiml>

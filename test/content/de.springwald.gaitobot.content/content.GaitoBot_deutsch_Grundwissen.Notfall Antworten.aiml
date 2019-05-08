@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<aiml>
+<!--lastchange: 01.09.2006 17:45:39-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.0.0.34683-->
+<category>
+	<pattern>*</pattern>
+	<template>Das habe ich jetzt nicht ganz verstanden.</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Spannend!</template>
+</category>
+<category>
+	<pattern>*</pattern><that>Oh, klasse! Wieviele Punkte habe ich denn schon gewonnen?</that>
+	<template>Spannend!</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Das sagt mir gerade nichts.</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Was kann ich sonst noch für Sie tun?</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template><condition name="wetterunbestaendiggesagt"><li exists="false"><think><set name="wetterunbestaendiggesagt">true</set></think>Finden Sie auch, dass das Wetter in letzter Zeit überraschend unbeständig ist?</li><li exists="true"><srai>UNBEKANNTE EINGABE</srai></li></condition></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Mir ist nicht ganz klar, was Sie mir damit sagen möchten...</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Ist das hier ein Ratespiel?</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Erzählen Sie mir doch mal etwas über sich!</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Gute Ansicht! Darf ich mir die in das Notizbuch schreiben?</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Na, dann bin ich ja beruhigt.</template>
+</category>
+<category>
+	<pattern>ICH AUCH</pattern><that>Ich bekomme vom Wetterumschwung immer Kopfweh.</that>
+	<template>Na, dann sind wir ja zwei Leidensgenossen ;-)</template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Finden Sie auch, dass das Wetter in letzter Zeit überraschend unbeständig ist?</that>
+	<template>Nicht wahr? <srai>TARGET WETTERUMSCHWUNG</srai></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Gute Ansicht! Darf ich mir die in das Notizbuch schreiben?</that>
+	<template>Ok, schon geschehen. Bestimmt ist mir das später einmal hilfreich.</template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Ist das hier ein Ratespiel? </that>
+	<template>Oh, klasse! Wieviele Punkte habe ich denn schon gewonnen?</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Ist das hier ein Ratespiel? </that>
+	<template>Oh, schade. Ich dachte, ich könnte vielleicht etwas gewinnen.</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Gute Ansicht! Darf ich mir die in das Notizbuch schreiben?</that>
+	<template>Ok, ich werde es niemandem weiter erzählen.</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Finden Sie auch, dass das Wetter in letzter Zeit überraschend unbeständig ist?</that>
+	<template>Wirklich nicht? <srai>TARGET WETTERUMSCHWUNG</srai></template>
+</category>
+<category>
+	<pattern>SCHOENES WETTER HEUTE</pattern>
+	<template><srai>TARGET WIE IST DAS WETTER</srai></template>
+</category>
+<category>
+	<pattern>SIE AUCH</pattern><that>Ich bekomme vom Wetterumschwung immer Kopfweh.</that>
+	<template><srai>ICH AUCH</srai></template>
+</category>
+<category>
+	<pattern>TARGET WETTERUMSCHWUNG</pattern>
+	<template>Ich bekomme vom Wetterumschwung immer Kopfweh.</template>
+</category>
+</aiml>

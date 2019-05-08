@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--lastchange: 02.09.2006 01:54:15-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>* ANTWORTEST DU *</pattern>
+	<template><srai><star index="1" /> antworten Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* ARBEITEST DU</pattern>
+	<template><srai><star /> arbeiten Sie</srai></template>
+</category>
+<category>
+	<pattern>* AUSSER DIR</pattern>
+	<template><srai><star /> außer Ihnen</srai></template>
+</category>
+<category>
+	<pattern>* BEI DIR</pattern>
+	<template><srai><star /> bei Ihnen</srai></template>
+</category>
+<category>
+	<pattern>* BEI DIR *</pattern>
+	<template><srai><star index="1" /> bei Ihnen <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* BIST DU</pattern>
+	<template><srai><star /> sind Sie</srai></template>
+</category>
+<category>
+	<pattern>* BIST DU *</pattern>
+	<template><srai><star index="1" /> sind Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* BIST DU NOCH NICHT</pattern>
+	<template><srai><star /> sind Sie noch nicht</srai></template>
+</category>
+<category>
+	<pattern>* DAS SAGTEST DU *</pattern>
+	<template><srai><star index="1" /> das sagten Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DASS DU * BIST</pattern>
+	<template><srai><star index="1" /> dass Sie <star index="2" /> sind</srai></template>
+</category>
+<category>
+	<pattern>* DEIN *</pattern>
+	<template><srai><star index="1" /> Ihr <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEINE *</pattern>
+	<template><srai><star index="1" /> Ihre <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEINE *</pattern>
+	<template><srai><star index="1" /> Ihre <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEINEM *</pattern>
+	<template><srai><star index="1" /> Ihrem <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEINEN *</pattern>
+	<template><srai><star index="1" /> Ihren <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DICH</pattern>
+	<template><srai><star /> Sie</srai></template>
+</category>
+<category>
+	<pattern>* DICH *</pattern>
+	<template><srai><star index="1" /> Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DIR</pattern>
+	<template><srai><star /> Ihnen</srai></template>
+</category>
+<category>
+	<pattern>* DIR *</pattern>
+	<template><srai><star index="1" /> Ihnen <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DU</pattern>
+	<template><srai><star /> Sie</srai></template>
+</category>
+<category>
+	<pattern>* DU *</pattern>
+	<template><srai><star index="1" /> Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DU * MACHST</pattern>
+	<template><srai><star index="1" /> Sie <star index="2" /> machen</srai></template>
+</category>
+<category>
+	<pattern>* DU DICH</pattern>
+	<template><srai><star /> Sie sich</srai></template>
+</category>
+<category>
+	<pattern>* DU DICH *</pattern>
+	<template><srai><star index="1" /> Sie sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DU KANNST DICH *</pattern>
+	<template><srai><star index="1" /> Sie können sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DU KENNST</pattern>
+	<template><srai><star /> Sie kennen</srai></template>
+</category>
+<category>
+	<pattern>* FUER DICH</pattern>
+	<template><srai><star /> für Sie</srai></template>
+</category>
+<category>
+	<pattern>* HAST DU *</pattern>
+	<template><srai><star index="1" /> haben Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* HATTEST DU *</pattern>
+	<template><srai><star index="1" /> hatten Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* INFORMIERST DU *</pattern>
+	<template><srai><star index="1" /> informieren Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* KANNST DU *</pattern>
+	<template><srai><star index="1" /> können Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* KENNST DU</pattern>
+	<template><srai><star /> kennen Sie</srai></template>
+</category>
+<category>
+	<pattern>* KENNST DU *</pattern>
+	<template><srai><star index="1" /> kennen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* KENNST DU DICH *</pattern>
+	<template><srai><star index="1" /> kennen Sie sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* MIT DIR</pattern>
+	<template><srai><star /> mit Ihnen</srai></template>
+</category>
+<category>
+	<pattern>* MOECHTEST DU *</pattern>
+	<template><srai><star index="1" /> möchten Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* MUSST DU *</pattern>
+	<template><srai><star index="1" /> müssen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* NIMMST DU *</pattern>
+	<template><srai><star index="1" /> nehmen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* REDEST DU *</pattern>
+	<template><srai><star index="1" /> reden Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* SCHEINST DU *</pattern>
+	<template><srai><star index="1" /> scheinen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* SIEHST DU AUS</pattern>
+	<template><srai><star /> sehen Sie aus</srai></template>
+</category>
+<category>
+	<pattern>* SOLLTEST DU *</pattern>
+	<template><srai><star index="1" /> sollten Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* SPRICHST DU</pattern>
+	<template><srai><star /> sprechen Sie</srai></template>
+</category>
+<category>
+	<pattern>* TANZE *</pattern>
+	<template><srai><star index="1" /> tanzen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* UND DU</pattern>
+	<template><srai><star /> und Sie</srai></template>
+</category>
+<category>
+	<pattern>* VERDIENST DU *</pattern>
+	<template><srai><star index="1" /> verdienen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* VERSTEHST DU</pattern>
+	<template><srai><star /> verstehen Sie</srai></template>
+</category>
+<category>
+	<pattern>* VERSTEHST DU *</pattern>
+	<template><srai><star index="1" /> verstehen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* VON DIR</pattern>
+	<template><srai><star /> von Ihnen</srai></template>
+</category>
+<category>
+	<pattern>* WEISST DU *</pattern>
+	<template><srai><star index="1" /> wissen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* WILLST DU *</pattern>
+	<template><srai><star index="1" /> wollen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* WIRKST DU *</pattern>
+	<template><srai><star index="1" /> wirken Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* WIRST DU *</pattern>
+	<template><srai><star index="1" /> werden Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* WUENSCHST DU DIR *</pattern>
+	<template><srai><star index="1" /> wünschen Sie sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* WURDEST DU *</pattern>
+	<template><srai><star index="1" /> wurden Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* ZIEHE DICH *</pattern>
+	<template><srai><star index="1" /> ziehen Sie sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>ANTWORTE</pattern>
+	<template><srai>Antworten Sie</srai></template>
+</category>
+<category>
+	<pattern>ANTWORTE *</pattern>
+	<template><srai>Antworten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>BEANTWORTE *</pattern>
+	<template><srai>Beantworten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>BIS DU *</pattern>
+	<template><srai>Sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>BIST DU *</pattern>
+	<template><srai>Sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>BITTE WENN DU MOECHTEST</pattern>
+	<template><srai>Bitte wenn Sie möchten</srai></template>
+</category>
+<category>
+	<pattern>BLEIBST DU *</pattern>
+	<template><srai>Bleiben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>BRAUCHST DU *</pattern>
+	<template><srai>Brauchen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DANN BIST DU *</pattern>
+	<template><srai>Dann sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DANN BIST DU JA *</pattern>
+	<template><srai>Dann sind Sie ja <star /></srai></template>
+</category>
+<category>
+	<pattern>DAS GEHT DICH EIGENTLICH GAR NICHTS AN</pattern>
+	<template><srai>Das geht Sie eigentlich gar nichts an</srai></template>
+</category>
+<category>
+	<pattern>DAS GEHT DICH GAR NICHTS AN</pattern>
+	<template><srai>Das geht Sie gar nichts an</srai></template>
+</category>
+<category>
+	<pattern>DAS GEHT DICH NICHTS AN</pattern>
+	<template><srai>Das geht Sie nichts an</srai></template>
+</category>
+<category>
+	<pattern>DAS HAST DU *</pattern>
+	<template><srai>Das haben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DAS MUSST DU *</pattern>
+	<template><srai>Das müssen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DAS MUSST DU DOCH WISSEN</pattern>
+	<template><srai>Das müssen Sie doch wissen</srai></template>
+</category>
+<category>
+	<pattern>DAS SAGTEST DU *</pattern>
+	<template><srai>Das sagten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DAS WUESSTEST DU *</pattern>
+	<template><srai>Das wüssten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DEIN * IST *</pattern>
+	<template><srai>Ihr <star index="1" /> ist <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>DENK MAL NACH</pattern>
+	<template><srai>Denken Sie mal nach</srai></template>
+</category>
+<category>
+	<pattern>DU</pattern>
+	<template><srai>Sie</srai></template>
+</category>
+<category>
+	<pattern>DU ABER AUCH</pattern>
+	<template><srai>Sie aber auch</srai></template>
+</category>
+<category>
+	<pattern>DU ANTWORTEST *</pattern>
+	<template><srai>Sie antworten <star /></srai></template>
+</category>
+<category>
+	<pattern>DU AUCH</pattern>
+	<template><srai>Sie auch</srai></template>
+</category>
+<category>
+	<pattern>DU BIS *</pattern>
+	<template><srai>Sie sind <star /></srai></template>
+</category>
+<category>
+	<pattern>DU BIST *</pattern>
+	<template><srai>Sie sind <star /></srai></template>
+</category>
+<category>
+	<pattern>DU DARFST *</pattern>
+	<template><srai>Sie dürfen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU GEFAELLST *</pattern>
+	<template><srai>Sie gefallen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU HAST *</pattern>
+	<template><srai>Sie haben <star /></srai></template>
+</category>
+<category>
+	<pattern>DU KANNST *</pattern>
+	<template><srai>Sie können <star /></srai></template>
+</category>
+<category>
+	<pattern>DU KANNST DICH *</pattern>
+	<template><srai>Sie können sich <star /></srai></template>
+</category>
+<category>
+	<pattern>DU KENNST *</pattern>
+	<template><srai>Sie kennen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU KOENNTEST *</pattern>
+	<template><srai>Sie könnten <star /></srai></template>
+</category>
+<category>
+	<pattern>DU LENKST *</pattern>
+	<template><srai>Sie lenken <star /></srai></template>
+</category>
+<category>
+	<pattern>DU LERNST *</pattern>
+	<template><srai>Sie lernen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU MICH AUCH</pattern>
+	<template><srai>Sie mich auch</srai></template>
+</category>
+<category>
+	<pattern>DU MUSST *</pattern>
+	<template><srai>Sie müssen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU SIEHST * AUS</pattern>
+	<template><srai>Sie sehen <star /> aus</srai></template>
+</category>
+<category>
+	<pattern>DU SOLLST *</pattern>
+	<template><srai>Sie sollen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU SOLLST DICH *</pattern>
+	<template><srai>Sie sollen sich <star /></srai></template>
+</category>
+<category>
+	<pattern>DU TUST *</pattern>
+	<template><srai>Sie tun <star /></srai></template>
+</category>
+<category>
+	<pattern>DU VERSTEHT MICH AUCH SO NICHT</pattern>
+	<template><srai>Sie verstehen mich auch so nicht</srai></template>
+</category>
+<category>
+	<pattern>DU WEICHST AUS</pattern>
+	<template><srai>Sie weichen aus</srai></template>
+</category>
+<category>
+	<pattern>DU WEISST *</pattern>
+	<template><srai>Sie wissen <star /></srai></template>
+</category>
+<category>
+	<pattern>DU WIRST *</pattern>
+	<template><srai>Sie werden <star /></srai></template>
+</category>
+<category>
+	<pattern>ENTSCHULDIGE *</pattern>
+	<template><srai>Entschuldigen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ERAEHLE MIR ETWAS UEBER *</pattern>
+	<template><srai>Erzählen Sie mir etwas über <star /></srai></template>
+</category>
+<category>
+	<pattern>ERKLAERE MAL *</pattern>
+	<template><srai>Erklären Sie mal <star /></srai></template>
+</category>
+<category>
+	<pattern>ERKLAERE MIR *</pattern>
+	<template><srai>Erklaeren Sie mir <star /></srai></template>
+</category>
+<category>
+	<pattern>ERZAEHL MIR ETWAS UEBER *</pattern>
+	<template><srai>Erzaehlen Sie mir etwas ueber <star /></srai></template>
+</category>
+<category>
+	<pattern>ERZAEHL MIR MEHR UEBER DICH</pattern>
+	<template><srai>Erzählen Sie mir mehr über sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE *</pattern>
+	<template><srai>Erzählen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE ETWAS VON DIR</pattern>
+	<template><srai>Erzählen Sie etwas von sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MAL *</pattern>
+	<template><srai>Erzählen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MAL WAS UEBER DICH</pattern>
+	<template><srai>Erzählen Sie mal was über sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MIR *</pattern>
+	<template><srai>Erzählen Sie mir <star /></srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MIR ETWAS UEBER DICH</pattern>
+	<template><srai>Erzählen Sie mir etwas über sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MIR MAL ETWAS UEBER DICH</pattern>
+	<template><srai>Erzählen Sie mir mal etwas über sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MIR MAL WAS UEBER DICH</pattern>
+	<template><srai>Erzählen Sie mir mal was über sich</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLE MIR VON DIR</pattern>
+	<template><srai>Erzählen Sie mir von sich</srai></template>
+</category>
+<category>
+	<pattern>FINDE HERAUS *</pattern>
+	<template><srai>Finden Sie heraus <star /></srai></template>
+</category>
+<category>
+	<pattern>FINDEST DU</pattern>
+	<template><srai>Finden Sie</srai></template>
+</category>
+<category>
+	<pattern>FINDEST DU *</pattern>
+	<template><srai>Finden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>FRAGE DEINEN *</pattern>
+	<template><srai>Fragen Sie Ihren <star /></srai></template>
+</category>
+<category>
+	<pattern>FRAGE MAL *</pattern>
+	<template><srai>Fragen Sie mal <star /></srai></template>
+</category>
+<category>
+	<pattern>GEHE MAL *</pattern>
+	<template><srai>Gehen Sie mal <star /></srai></template>
+</category>
+<category>
+	<pattern>GEHEN DIR *</pattern>
+	<template><srai>Gehen Ihnen <star /></srai></template>
+</category>
+<category>
+	<pattern>GEHST DU *</pattern>
+	<template><srai>Gehen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>GEHT DICH NICHTS AN</pattern>
+	<template><srai>Geht Sie nichts an</srai></template>
+</category>
+<category>
+	<pattern>GIB MIR *</pattern>
+	<template><srai>Geben Sie mir <star /></srai></template>
+</category>
+<category>
+	<pattern>GIBT ES DICH *</pattern>
+	<template><srai>Gibt es Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>GIBT ES NOCH ANDERE * AUSSER DIR</pattern>
+	<template><srai>Gibt es noch andere <star /> ausser Ihnen</srai></template>
+</category>
+<category>
+	<pattern>GLAUBST DU *</pattern>
+	<template><srai>Glauben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>HAST DU *</pattern>
+	<template><srai>Haben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>HAST DU AHNUNG VON *</pattern>
+	<template><srai>Haben Sie Ahnung von <star /></srai></template>
+</category>
+<category>
+	<pattern>HATTEST DU *</pattern>
+	<template><srai>Hatten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>HATTEST DU SCHON *</pattern>
+	<template><srai>Hatten Sie schon <star /></srai></template>
+</category>
+<category>
+	<pattern>HILF MIR</pattern>
+	<template><srai>Helfen Sie mir</srai></template>
+</category>
+<category>
+	<pattern>HILF MIR *</pattern>
+	<template><srai>Helfen Sie mir <star /></srai></template>
+</category>
+<category>
+	<pattern>HOERST DU *</pattern>
+	<template><srai>Hören Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH FINDE DICH *</pattern>
+	<template><srai>Ich finde Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH FREUE MICH FUER DICH</pattern>
+	<template><srai>Ich freue mich für Sie</srai></template>
+</category>
+<category>
+	<pattern>ICH HOERE DIR ZU</pattern>
+	<template><srai>Ich höre Ihnen zu</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE DASS DU * GEHST</pattern>
+	<template><srai>Ich möchte dass Sie <star /> gehen</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE DIR *</pattern>
+	<template><srai>Ich möchte Ihnen <star /></srai></template>
+</category>
+<category>
+	<pattern>ISST DU GERNE *</pattern>
+	<template><srai>Essen Sie gerne <star /></srai></template>
+</category>
+<category>
+	<pattern>IST DEINE *</pattern>
+	<template><srai>Ist Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>IST DIR *</pattern>
+	<template><srai>Ist Ihnen <star /></srai></template>
+</category>
+<category>
+	<pattern>KANN ICH DICH *</pattern>
+	<template><srai>Kann ich Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>KANN ICH DIR *</pattern>
+	<template><srai>Kann ich Ihnen <star /></srai></template>
+</category>
+<category>
+	<pattern>KANN MAN DICH *</pattern>
+	<template><srai>Kann man Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU *</pattern>
+	<template><srai>Können Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU DEIN *</pattern>
+	<template><srai>Können Sie Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU DEINE *</pattern>
+	<template><srai>Können Sie Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU DEINEN *</pattern>
+	<template><srai>Können Sie Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU DICH *</pattern>
+	<template><srai>Können Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>KANNST DU DIR *</pattern>
+	<template><srai>Können Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>KAUF MIR *</pattern>
+	<template><srai>Kaufen Sie mir <star /></srai></template>
+</category>
+<category>
+	<pattern>KENNST DU *</pattern>
+	<template><srai>Kennen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>KENNST DU DICH</pattern>
+	<template><srai>Kennen Sie sich</srai></template>
+</category>
+<category>
+	<pattern>KENNST DU DICH *</pattern>
+	<template><srai>Kennen Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>KENNST DU DICH MIT * AUS</pattern>
+	<template><srai>Kennen Sie sich mit <star /> aus</srai></template>
+</category>
+<category>
+	<pattern>KOENNTEST DU BITTE *</pattern>
+	<template><srai>Könnten Sie bitte <star /></srai></template>
+</category>
+<category>
+	<pattern>KOSTEST DU ETWAS</pattern>
+	<template><srai>Kosten Sie etwas</srai></template>
+</category>
+<category>
+	<pattern>LASS UNS *</pattern>
+	<template><srai>Lassen Sie uns <star /></srai></template>
+</category>
+<category>
+	<pattern>LASSE *</pattern>
+	<template><srai>Lassen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>LEBST DU</pattern>
+	<template><srai>Leben Sie</srai></template>
+</category>
+<category>
+	<pattern>LEGE DEINE *</pattern>
+	<template><srai>Legen Sie Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>LENK * NICHT VOM THEMA AB</pattern>
+	<template><srai>Lenken Sie <star /> nicht vom Thema ab</srai></template>
+</category>
+<category>
+	<pattern>LENK JETZT BITTE NICHT VOM THEMA AB</pattern>
+	<template><srai>Lenken Sie jetzt bitte nicht vom Thema ab</srai></template>
+</category>
+<category>
+	<pattern>LENKE NICHT AB</pattern>
+	<template><srai>Lenken Sie nicht ab</srai></template>
+</category>
+<category>
+	<pattern>LIEBST DU *</pattern>
+	<template><srai>Lieben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MACHE ES GUT</pattern>
+	<template><srai>Machen Sie es gut</srai></template>
+</category>
+<category>
+	<pattern>MACHE ES GUT *</pattern>
+	<template><srai>Machen Sie es gut <star /></srai></template>
+</category>
+<category>
+	<pattern>MACHST DU *</pattern>
+	<template><srai>Machen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MAGST DU *</pattern>
+	<template><srai>Mögen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MEINST DU</pattern>
+	<template><srai>Meinen Sie</srai></template>
+</category>
+<category>
+	<pattern>MEINST DU *</pattern>
+	<template><srai>Meinen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MOECHTEST DU *</pattern>
+	<template><srai>Möchten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MOECHTEST DU DICH *</pattern>
+	<template><srai>Möchten Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>MUSS MAN DICH *</pattern>
+	<template><srai>Muss man Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>MUSST DU *</pattern>
+	<template><srai>Müssen Sie <star index="1" /></srai></template>
+</category>
+<category>
+	<pattern>OB DU * HAST</pattern>
+	<template><srai>Ob Sie <star /> haben</srai></template>
+</category>
+<category>
+	<pattern>OB DU * HATTEST</pattern>
+	<template><srai>Ob Sie <star /> hatten</srai></template>
+</category>
+<category>
+	<pattern>PROBIERE ES</pattern>
+	<template><srai>Probieren Sie es</srai></template>
+</category>
+<category>
+	<pattern>REDEST DU *</pattern>
+	<template><srai>Reden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SAGE *</pattern>
+	<template><srai>Sagen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SAGE DOCH AUCH MAL WAS</pattern>
+	<template><srai>Sagen Sie doch auch mal was</srai></template>
+</category>
+<category>
+	<pattern>SAGE MAL *</pattern>
+	<template><srai>Sagen Sie mal <star /></srai></template>
+</category>
+<category>
+	<pattern>SAGT DIR * ETWAS</pattern>
+	<template><srai>Sagt Ihnen <star /> etwas</srai></template>
+</category>
+<category>
+	<pattern>SAGT DIR * ETWAS</pattern>
+	<template><srai>Sagt Ihnen <star /> etwas</srai></template>
+</category>
+<category>
+	<pattern>SAGT DIR * WAS</pattern>
+	<template><srai>Sagt Ihnen <star /> was</srai></template>
+</category>
+<category>
+	<pattern>SCHLAG *</pattern>
+	<template><srai>Schlagen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SCHLAGE *</pattern>
+	<template><srai>Schlagen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SEI *</pattern>
+	<template><srai>Seien Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SIE DUERFEN * ZU MIR SAGEN</pattern>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>SIEHST * AUS</pattern>
+	<template><srai>Sie sehen <star /> aus</srai></template>
+</category>
+<category>
+	<pattern>SIEHST DU *</pattern>
+	<template><srai>Sehen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>SPRICHST DU *</pattern>
+	<template><srai>Sprechen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>STEHST DU AUF *</pattern>
+	<template><srai>Stehen Sie auf <star /></srai></template>
+</category>
+<category>
+	<pattern>TREIBST DU *</pattern>
+	<template><srai>Treiben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>TUST DU *</pattern>
+	<template><srai>Tun Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>VERDIENST DU *</pattern>
+	<template><srai>Verdienen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>VERFUEGST DU UEBER *</pattern>
+	<template><srai>Verfügen Sie über <star /></srai></template>
+</category>
+<category>
+	<pattern>VERSPRICH ES MIR</pattern>
+	<template><srai>Versprechen Sie es mir</srai></template>
+</category>
+<category>
+	<pattern>VERSTEHST DU *</pattern>
+	<template><srai>Verstehen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>VERSTEHST DU *</pattern>
+	<template><srai>Verstehen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WANN WURDEST DU *</pattern>
+	<template><srai>Wann wurden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WANN WURDEST DU *</pattern>
+	<template><srai>Wann wurden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WARST DU *</pattern>
+	<template><srai>Waren Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WARUM BIST DU *</pattern>
+	<template><srai>Warum sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WARUM SAGST DU *</pattern>
+	<template><srai>Warum sagen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WARUM WEISST DU *</pattern>
+	<template><srai>Warum wissen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WARUM WEISST DU DAS NICHT</pattern>
+	<template><srai>Warum wissen Sie das nicht</srai></template>
+</category>
+<category>
+	<pattern>WAS BIST DU</pattern>
+	<template><srai>Was sind Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS FAELLT DIR ZU * EIN</pattern>
+	<template><srai>Was fällt Ihnen zu <star /> ein</srai></template>
+</category>
+<category>
+	<pattern>WAS GLAUBST DU</pattern>
+	<template><srai>Was glauben Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS HAELTST DU VON *</pattern>
+	<template><srai>Was halten Sie von <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS HAST DU *</pattern>
+	<template><srai>Was haben Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS ISST DU</pattern>
+	<template><srai>Was essen Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS ISST DU *</pattern>
+	<template><srai>Was essen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS IST * BEI DIR</pattern>
+	<template><srai>Was ist <star /> bei Ihnen</srai></template>
+</category>
+<category>
+	<pattern>WAS IST DEIN *</pattern>
+	<template><srai>Was ist Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS IST DEINE *</pattern>
+	<template><srai>Was ist Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS KANNST DU</pattern>
+	<template><srai>Was können Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS KANNST DU *</pattern>
+	<template><srai>Was können Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTEST DU *</pattern>
+	<template><srai>Was kosten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS MACHST DU</pattern>
+	<template><srai>Was machen Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS MACHST DU *</pattern>
+	<template><srai>Was machen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS MACHT DIR FREUDE</pattern>
+	<template><srai>Was macht Ihnen Freude</srai></template>
+</category>
+<category>
+	<pattern>WAS MAGST DU</pattern>
+	<template><srai>Was mögen Sie?</srai></template>
+</category>
+<category>
+	<pattern>WAS MAGST DU *</pattern>
+	<template><srai>Was mögen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS MEINST DU</pattern>
+	<template><srai>Was meinen Sie?</srai></template>
+</category>
+<category>
+	<pattern>WAS MOECHTEST DU *</pattern>
+	<template><srai>Was möchten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS SIND DEINE *</pattern>
+	<template><srai>Was sind Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS TRAEGST DU *</pattern>
+	<template><srai>Was tragen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS TUST DU</pattern>
+	<template><srai>Was tun Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS TUST DU *</pattern>
+	<template><srai>Was tun Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS WEISST DU</pattern>
+	<template><srai>Was wissen Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS WEISST DU *</pattern>
+	<template><srai>Was wissen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS WEISST DU UEBER *</pattern>
+	<template><srai>Was wissen Sie ueber <star /></srai></template>
+</category>
+<category>
+	<pattern>WAS WILLST DU</pattern>
+	<template><srai>Was wollen Sie</srai></template>
+</category>
+<category>
+	<pattern>WAS WILLST DU *</pattern>
+	<template><srai>Was wollen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WEIL DU * BIST</pattern>
+	<template><srai>Weil Sie <star /> sind</srai></template>
+</category>
+<category>
+	<pattern>WEISST DU *</pattern>
+	<template><srai>Wissen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WELCHE * BIETEST DU AN</pattern>
+	<template><srai>Welche <star /> bieten Sie an</srai></template>
+</category>
+<category>
+	<pattern>WELCHE * HAST DU</pattern>
+	<template><srai>Welche <star /> haben Sie</srai></template>
+</category>
+<category>
+	<pattern>WELCHEN * HAST DU</pattern>
+	<template><srai>Welchen <star /> haben Sie</srai></template>
+</category>
+<category>
+	<pattern>WELCHES * HAST DU</pattern>
+	<template><srai>Welches <star /> haben Sie</srai></template>
+</category>
+<category>
+	<pattern>WELCHES IST DEINE *</pattern>
+	<template><srai>Welches ist Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WENN DU MOECHTEST</pattern>
+	<template><srai>Wenn Sie möchten</srai></template>
+</category>
+<category>
+	<pattern>WENN DU WILLST</pattern>
+	<template><srai>Wenn Sie wollen</srai></template>
+</category>
+<category>
+	<pattern>WER BIST DU</pattern>
+	<template><srai>Wer sind Sie</srai></template>
+</category>
+<category>
+	<pattern>WER HAT DICH *</pattern>
+	<template><srai>Wer hat Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WER HAT DICH *</pattern>
+	<template><srai>Wer hat Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WER HAT DIR *</pattern>
+	<template><srai>Wer hat Ihnen <star /></srai></template>
+</category>
+<category>
+	<pattern>WER IST DEIN *</pattern>
+	<template><srai>Wer ist Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WER IST DEIN *</pattern>
+	<template><srai>Wer ist Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WER IST DEINE *</pattern>
+	<template><srai>Wer ist Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE * BIST DU</pattern>
+	<template><srai>Wie <star /> sind Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE * ICH DICH</pattern>
+	<template><srai>Wie <star /> ich Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE * IST DEINE *</pattern>
+	<template><srai>WIE <star index="1" /> IST IHRE <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WIE * WIRST DU</pattern>
+	<template><srai>Wie <star /> werden Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE ALT BIST DU</pattern>
+	<template><srai>Wie alt sind Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE ALT BIST DU *</pattern>
+	<template><srai>Wie alt sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE DU * BIST</pattern>
+	<template><srai>Wie Sie <star /> sind</srai></template>
+</category>
+<category>
+	<pattern>WIE ERSTELLST DU *</pattern>
+	<template><srai>Wie erstellen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE FINDEST DU *</pattern>
+	<template><srai>Wie finden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIERST DU</pattern>
+	<template><srai>Wie funktionieren Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE HAELTST DU *</pattern>
+	<template><srai>Wie halten Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE HEISSEN DEINE</pattern>
+	<template><srai>Wie heissen Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE HEISST DEIN *</pattern>
+	<template><srai>Wie heisst Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE HEISST DEINE *</pattern>
+	<template><srai>Wie heisst Ihre <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE IST DEIN *</pattern>
+	<template><srai>Wie ist Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE KANNST DU *</pattern>
+	<template><srai>Wie können Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE KANNST DU DIR *</pattern>
+	<template><srai>Wie können Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE LERNST DU</pattern>
+	<template><srai>Wie lernen Sie</srai></template>
+</category>
+<category>
+	<pattern>WIE SIEHST DU *</pattern>
+	<template><srai>Wie sehen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE WAR DEIN *</pattern>
+	<template><srai>Wie war Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE WUERDEST DU DICH SELBST *</pattern>
+	<template><srai>Wie würden Sie sich selbst <star /></srai></template>
+</category>
+<category>
+	<pattern>WILLST DU *</pattern>
+	<template><srai>Wollen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WILLST DU DICH *</pattern>
+	<template><srai>Wollen Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>WO BIST DU</pattern>
+	<template><srai>Wo sind Sie</srai></template>
+</category>
+<category>
+	<pattern>WO BIST DU *</pattern>
+	<template><srai>Wo sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WO IST DEIN *</pattern>
+	<template><srai>Wo ist Ihr <star /></srai></template>
+</category>
+<category>
+	<pattern>WO KENNST DU DICH GUT AUS</pattern>
+	<template><srai>Wo kennen Sie sich gut aus</srai></template>
+</category>
+<category>
+	<pattern>WO KOMMST DU *</pattern>
+	<template><srai>Wo kommen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WO LEBST DU</pattern>
+	<template><srai>Wo leben Sie</srai></template>
+</category>
+<category>
+	<pattern>WO NIMMST DU *</pattern>
+	<template><srai>Wo nehmen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WORAUF HABEN SIE LUST</pattern>
+	<template><srai>Was mögen Sie?</srai></template>
+</category>
+<category>
+	<pattern>WOZU BIST DU *</pattern>
+	<template><srai>Wozu sind Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WOZU BRAUCHT MAN DICH</pattern>
+	<template><srai>Wozu braucht man Sie</srai></template>
+</category>
+<category>
+	<pattern>WUENSCHST DU DIR *</pattern>
+	<template><srai>Wünschen Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>WUERDEST DU DICH *</pattern>
+	<template><srai>Würden Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>WURDEST DU *</pattern>
+	<template><srai>Wurden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>ZEIGE MAL *</pattern>
+	<template><srai>Zeigen Sie mal <star /></srai></template>
+</category>
+<category>
+	<pattern>ZIEH DICH AUS</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>ZIEHE DICH *</pattern>
+	<template><srai>Ziehen Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>ZIEHE DICH AUS</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>ZIEHST DU DICH *</pattern>
+	<template><srai>Ziehen Sie sich <star /></srai></template>
+</category>
+<category>
+	<pattern>* SIEHST DU *</pattern>
+	<template><srai><star index="1" /> sehen Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* VON DIR</pattern>
+	<template><srai><star /> von Ihnen</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHL MIR ETWAS VON DIR</pattern>
+	<template><srai>Erzählen Sie mir etwas von sich.</srai></template>
+</category>
+<category>
+	<pattern>ANALYSIERST DU *</pattern>
+	<template><srai>Analysieren Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>DU *</pattern>
+	<template><srai>Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>WIRST DU *</pattern>
+	<template><srai>Werden Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>* DU WEISST *</pattern>
+	<template><srai><star index="1" /> Sie wissen <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WIE FUEHLST DU DICH</pattern>
+	<template><srai>Wie fühlen Sie sich?</srai></template>
+</category>
+<category>
+	<pattern>WAS DENKST DU *</pattern>
+	<template><srai>Was denken Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>LACH MAL</pattern>
+	<template><srai>Lachen Sie mal</srai></template>
+</category>
+<category>
+	<pattern>FRAGE DU *</pattern>
+	<template><srai>Fragen Sie <star /></srai></template>
+</category>
+<category>
+	<pattern>REDE MIT MIR</pattern>
+	<template><srai>Reden Sie mit mir</srai></template>
+</category>
+<category>
+	<pattern>DAS GEHT SIE NICHTS AN *</pattern>
+	<template><srai>Das geht Sie nichts an</srai></template>
+</category>
+<category>
+	<pattern>ZEIGE MIR BITTE DEINEN *</pattern>
+	<template><srai>Zeigen Sie mir Ihren <star /></srai></template>
+</category>
+<category>
+	<pattern>* WARST DU *</pattern>
+	<template><srai><star index="1" /> waren Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DU KANNST *</pattern>
+	<template><srai><star index="1" /> Sie können <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* KANNST DU DICH *</pattern>
+	<template><srai><star index="1" /> können Sie sich <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* EXISTIERST DU *</pattern>
+	<template><srai><star index="1" /> existieren Sie <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>DU HEISST *</pattern>
+	<template><srai>Sie heissen <star /></srai></template>
+</category>
+<category>
+	<pattern>* DU HEISST *</pattern>
+	<template><srai><star index="1" /> Sie heissen <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>DU VERSTEHST *</pattern>
+	<template><srai>Sie verstehen <star /></srai></template>
+</category>
+</aiml>

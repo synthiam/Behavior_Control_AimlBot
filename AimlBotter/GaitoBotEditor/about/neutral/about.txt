@@ -1,0 +1,32 @@
+© 2016 Springwald Software und Lizenzgeber
+Alle Rechte vorbehalten
+
+Dies ist ein Produkt von:
+Springwald Software GmbH
+Alter Eistreff 36
+44789 Bochum, Germany
+
+phone: 0700 / 777 464 925 *
+email: info@springwald.de
+website: http://www.gaitobot.de
+
+Dank an:
+Dr.Richard S.Wallace (der Erfinder von AIML)
+Thomas Smits
+Dirk Starke
+Manuel Loof
+Dietmar Smolle
+Thorsten Dolczewski
+Christian Bartsch
+Robert Beyer
+          
+GAITO® ist ein beim Deutschen Patent- und Markenamt eingetragener Markenname.
+Alle Rechte vorbehalten.
+
+Diese Software verwendet "Jint - Javascript Interpreter for .NET"
+Copyright (C)2011 Sebatien Ros, lizenziert unter MIT Licence (MIT)
+
+*max. 12,4 Cent pro Minute aus dem Festnetz der Deutschen Telekom (Stand Juni 2008)
+            
+
+           

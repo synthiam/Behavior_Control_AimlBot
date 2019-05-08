@@ -1,0 +1,17 @@
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\obj\Debug\GaitoBotEditorCore.csproj.CoreCompileInputs.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\obj\Debug\GaitoBotEditorCore.csprojResolveAssemblyReference.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\GaitoBotEditorCore.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\GaitoBotEditorCore.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot.content.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot.publizierung.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot2.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.toolbox.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.xml.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\Jint.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot.content.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot2.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.gaitobot.publizierung.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.toolbox.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\bin\Debug\de.springwald.xml.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\obj\Debug\GaitoBotEditorCore.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\Core\obj\Debug\GaitoBotEditorCore.pdb

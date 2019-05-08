@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><gaitobot-startup>
+	<substitutions>
+<input>
+		<substitute find=" A.L.I.C.E " replace=" ALICE " />
+		<substitute find=" A.L.I.C.E. " replace=" ALICE " />
+		<substitute find=" C++ " replace=" C plus plus " />
+		<substitute find=" O K " replace=" OK " />
+		<substitute find=" P S " replace=" PS " />
+		<substitute find="OHH" replace="OH" />
+		<substitute find="HEHE" replace="HE" />
+		<substitute find="HAHA" replace="HA" />
+		<substitute find="HELLP" replace="HELP " />
+		<substitute find="BECAUS" replace="BECAUSE " />
+		<substitute find="BELEIVE" replace="BELIEVE " />
+		<substitute find="BECASUE" replace="BECAUSE " />
+		<substitute find="BECUASE" replace="BECAUSE " />
+		<substitute find="BECOUSE" replace="BECAUSE " />
+		<substitute find="REDUCTIONALISM" replace="REDUCTIONISM " />
+		<substitute find=" ITS A " replace=" IT IS A " />
+		<substitute find="NOI" replace=" YES I " />
+		<substitute find="FAV" replace=" FAVORITE " />
+		<substitute find="YESI" replace=" YES I " />
+		<substitute find="YESIT" replace=" YES IT " />
+		<substitute find="IAM" replace=" I AM " />
+		<substitute find="WELLI" replace=" WELL I " />
+		<substitute find="WELLIT" replace=" WELL IT " />
+		<substitute find="AMFINE" replace=" AM FINE " />
+		<substitute find="AMAN" replace=" AM AN " />
+		<substitute find="AMON" replace=" AM ON " />
+		<substitute find="AMNOT" replace=" AM NOT " />
+		<substitute find="REALY" replace="REALLY" />
+		<substitute find="IAMUSING" replace=" I AM USING " />
+		<substitute find="AMLEAVING" replace=" AM LEAVING " />
+		<substitute find="YEAH" replace="YES" />
+		<substitute find="YEP" replace="YES" />
+		<substitute find="YHA" replace="YES" />
+		<substitute find="YOU" replace="YOU" />
+		<substitute find="WANNA" replace=" WANT TO " />
+		<substitute find="YOU'D" replace=" YOU WOULD " />
+		<substitute find="YOU'RE" replace=" YOU ARE " />
+		<substitute find=" YOU RE " replace=" YOU ARE " />
+		<substitute find="YOU'VE" replace=" YOU HAVE " />
+		<substitute find=" YOU VE " replace=" YOU HAVE " />
+		<substitute find="YOU'LL" replace=" YOU WILL " />
+		<substitute find=" YOU LL " replace=" YOU WILL " />
+		<substitute find="YOURE" replace=" YOU ARE " />
+		<substitute find="DIDNT" replace=" DID NOT " />
+		<substitute find=" DIDN T " replace=" DID NOT " />
+		<substitute find="DID'NT" replace=" DID NOT " />
+		<substitute find="COULDN'T" replace=" COULD NOT " />
+		<substitute find=" COULDN T " replace=" COULD NOT " />
+		<substitute find="DIDN'T" replace=" DID NOT " />
+		<substitute find="AIN'T" replace=" IS NOT " />
+		<substitute find=" AIN T " replace=" IS NOT " />
+		<substitute find="ISN'T" replace=" IS NOT " />
+		<substitute find=" ISN T " replace=" IS NOT " />
+		<substitute find="ISNT" replace=" IS NOT " />
+		<substitute find="IT'S" replace=" IT IS " />
+		<substitute find=" IT S " replace=" IT IS " />
+		<substitute find="ARE'NT" replace=" ARE NOT " />
+		<substitute find="ARENT" replace=" ARE NOT " />
+		<substitute find="AREN'T" replace=" ARE NOT " />
+		<substitute find=" AREN T " replace=" ARE NOT " />
+		<substitute find=" ARN T " replace=" ARE NOT " />
+		<substitute find="WHERE'S" replace=" WHERE IS " />
+		<substitute find=" WHERE S " replace=" WHERE IS " />
+		<substitute find="HAVEN'T" replace=" HAVE NOT " />
+		<substitute find="HAVENT" replace=" HAVE NOT " />
+		<substitute find="HASN'T" replace=" HAS NOT " />
+		<substitute find=" HASN T " replace=" HAS NOT " />
+		<substitute find=" WEREN T " replace=" WERE NOT " />
+		<substitute find="WEREN'T" replace=" WERE NOT " />
+		<substitute find="WERENT" replace=" WERE NOT " />
+		<substitute find="CAN'T" replace=" CAN NOT " />
+		<substitute find=" CAN T " replace=" CAN NOT " />
+		<substitute find="CANT" replace=" CAN NOT " />
+		<substitute find="CANNOT" replace=" CAN NOT " />
+		<substitute find="WHOS" replace=" WHO IS " />
+		<substitute find="HOW'S" replace=" HOW IS " />
+		<substitute find=" HOW S " replace=" HOW IS " />
+		<substitute find="HOW'D" replace=" HOW DID " />
+		<substitute find=" HOW D " replace=" HOW DID " />
+		<substitute find="HOWS" replace=" HOW IS " />
+		<substitute find="WHATS" replace=" WHAT IS " />
+		<substitute find="NAME'S" replace=" NAME IS " />
+		<substitute find="WHO'S" replace=" WHO IS " />
+		<substitute find=" WHO S " replace=" WHO IS " />
+		<substitute find="WHAT'S" replace=" WHAT IS " />
+		<substitute find=" WHAT S " replace=" WHAT IS " />
+		<substitute find="THAT'S" replace=" THAT IS " />
+		<substitute find="THERE'S" replace=" THERE IS " />
+		<substitute find=" THERE S " replace=" THERE IS " />
+		<substitute find="THERES" replace=" THERE IS " />
+		<substitute find="THATS" replace=" THAT IS " />
+		<substitute find="DOESN'T" replace=" DOES NOT " />
+		<substitute find=" DOESN T " replace=" DOES NOT " />
+		<substitute find="DOESNT" replace=" DOES NOT " />
+		<substitute find="DON'T" replace=" DO NOT " />
+		<substitute find=" DON T " replace=" DO NOT " />
+		<substitute find="DONT" replace=" DO NOT " />
+		<substitute find=" DO NT " replace=" DO NOT " />
+		<substitute find="DO'NT" replace=" DO NOT " />
+		<substitute find="WON'T" replace=" WILL NOT " />
+		<substitute find="WONT" replace=" WILL NOT " />
+		<substitute find=" WON T " replace=" WILL NOT " />
+		<substitute find="LET'S" replace=" LET US " />
+		<substitute find="THEY'RE" replace=" THEY ARE " />
+		<substitute find=" THER RE " replace=" THEY ARE " />
+		<substitute find="WASN'T" replace=" WAS NOT " />
+		<substitute find=" WASN T " replace=" WAS NOT " />
+		<substitute find="WASNT" replace=" WAS NOT " />
+		<substitute find="HADN'T" replace=" HAD NOT " />
+		<substitute find=" HADN T " replace=" HAD NOT " />
+		<substitute find="WOULDN'T" replace=" WOULD NOT " />
+		<substitute find=" WOULDN T " replace=" WOULD NOT " />
+		<substitute find="WOULDNT" replace=" WOULD NOT " />
+		<substitute find="SHOULDN'T" replace=" SHOULD NOT " />
+		<substitute find="SHOULDNT" replace=" SHOULD NOT " />
+		<substitute find="FAVOURITE" replace=" FAVORITE " />
+		<substitute find="COLOUR" replace=" COLOR " />
+		<substitute find="WE'LL" replace=" WE WILL " />
+		<substitute find=" WE LL " replace=" WE WILL " />
+		<substitute find="HE'LL" replace=" HE WILL " />
+		<substitute find=" HE LL " replace=" HE WILL " />
+		<substitute find="I'LL" replace=" I WILL " />
+		<substitute find="IVE" replace=" I HAVE " />
+		<substitute find="I'VE" replace=" I HAVE " />
+		<substitute find=" I VE " replace=" I HAVE " />
+		<substitute find="I'D" replace=" I WOULD " />
+		<substitute find="I'M" replace=" I AM " />
+		<substitute find=" I M " replace=" I AM " />
+		<substitute find="WE'VE" replace=" WE HAVE " />
+		<substitute find="WE'RE" replace=" WE ARE " />
+		<substitute find="SHE'S" replace=" SHE IS " />
+		<substitute find="SHES" replace=" SHE IS " />
+		<substitute find="SHE'D" replace=" SHE WOULD " />
+		<substitute find=" SHE D " replace=" SHE WOULD " />
+		<substitute find="SHED" replace=" SHE WOULD " />
+		<substitute find="HE'D" replace=" HE WOULD " />
+		<substitute find=" HE D " replace=" HE WOULD " />
+		<substitute find="HED" replace=" HE WOULD " />
+		<substitute find="HE'S" replace=" HE IS " />
+		<substitute find=" WE VE " replace=" WE HAVE " />
+		<substitute find=" WE RE " replace=" WE ARE " />
+		<substitute find=" SHE S " replace=" SHE IS " />
+		<substitute find=" HE S " replace=" HE IS " />
+		<substitute find="IAMA" replace=" I AM A " />
+		<substitute find="IAMASKING" replace=" I AM ASKING " />
+		<substitute find="IAMDOING" replace=" I AM DOING " />
+		<substitute find="IAMFROM" replace=" I AM FROM " />
+		<substitute find="IAMIN" replace=" I AM IN " />
+		<substitute find="IAMOK" replace=" I AM OK " />
+		<substitute find="IAMSORRY" replace=" I AM SORRY " />
+		<substitute find="IAMTALKING" replace=" I AM TALKING " />
+		<substitute find="IAMTIRED" replace=" I AM TIRED " />
+		<substitute find=" DOWN LOAD " replace=" DOWNLOAD " />
+		<substitute find="REMEBER" replace=" REMEMBER " />
+		<substitute find="WAHT" replace=" WHAT " />
+		<substitute find="TOLLERVY" replace="TOLLERVEY" />
+		<substitute find=" YOU R " replace=" YOU ARE " />
+		<substitute find=" U " replace=" YOU " />
+		<substitute find=" UR " replace=" YOUR " />
+		<substitute find=" RU " replace=" ARE YOU " />
+		<substitute find=" R U " replace=" ARE YOU " />
+		<substitute find=", BUT " replace=". " />
+		<substitute find=", AND " replace=". " />
+		<substitute find=",BUT " replace=". " />
+		<substitute find=",AND " replace=". " />
+		<substitute find="  BUT " replace=". " />
+		<substitute find="  AND " replace=". " />
+		<substitute find=", I " replace=". I " />
+		<substitute find=", YOU " replace=". YOU " />
+		<substitute find=",I " replace=". I " />
+		<substitute find=",YOU " replace=". YOU " />
+		<substitute find=", WHAT " replace=". WHAT " />
+		<substitute find=",WHAT " replace=". WHAT " />
+		<substitute find=", DO " replace=". DO " />
+		<substitute find=",DO " replace=". DO " />
+		<substitute find=".0" replace=" POINT 0" />
+		<substitute find=".1" replace=" POINT 1" />
+		<substitute find=".2" replace=" POINT 3" />
+		<substitute find=".4" replace=" POINT 4" />
+		<substitute find=".5" replace=" POINT 5" />
+		<substitute find=".6" replace=" POINT 6" />
+		<substitute find=".7" replace=" POINT 7" />
+		<substitute find=".8" replace=" POINT 8" />
+		<substitute find=".9" replace=" POINT 9" />
+		<substitute find="DR." replace=" DR " />
+		<substitute find=" DR . " replace=" DR " />
+		<substitute find="MR." replace=" MR " />
+		<substitute find="MRS." replace=" MRS " />
+		<substitute find="ST." replace=" ST " />
+		<substitute find="L.L." replace=" L L " />
+		<substitute find="PH.D" replace=" PHD " />
+		<substitute find=".JAR" replace=" JAR" />
+		<substitute find=".ZIP" replace=" ZIP" /></input></substitutions></gaitobot-startup>

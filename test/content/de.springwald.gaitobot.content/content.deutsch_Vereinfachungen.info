@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ContentElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 	<ReadOnly>true</ReadOnly>
+  <NurFuerGaitoBotExportieren>true</NurFuerGaitoBotExportieren>
+  <UniqueKey>gaitobot.deutsch.vereinfachungen</UniqueKey>
+  <Beschreibung>Dieses Wissenspaket vereinfacht/übersetzt zahlreiche Schreibweisen. Anschließend müssen Sie Ihren GaitoBot nur auf eine Schreibweise anlernen, auch wenn der Benutzer andere eingegeben hat. Es muss beispielsweise nur die Reaktion auf "Was kostet XYZ" angelernt werden. Gibt der Benutzer im Gespräch "Wieviel kostet mich XYZ" ein, wird die Eingabe automatisch auf "Was kostet XYZ" übersetzt. Sie können sich somit auf die wirkliche Erfassung von Wissen konzentrieren. Formulierungen und Grammatik übernimmt dieses Wissenspaket größtenteils für Sie.</Beschreibung>
+  <Name>GaitoBot - Deutsche Vereinfachungen und Normierungen</Name>
+  <SortKey>0210</SortKey>
+  <DateiPattern>de.springwald.gaitobot.content.content.GaitoBot_deutsch_Vereinfachungen.*</DateiPattern>
+  <AbhaengigkeitenUniqueIds>
+		<string>de.startup</string>
+  </AbhaengigkeitenUniqueIds>
+</ContentElementInfo>

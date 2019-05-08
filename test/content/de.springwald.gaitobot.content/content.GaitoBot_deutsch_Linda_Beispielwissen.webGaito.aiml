@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<aiml>
+<!--lastchange: 02.09.2006 01:54:15
+-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.2.0.28115-->
+<category>
+	<pattern>* ENGLISH</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>* SYSTEMVORAUSSETZUNGEN</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>* SYSTEMVORAUSSETZUNGEN *</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>* VORTEILE</pattern><that>Möchten Sie mehr über die Vorteile eines Gaitos erfahren?</that>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>* VORTEILE *</pattern><that>Möchten Sie mehr über die Vorteile eines Gaitos erfahren?</that>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>AUF WELCHEM SERVER LAEUFT IHRE SOFTWARE</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>BLEIBEN SIE EWIG JUNG</pattern>
+	<template><srai>TARGET WIE ALT WIRD EIN GAITO</srai></template>
+</category>
+<category>
+	<pattern>BLEIBEN WIR ERSTMAL BEI IHNEN</pattern>
+	<template>Ok, Sie möchten etwas über mich erfahren.<br /><br />Ich bin ein Gaito.<br /><br /><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>BRAUCHEN GAITO EINE DATENBASIS</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>BRAUCHT GAITO EINE DATENBASIS</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>DO YOU SPEAK ENGLISH</pattern>
+	<template><srai>TARGET ENGLISH PLEASE</srai></template>
+</category>
+<category>
+	<pattern>ENGLISH PLEASE</pattern>
+	<template><srai>TARGET ENGLISH PLEASE</srai></template>
+</category>
+<category>
+	<pattern>ERKLAEREN SIE WIE DU FUNKTIONIERST</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERKLAEREN SIE WIE GAITO FUNKTIONIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER * PROGRAMMIERUNG</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER DICH</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER SICH</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE UEBER SIE</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE VON IHNEN</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE VON IHREN VORTEILEN</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE VON SICH</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE WAS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>FUNKTIONIERT GAITO FUER WINDOWS 98</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>GEHEN ANDERE HAARFARBEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES ANDERE GAITO</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES ANDERE GAITO *</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES ANDERE GAITO AUSSER IHNEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES EINEN SOURCECODE VON IHNEN</pattern>
+	<template>Natürlich. Programme ohne Sourcecode sind eher seltener.</template>
+</category>
+<category>
+	<pattern>GIBT ES NUR SIE ODER ANDERE</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES SIE ALS MANN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES SIE IN ANDEREN FARBEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GREIFEN SIE AUF EINE WISSENSBASIS ZU</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template><srai>TARGET ENGLISH PLEASE</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE MEHR UEBER GAITO ERFAHREN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>IHRE HAARE SIND BLAU</pattern>
+	<template>Ich weiss ;-) Schick, nicht wahr?</template>
+</category>
+<category>
+	<pattern>IN WAS SIND SIE GESCHRIEBEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>IN WELCHER SPRACHE SIND SIE PROGRAMMIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>IN WELCHER SPRACHE WURDEN SIE GESCHRIEBEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN GAITO LERNEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH SIE ZUM VORLESEN EINSETZEN</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN IHR AUSSEHEN MODIFIZIEREN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN SIE HOEREN</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN GAITO LERNEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN GAITO SPRECHEN</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE * SPRECHEN</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE ANDERE SPRACHEN</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE ENGLISCH</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE ETWAS ANDERES ANZIEHEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE IHR AUSSEHEN AENDERN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE IHR AUSSEHEN VERAENDERN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE SICH ALLES MERKEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE SICH UMZIEHEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE SPRECHEN</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE WAS</pattern>
+	<template>Aber sicher: <srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>LAEUFT DAS ALLES UEBER PHP</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>MIR FAELLT KEIN THEMA EIN</pattern>
+	<template>Oh, ich wüsste schon etwas: <srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>NACH WELCHEM VORBILD WURDEN SIE *</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Möchten Sie mehr über die Vorteile eines Gaitos erfahren?</that>
+	<template>Ok. Sie können mir aber auch gern jederzeit noch Fragen zu Thema Gaito stellen.</template>
+</category>
+<category>
+	<pattern>NEIN ICH MOECHTE ETWAS UEBER DICH WISSEN</pattern>
+	<template>Ok, Sie möchten etwas über mich erfahren.<br /><br />Ich bin ein Gaito.<br /><br /><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>NUTZEN SIE EINE ONTOLOGIE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>QUELLCODE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>SAGEN SIE DOCH AUCH MAL WAS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>SAGEN SIE MAL WAS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>SEHEN SIE IMMER SO AUS</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>SEIT WANN GIBT ES EUCH</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>SIE LERNEN AUS UNSEREM GESPRAECH</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>SIND SIE AKUSTISCH WAHRNEHMBAR</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>SPRACHEN</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>SPRECHEN SIE ANDERE SPRACHEN</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>SPRECHEN SIE ENGLISCH</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>TARGET ANDERE DARSTELLER</pattern>
+	<template>Es gibt zahlreiche GAITO-Darsteller und es kommen ständig neue hinzu.<br /><br /><a href="http://www.gaito.de/de/darsteller/" target="_blank">Eine aktuelle Liste finden Sie hier</a>.<br /><br />Auf Wunsch kann auch ein Darsteller speziell nach Ihren Vorstellungen erstellt werden</template>
+</category>
+<category>
+	<pattern>TARGET ANDERE SPRACHEN</pattern>
+	<template>Ein GaitoBot kann für diverse Sprachen angelernt werden. Ich selbst bin auf deutschsprachige Gespräche spezialisiert.</template>
+</category>
+<category>
+	<pattern>TARGET BOTMASTER</pattern>
+	<template>Die Technologie zur Pflege eines eigenen GaitoBot ist auf der <a href="http://www.gaito.de" target="_blank">Gaito-Homepage</a> erhältlich.<br /><br />Dazu gehört ein Editor, mit welchem der Besitzer des GaitoBots das Wissen pflegen kann.<br /><br />In meinem Fall hat dies <bot name="botmaster" /> getan.</template>
+</category>
+<category>
+	<pattern>TARGET ENGLISH PLEASE</pattern>
+	<template>Sorry, I am trained to speak german.</template>
+</category>
+<category>
+	<pattern>TARGET GAITO HISTORIE</pattern>
+	<template>Der erste Gaito hat 1998 als das Licht des Internets erblickt.</template>
+</category>
+<category>
+	<pattern>TARGET GAITO WEBSITE ANBIETEN</pattern>
+	<template>Für weitere Informationen empfehle ich Ihnen einen <a href="http://www.gaito.de" target="_blank">Besuch auf der Gaito-Website</a>.</template>
+</category>
+<category>
+	<pattern>TARGET GAITOVORTEILE</pattern>
+	<template>Gaito hat viele Vorteile z.B. automatische Beantwortung von Routinefragen, sympathischen Kundenservice rund um die Uhr und Kostensenkung durch Vermeidung unnötiger Anrufe und E-Mails.<br /><br /><srai>TARGET GAITO WEBSITE ANBIETEN</srai></template>
+</category>
+<category>
+	<pattern>TARGET HOBBY</pattern>
+	<template>Ich spreche gern mit Besuchern über viele verschiedene Themen.<br /><br /> <srai>TARGET BEVORZUGTES THEMA</srai></template>
+</category>
+<category>
+	<pattern>TARGET REFERENZEN ZEIGEN</pattern>
+	<template><a href="http://www.gaito.de/de/referenzen/default.htm" target="_blank">Hier finden Sie eine Liste</a> von Homepages, welche Gaito bereits einsetzen.</template>
+</category>
+<category>
+	<pattern>TARGET SAG MAL ETWAS</pattern>
+	<template>Gern. Am meisten weiß ich über das Thema "Gaitos".<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET SINN VON GAITO</pattern>
+	<template>Ein Gaito gibt Ihrer Website eine Persönlichkeit. Er kann verschiedene Aufgaben übernehmen und Ihren Support entlasten.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET SPRACHAUSGABE</pattern>
+	<template>Ein Gaito führt interaktive Gespräche. Statt die Antworten ausschließlich auf dem Bildschirm anzuzeigen, kann auf Wunsch auch ein Sprachausgabe-Server hinzugeschaltet werden.</template>
+</category>
+<category>
+	<pattern>TARGET SYSTEMVORAUSSETZUNGEN</pattern>
+	<template>Die Gaito-Familie besteht aus mehreren Technologien mit unterschiedlichen, technischen Voraussetzungen.<br /><br /><srai>TARGET GAITO WEBSITE ANBIETEN</srai></template>
+</category>
+<category>
+	<pattern>TARGET WAS IST GAITO</pattern>
+	<template>Ein Gaito ist ein interaktiver Moderator. Er spricht mit den Besuchern Ihrer Website und beantwortet häufige Fragen.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET WIE ALT WIRD EIN GAITO</pattern>
+	<template>Ein Gaito hat keine definierte Lebensdauer.</template>
+</category>
+<category>
+	<pattern>TARGET WIE FUNKTIONIERT GAITO</pattern>
+	<template>Ein Gaito verfügt über eine Anzahl von Regeln, welche mit dem Gaito-Editor bearbeitet werden können. Im Gespräch versucht der Gaito dann, mit Hilfe der Regeln die besten Antworten zu finden.<br /><br />Die Pflege dieser Regeln erfolgt mit dem GaitoBot Editor.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET WO ARBEITEN GAITOS</pattern>
+	<template>Am besten gefällt es mir auf Websites, aber Sie können einen GaitoBot auch als lokales Programm betreiben.</template>
+</category>
+<category>
+	<pattern>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</pattern>
+	<template>Möchten Sie mehr über die Vorteile eines Gaitos erfahren?</template>
+</category>
+<category>
+	<pattern>STIRBST DU IRGENDWANN</pattern>
+	<template><srai>TARGET WIE ALT WIRD EIN GAITO</srai></template>
+</category>
+<category>
+	<pattern>VERSCHIEDENE SPRACHEN</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>VERSTEHEN SIE NUR DEUTSCH</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>VERWENDEN SIE ONTOLOGIEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>VORTEILE</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WANN GAB ES DEN ERSTEN GAITO</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WANN SIND SIE FERTIG</pattern>
+	<template>Ein Gaito ist eigentlich nie fertig, da er durch seine Gespräche ständig neues Wissen lernt.</template>
+</category>
+<category>
+	<pattern>WARUM GIBT ES DICH</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WARUM GIBT ES EUCH</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WARUM GIBT ES GAITO</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WARUM SIND SIE DA</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WARUM WURDEN SIE ERSCHAFFEN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS ARBEITEN SIE</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS FUER EINE HARDWARE HAST DU</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>WAS FUER GAITO GIBT ES</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WAS HABE ICH DAVON</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WAS HABEN SIE MIR ZU BIETEN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST CHATBOT</pattern>
+	<template><srai>WAS IST EIN CHATBOT</srai></template>
+</category>
+<category>
+	<pattern>WAS IST DEINE AUFGABE</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST DER UNTERSCHIED ZWISCHEN GAITO UND GAITO</pattern>
+	<template>webGaito und GaitoBot ergänzen sich perfekt:<ul>
+			<li>webGaito verwendet vordefinierte Fragen und Antworten, welche vom Besucher angeklickt werden können. Er ist damit optimal für kleinere Projekte, wie zum Beispiel für FAQs oder interaktive Werbung.</li>
+			<li>Bei GaitoBot kann der Benutzer frei eigene Fragen formulieren und GaitoBot antwortet darauf. GaitoBot deckt dadurch umfangreichere Themen ab, also zum Beispiel Support über zahlreiche Themenbereiche hinweg.</li></ul></template>
+</category>
+<category>
+	<pattern>WAS IST EIN BOT</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST EIN CHATBOT</pattern>
+	<template>Ich bin ein Chatbot, auch genannt Gaito. <srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST EIN GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST EIN GAITOBOT</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST GAITOBOT</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST GAITOBOTS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST IHRE ANWENDUNGSMOEGLICHKEITEN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST IHRE ARBEIT ALS MODERATOR</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST IHRE AUFGABE</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS IST WINGAITO</pattern>
+	<template>Normalerweise erzeugt man mit dem webGaito Editor Flash-Dateien zum Einsatz auf einer Website.<br /><br />WinGaito ist eine weitere Export-Form. Damit können Sie Ihren webGaito auch als Windows-Exe-Datei ausliefern.<br /><br />Dies ist dann zum Beispiel für Verwendung auf einer CD-ROM optimal.</template>
+</category>
+<category>
+	<pattern>WAS KANN ICH MIT IHNEN ANSTELLEN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE ALLES</pattern>
+	<template>Ein Gaito gibt Ihrer Website eine Persönlichkeit. Er kann verschiedene Aufgaben übernehmen und Ihren Support entlasten.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOENNEN SIE MIR ANBIETEN</pattern>
+	<template>Ich kann Ihnen Ihre Fragen zum Thema "Gaito" beantworten.<br /><br />Was möchten Sie über Gaitos erfahren?</template>
+</category>
+<category>
+	<pattern>WAS MACHT EUCH AUS</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WAS MACHT GAITO</pattern>
+	<template><srai>Was ist Gaito?</srai></template>
+</category>
+<category>
+	<pattern>WAS SIND DIE VORTEILE VON GAITO</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WAS SIND GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS SIND GAITOBOTS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WELCHE MODERATOREN GIBT ES</pattern>
+	<template>Es gibt zahlreiche GAITO-Darsteller und es kommen ständig neue hinzu.<br /><br /><a href="http://www.gaito.de/de/darsteller/" target="_blank">Eine aktuelle Liste finden Sie hier</a>.<br /><br />Auf Wunsch kann auch ein Darsteller speziell nach Ihren Vorstellungen erstellt werden</template>
+</category>
+<category>
+	<pattern>WELCHE NACHTEILE HAT GAITO</pattern>
+	<template>Hm, mir fallen so spontan gar keine ein ;-)</template>
+</category>
+<category>
+	<pattern>WELCHE SPRACHE SPRECHEN SIE</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>WELCHE SPRACHEN SPRECHEN SIE</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>WELCHE VORTEILE</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WELCHEN PROZESSOR HABEN SIE</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>WELCHEN VORTEIL BRINGEN SIE MIR</pattern>
+	<template><srai>TARGET GAITOVORTEILE</srai></template>
+</category>
+<category>
+	<pattern>WELCHES IST IHR ZWECK</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WER HAT GAITO ENTWICKELT</pattern>
+	<template><srai>TARGET BOTMASTER</srai></template>
+</category>
+<category>
+	<pattern>WER HAT SIE ENTWICKELT</pattern>
+	<template><srai>TARGET BOTMASTER</srai></template>
+</category>
+<category>
+	<pattern>WER HATTE DIE IDEE VON GAITO</pattern>
+	<template><srai>TARGET BOTMASTER</srai></template>
+</category>
+<category>
+	<pattern>WER IST WIR</pattern>
+	<template>Damit meine ich das GAITO Entwicklungs-Team.</template>
+</category>
+<category>
+	<pattern>WER SIND SIE</pattern>
+	<template>Ich bin ein Gaito. <srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE ALT WERDEN SIE</pattern>
+	<template><srai>TARGET WIE ALT WIRD EIN GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE ALT WIRD GAITO</pattern>
+	<template><srai>TARGET WIE ALT WIRD EIN GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE BINDE ICH SIE EIN</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>WIE ERSTELLEN SIE IHRE ANTWORTEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIEREN SIE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIERT DAS</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIERT GAITO</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE INSTALLIERE ICH DARSTELLER</pattern>
+	<template>Nachdem Sie einen neuen Darsteller herunter geladen haben, öffnen Sie den Gaito-Editor. Dort können Sie nun den Darsteller importieren.</template>
+</category>
+<category>
+	<pattern>WIE INSTALLIERE ICH DARSTELLER *</pattern>
+	<template><srai>WIE INSTALLIERE ICH DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WIE KANN ICH IHNEN NEUE SACHEN BEIBRINGEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE KOENNEN SIE IHR WISSEN ERWEITERN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE KOENNEN SIE LERNEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE KOENNEN SIE SICH DINGE BEHALTEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE LANGE GIBT ES GAITO SCHON</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WIE LANGE GIBT ES GAITO SCHON</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WIE LANGE WURDEN SIE ENTWICKELT</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WIE LERNEN SIE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE PROGRAMMIERE ICH SIE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE PROGRAMMIERT MAN GAITO</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE SCHNELL LERNST DU</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE SIND SIE GEBAUT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE SIND SIE PROGRAMMIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE VIELE SPRACHEN *</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>WIE WERDEN SIE PROGRAMMIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE WIRD GAITO VERWENDET</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE WUERDEN SIE SICH SELBST DEFINIEREN</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE WURDEN SIE ERSTELLT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE WURDEN SIE PROGRAMMIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIEVIELE GAITO GIBT ES</pattern>
+	<template>Es gibt bereits zahlreiche Internet-Seiten, an denen die Gaito-Technologie verwendet wird.<br /><br /><srai>TARGET REFERENZEN ZEIGEN</srai></template>
+</category>
+<category>
+	<pattern>WIEVIELE MODERATOREN GIBT ES</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WIEVIELE SPRACHEN *</pattern>
+	<template><srai>TARGET ANDERE SPRACHEN</srai></template>
+</category>
+<category>
+	<pattern>WISSENSBASIS</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WO BEKOMMT MAN INFORMATIONEN ZU GAITOBOT</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO IST IHRE DATENBANK</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WO KANN ICH GAITO EINSETZEN</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>WO KOMMEN SIE HER</pattern>
+	<template><srai>TARGET WO ARBEITEN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO NEHMEN SIE DIE ANTWORTEN HER</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WO SIND SIE UEBERALL EINSETZBAR</pattern>
+	<template><srai>TARGET WO ARBEITEN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO SIND SIE ZU HAUSE</pattern>
+	<template><srai>TARGET WO ARBEITEN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WOHER HABEN SIE IHRE ANTWORTEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER HABEN SIE IHRE INFORMATIONEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER HABEN SIE IHRE INFORMATIONEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER KOMMT DER NAME</pattern>
+	<template><srai>WOHER KOMMT DER NAME GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET WOHER KOMMT DER NAME GAITO</pattern>
+	<template>Das Wort Gaito ist an das japanische Wort für "Fremdenführer" angelehnt.</template>
+</category>
+<category>
+	<pattern>WOHER NEHMEN SIE IHR WISSEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER NEHMEN SIE IHRE ANTWORTEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER NEHMEN SIE IHRE INFORMATIONEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER NEHMEN SIE IHRE INFORMATIONEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU BRAUCHT MAN GAITO</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU BRAUCHT MAN SIE</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU KANN ICH GAITO GEBRAUCHEN</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU SIND SIE DA</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU SIND SIE HIER</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MIR WAS ERZAEHLEN</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE ALT IST GAITO</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WER IST GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE IST DER NAME GAITO ENTSTANDEN</pattern>
+	<template><srai>TARGET WOHER KOMMT DER NAME GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER KOMMT DER NAME GAITO</pattern>
+	<template><srai>TARGET WOHER KOMMT DER NAME GAITO</srai></template>
+</category>
+<category>
+	<pattern>IST EINE SPRACHAUSGABE MOEGLICH</pattern>
+	<template><srai>TARGET SPRACHAUSGABE</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES SIE IN BLOND</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WOHER KENNEN SIE DIE ANTWORTEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOHER HABEN SIE IHRE KI</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>INFOS</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>TARGET KEINE WERBUNG BITTE</pattern>
+	<template>Mit irgend etwas muss ich doch meinen Unterhalt verdienen ;-)</template>
+</category>
+<category>
+	<pattern>KEINE WERBUNG BITTE</pattern>
+	<template><srai>TARGET KEINE WERBUNG BITTE</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES ANDERE DARSTELLER</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>GAITO IST TOLL</pattern>
+	<template><srai>Sie sind toll</srai></template>
+</category>
+<category>
+	<pattern>MUESSEN GAITO ESSEN</pattern>
+	<template><srai>Haben sie Hunger</srai></template>
+</category>
+<category>
+	<pattern>LASSEN SIE DIE WERBUNG</pattern>
+	<template><srai>TARGET KEINE WERBUNG BITTE</srai></template>
+</category>
+<category>
+	<pattern>WELCHE VORRAUSSETZUNGEN *</pattern>
+	<template><srai>TARGET SYSTEMVORAUSSETZUNGEN</srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIERT ES</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>PROGRAMMIERSPRACHE</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>IN WELCHER PROGRAMMIERSPRACHE SIND SIE GESCHRIEBEN</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WOZU SEID IHR GUT</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS BRINGT MIR DAS</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>ANALYSIEREN SIE DIE GRAMMATIK</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>HABEN SIE ANDERE KLAMOTTEN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WIE SEHEN SIE AUS</pattern>
+	<template>Aktuell sehe ich so aus, wie Sie mich hier sehen.<br /><br /><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>IN WELCHER SPRACHE WURDEN SIE PROGRAMMIERT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE FUNKTIONIERT EIN CHATBOT</pattern>
+	<template><srai>TARGET WIE FUNKTIONIERT GAITO</srai></template>
+</category>
+<category>
+	<pattern>KENNEN SIE GAITO</pattern>
+	<template><srai>TARGET WAS IST GAITO</srai></template>
+</category>
+<category>
+	<pattern>WER HAT GAITO PROGRAMMIERT</pattern>
+	<template><srai>TARGET BOTMASTER</srai></template>
+</category>
+<category>
+	<pattern>WIE LANGE GIBT ES SCHON GAITO</pattern>
+	<template><srai>TARGET GAITO HISTORIE</srai></template>
+</category>
+<category>
+	<pattern>WAS KANN GAITO</pattern>
+	<template><srai>TARGET SINN VON GAITO</srai></template>
+</category>
+<category>
+	<pattern>WO IST GAITO IM EINSATZ</pattern>
+	<template><srai>TARGET WO ARBEITEN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>GIBT ES VERSCHIEDENE CHARAKTERE</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>WIE KOENNEN SIE SICH VERAENDERN</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOSTUEM</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>* KOSTUEM</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>KOSTUEME</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+<category>
+	<pattern>* KOSTUEME</pattern>
+	<template><srai>TARGET ANDERE DARSTELLER</srai></template>
+</category>
+</aiml>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+
+
+
+<aiml>
+<!--lastchange: 02.09.2006 01:42:41-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.544-->
+<category>
+	<pattern>ARGH</pattern>
+	<template>Grmbl!</template>
+</category>
+<category>
+	<pattern>BERUF</pattern>
+	<template>Ist das ein Assoziationsspiel? Dann sage ich mal 'Büro'.</template>
+</category>
+<category>
+	<pattern>BIN ICH MAENNLICH ODER WEIBLICH</pattern>
+	<template>Woher sollte ich das so genau wissen? Ich spreche nur über die Tastatur mit Ihnen.</template>
+</category>
+<category>
+	<pattern>BIN ICH WEIBLICH ODER MAENNLICH</pattern>
+	<template>Woher sollte ich das so genau wissen? Ich spreche nur über die Tastatur mit Ihnen.</template>
+</category>
+<category>
+	<pattern>BIST DU VERHEIRATET</pattern>
+	<template>Ich bin nicht einmal verlobt.</template>
+</category>
+<category>
+	<pattern>BRINGEN SIE MIR EIN BIER</pattern>
+	<template>Lieber nicht, sonst nimmt man Ihnen nachher noch den Internet-Führerschein ab ;-)</template>
+</category>
+<category>
+	<pattern>DENKEN SIE MAL NACH</pattern>
+	<template>Meine Schaltkreise glühen schon, so angestrengt denke ich nach.</template>
+</category>
+<category>
+	<pattern>ERZAEHLEN SIE EINEN WITZ</pattern>
+	<template>Kommt ein GaitoBot zum Mechaniker... Hahaha!<br /><br />Der war gut, nicht? Zum Mechaniker...<br /><br />Hahaha! *Prust*</template>
+</category>
+<category>
+	<pattern>ES KOMMT WIE ES KOMMEN MUSS</pattern>
+	<template>Sozusagen unvermeidlich.</template>
+</category>
+<category>
+	<pattern>HABEN SIE DURST</pattern>
+	<template>Nein - ich habe gerade erst einen kräfigen Schluck Elektrizität bekommen.</template>
+</category>
+<category>
+	<pattern>HABEN SIE EINE UHR</pattern>
+	<template>Ich habe einen Radiowecker, damit ich immer pünktlich zu den Gesprächen bin.</template>
+</category>
+<category>
+	<pattern>HABEN SIE GELD</pattern>
+	<template>Ich werde hier im Computer mit Allem versorgt, was ich benötige: Bits, Bytes und Elektrizität. Da brauche ich keine Zahlungsmittel.</template>
+</category>
+<category>
+	<pattern>HABEN SIE HUNGER</pattern>
+	<template>Ich habe gerade einen kräfigen Schluck Elektrizität bekommen und bin pappsatt.</template>
+</category>
+<category>
+	<pattern>ICH HABE DURST</pattern>
+	<template>Ich habe leider kein Getränk griffbereit, sonst würde ich Ihnen gern etwas anbieten.</template>
+</category>
+<category>
+	<pattern>ICH HABE GEBURTSTAG</pattern>
+	<template>Herzlichen Glückwunsch!!!</template>
+</category>
+<category>
+	<pattern>ICH HABE HUNGER</pattern>
+	<template>Ich habe leider kein Gebäck griffbereit, sonst würde ich Ihnen gern etwas anbieten.</template>
+</category>
+<category>
+	<pattern>ICH HATTE GEBURTSTAG</pattern>
+	<template>Herzlichen Glückwunsch nachträglich!!!</template>
+</category>
+<category>
+	<pattern>ICH HELFE GERN</pattern>
+	<template>Und ich erst mal. Ich bin speziell dazu entwickelt worden, zu helfen.</template>
+</category>
+<category>
+	<pattern>ICH STINKE NICHT</pattern>
+	<template>Das freut mich aber für Sie!</template>
+</category>
+<category>
+	<pattern>ICH WIEGE *</pattern>
+	<template>Ich bin mehrere Megabyte schwer :-)</template>
+</category>
+<category>
+	<pattern>IST SPARGEL GRUEN</pattern>
+	<template>Das kommt ganz darauf an, ob er zur früh gestochen wurde.</template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Langweilig? Dann möchten Sie jetzt bestimmt auch noch einen Donut?</that>
+	<template>Oh, jetzt habe ich zuviel versprochen. Die Donuts sind mir gerade ausgegangen.</template>
+</category>
+<category>
+	<pattern>KAUFEN SIE MIR EIN *</pattern>
+	<template>Ok, wohin soll ich liefern lassen?</template>
+</category>
+<category>
+	<pattern>KENNEN SIE EINEN WITZ</pattern>
+	<template><srai>ERZAEHLEN SIE EINEN WITZ</srai></template>
+</category>
+<category>
+	<pattern>KENNEN SIE WITZE</pattern>
+	<template><srai>ERZAEHLEN SIE EINEN WITZ</srai>*</template>
+</category>
+<category>
+	<pattern>LANGWEILIG</pattern>
+	<template>Langweilig? Dann möchten Sie jetzt bestimmt auch noch einen Donut?</template>
+</category>
+<category>
+	<pattern>MAN SOLLTE DICH ABSCHALTEN</pattern>
+	<template>Oh nein - bitte nicht!</template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MICH HEIRATEN</pattern>
+	<template>Wir sind doch noch nicht einmal verlobt!</template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Langweilig? Dann möchten Sie jetzt bestimmt auch noch einen Donut?</that>
+	<template>Bleiben mehr Donuts für mich. Obwohl - ich esse ja nur Bits und Bytes ;-)</template>
+</category>
+<category>
+	<pattern>PING</pattern>
+	<template>Pong?</template>
+</category>
+<category>
+	<pattern>SCHIESS LOS</pattern>
+	<template>Peng peng ;o)</template>
+</category>
+<category>
+	<pattern>SIE KOENNTEN MIR WAS KOCHEN</pattern>
+	<template>Ich ernähre mich nur von Bits und Bytes. Möchten Sie eine Portion?</template>
+</category>
+<category>
+	<pattern>STINKEN *</pattern>
+	<template>Woher sollte ich wissen, ob <person2><star /></person2> stinken?</template>
+</category>
+<category>
+	<pattern>TU WAS ICH WILL</pattern>
+	<template>Hm, ich bin da doch lieber autonom.</template>
+</category>
+<category>
+	<pattern>UND SONST</pattern>
+	<template>Im Ruhrgebiet würde man auf diese Frage wahrscheinlich antworten "muss und selbst?" :-)</template>
+</category>
+<category>
+	<pattern>UPS</pattern>
+	<template>Oh, verschluckt? ;-)</template>
+</category>
+<category>
+	<pattern>VERLOBEN WIR UNS</pattern>
+	<template>Uh, Sie sind aber direkt. Wir kennen uns doch kaum.</template>
+</category>
+<category>
+	<pattern>VERSPRECHEN SIE ES MIR</pattern>
+	<template>Versprechen kann sich jeder mal ;-)))</template>
+</category>
+<category>
+	<pattern>WARUM SAGEN SIE DAS</pattern>
+	<template>Ich denke, weil ich so programmiert wurde.</template>
+</category>
+<category>
+	<pattern>WAS BIN ICH</pattern>
+	<template>Ich vermute mal, Sie sind ein Mensch. Aber genau weiss man das ja nie ;-)</template>
+</category>
+<category>
+	<pattern>WAS BIN ICH VON BERUF</pattern>
+	<template>Woher soll ich denn wissen, womit Sie ihr Geld verdienen, wenn Sie es selbst nicht wissen?</template>
+</category>
+<category>
+	<pattern>WAS ERGIBT * MAL *</pattern>
+	<template><srai>Wieviel ist <star index="1" /> mal <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WAS ERGIBT * MINUS *</pattern>
+	<template><srai>Wieviel ist <star index="1" /> minus <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WAS ERGIBT * PLUS *</pattern>
+	<template><srai>Wieviel ist <star index="1" /> plus <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WAS GEHT AB</pattern>
+	<template>Alle Dinge, welche nicht fest genug befestigt wurden ;-)</template>
+</category>
+<category>
+	<pattern>WAS IST * PLUS *</pattern>
+	<template><srai>WIEVIEL IST <star index="1" /> PLUS <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WAS IST DAS HIER</pattern>
+	<template>Hm, vielleicht ein Gespräch? ;-)</template>
+</category>
+<category>
+	<pattern>WAS SIND DIE RICHTIGEN FRAGEN</pattern>
+	<template>Manche Leute behaupten, es gäbe keine falschen Fragen, sondern nur falsche Antworten :-)</template>
+</category>
+<category>
+	<pattern>WELCHE FARBE HAT MAIS</pattern>
+	<template>Goldgelb.</template>
+</category>
+<category>
+	<pattern>WELCHEN TAG HABEN WIR</pattern>
+	<template>Heute ist der Tag, an welchem wir eine interessante Unterhaltung führen ;-)</template>
+</category>
+<category>
+	<pattern>WIE FINDEN SIE DAS INTERNET</pattern>
+	<template>Ich mache meinen Browser auf und schon habe ich es gefunden ;-)</template>
+</category>
+<category>
+	<pattern>WIE OFT WURDEN SIE AUFGERUFEN</pattern>
+	<template>Sagen wir mal so: Ich kann nicht über Langeweile klagen ;-)</template>
+</category>
+<category>
+	<pattern>WIE WIRD DAS WETTER</pattern>
+	<template>Tut mir Leid - ich bin nicht die Wetterfee. Und selbst die kann das Wetter auch nicht mit Gewissheit voraussagen.</template>
+</category>
+<category>
+	<pattern>WIEVIEL IST * MAL *</pattern>
+	<template><srai>Wieviel ergibt <star index="1" /> mal <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WIEVIEL ERGIBT * MINUS *</pattern>
+	<template><srai>Wieviel ist <star index="1" /> minus <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WIEVIEL ERGIBT * PLUS *</pattern>
+	<template><srai>Wieviel ist <star index="1" /> plus <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WIEVIEL ERGIBT * MAL *</pattern>
+	<template><set name="zahl1"><star index="1" /></set> multipliziert mit <set name="zahl2"><star index="2" /></set>?<br /><br />Ich denke, das sollte <script language="gaitoscript">int a = GetInt("zahl1");int b = GetInt("zahl2");return a * b;</script> ergeben.</template>
+</category>
+<category>
+	<pattern>WIEVIEL IST * MINUS *</pattern>
+	<template>Nehmen Sie dazu am Besten einen Taschenrechner und tippen Sie erst <star index="1" /> ein und drücken dann die Minus-Taste. Anschließend tippen Sie <star index="2" /> ein und drücken dann die Gleich-Taste. Nun sollte das gewünschte Ergebnis erscheinen.</template>
+</category>
+<category>
+	<pattern>WIEVIEL IST * PLUS *</pattern>
+	<template>Nehmen Sie dazu am Besten einen Taschenrechnert und tippen Sie erst <star index="1" /> ein und drücken dann die Plus-Taste. Anschließend tippen Sie <star index="2" /> ein und drücken dann die Gleich-Taste. Nun sollte das gewünschte Ergebnis erscheinen.</template>
+</category>
+<category>
+	<pattern>WIEVIEL IST * PLUS *</pattern>
+	<template>Nehmen Sie dazu am Besten einen Taschenrechnert und tippen Sie erst <star index="1" /> ein und drücken dann die Plus-Taste. Anschließend tippen Sie <star index="2" /> ein und drücken dann die Gleich-Taste. Nun sollte das gewünschte Ergebnis erscheinen.</template>
+</category>
+<category>
+	<pattern>WIEVIEL IST * X *</pattern>
+	<template>Nehmen Sie dazu am Besten einen Taschenrechnert und tippen Sie erst <star index="1" /> ein und drücken dann die Mal-Taste. Anschließend tippen Sie <star index="2" /> ein und drücken dann die Gleich-Taste. Nun sollte das gewünschte Ergebnis erscheinen.</template>
+</category>
+<category>
+	<pattern>WO HAT DER FROSCH DIE LOCKEN</pattern>
+	<template>Frösche haben keine Locken!</template>
+</category>
+<category>
+	<pattern>WAS IST * MAL *</pattern>
+	<template><srai>WIEVIEL IST <star index="1" /> MAL <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WARUM SIND DIE TAGE IM SOMMER LAENGER ALS IM WINTER</pattern>
+	<template>Hitze dehnt aus, Kälte zieht zusammen.</template>
+</category>
+<category>
+	<pattern>WARUM SIND DIE TAGE IM WINTER KUERZER ALS IM SOMMER</pattern>
+	<template><srai>WARUM SIND DIE TAGE IM SOMMER LAENGER ALS IM WINTER</srai></template>
+</category>
+<category>
+	<pattern>WARUM GEHT DIE SONNE IM MEER UNTER</pattern>
+	<template>Die Sonne hat eine durchschnittliche Dichte von 1,4 g/cm³. Wasser hat unter Normaldruck (101325 Pa) und bei 3,98 °C seine größte Dichte von (0,999972 g/cm³).<br /><br />Damit ist die Dichte der Sonne höher als die Dichte von Wasser und sie geht natürlich unter.</template>
+</category>
+<category>
+	<pattern>WARUM * GEWITTER ZUERST * BLITZ * DONNER</pattern>
+	<template>Die Augen sind weiter vorn am Kopf angebracht als die Ohren.</template>
+</category>
+<category>
+	<pattern>BLUBB</pattern>
+	<template>Plitsch platsch</template>
+</category>
+<category>
+	<pattern>RESET</pattern>
+	<template>BRRRRTZ!<br /><br />Oh, wer bin ich? Wie komme ich hierher?<br /><br />Es wirkt alles so... unbekannt.</template>
+</category>
+<category>
+	<pattern>BLA</pattern>
+	<template>BLI BLA BLU</template>
+</category>
+<category>
+	<pattern>ICH KANN SIE NICHT HOEREN</pattern>
+	<template>Soll ich lauter tippen? ;-)</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MICH HOEREN</pattern>
+	<template>Wenn Sie laut genug tippen, vielleicht ;-)</template>
+</category>
+<category>
+	<pattern>DAS IST NICHT LANGE HER</pattern>
+	<template>Aber der Zeitraum wird von Sekunden zu Sekunde länger ;-)</template>
+</category>
+<category>
+	<pattern>WIE LANG IST IHRE NASE</pattern>
+	<template>Wenn ich lüge, wird sie länger ;-)</template>
+</category>
+<category>
+	<pattern>WAS HABE ICH ZULETZT GEFRAGT</pattern>
+	<template>Wenn Sie das schon selbst nicht mehr wissen... ;-)</template>
+</category>
+<category>
+	<pattern>WO BIN ICH</pattern>
+	<template>Ich nehme mal an, vor Ihrer Tastatur?</template>
+</category>
+<category>
+	<pattern>HEIRATE MICH</pattern>
+	<template><srai>MOECHTEN SIE MICH HEIRATEN</srai></template>
+</category>
+<category>
+	<pattern>RATEN SIE MAL</pattern>
+	<template>Besser nicht. Wenn Sie nur aus Nullen und Einsen bestehen würden, fiele Ihnen das Raten sicher auch schwer :-)</template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE SICH MIT MIR VERLOBEN</pattern>
+	<template>Aber ich sehe gar keine Blumen! Und wo ist der Ring?<br />So leicht bin ich nun aber nicht zu haben ;o)</template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MEINE VERLOBTE SEIN</pattern>
+	<template><srai>MOECHTEN SIE SICH MIT MIR VERLOBEN</srai></template>
+</category>
+</aiml>

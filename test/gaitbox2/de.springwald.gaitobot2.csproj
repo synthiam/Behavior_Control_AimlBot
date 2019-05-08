@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.gaitobot2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jint, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2e92ba9c8d81157f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Jint.2.11.58\lib\net451\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="de.springwald.gaitobot2\AntwortFinder.cs" />
+    <Compile Include="de.springwald.gaitobot2\AntwortSatz.cs" />
+    <Compile Include="de.springwald.gaitobot2\BotDenkProtokollSchritt.cs" />
+    <Compile Include="de.springwald.gaitobot2\CategorySortierer.cs" />
+    <Compile Include="de.springwald.gaitobot2\ConditionStatus.cs" />
+    <Compile Include="de.springwald.gaitobot2\DomDocLadePaket.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotEigenschaft.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotEigenschaften.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotInterpreter.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotSession.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotSessionSchritt.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoBotStartupDatei.cs" />
+    <Compile Include="de.springwald.gaitobot2\GaitoScriptInterpreter.cs" />
+    <Compile Include="de.springwald.gaitobot2\MatchString.cs" />
+    <Compile Include="de.springwald.gaitobot2\Normalisierung.cs" />
+    <Compile Include="de.springwald.gaitobot2\PatternMatcher.cs" />
+    <Compile Include="de.springwald.gaitobot2\ResReader.cs" />
+    <Compile Include="de.springwald.gaitobot2\StandardGlobaleEigenschaften.cs" />
+    <Compile Include="de.springwald.gaitobot2\StartupInfos.cs" />
+    <Compile Include="de.springwald.gaitobot2\UserEigenschaften.cs" />
+    <Compile Include="de.springwald.gaitobot2\Wissen.cs" />
+    <Compile Include="de.springwald.gaitobot2\WissensCategory.cs" />
+    <Compile Include="de.springwald.gaitobot2\WissensLader.cs" />
+    <Compile Include="de.springwald.gaitobot2\WissenThema.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\toolbox\de.springwald.toolbox.csproj">
+      <Project>{17f96dcd-d46b-48fe-874c-672005a7f94f}</Project>
+      <Name>de.springwald.toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

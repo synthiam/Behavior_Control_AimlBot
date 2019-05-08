@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaitoBotEditor", "Editor\GaitoBotEditor.csproj", "{C1BC770A-195E-4436-80CF-DEF7F26C8860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.gaitobot.content", "content\de.springwald.gaitobot.content.csproj", "{1DA92560-72B6-4AEA-81B9-588BD11E1879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaitoBotEditorCore", "Core\GaitoBotEditorCore.csproj", "{5F148EBF-805D-4941-A053-F8068606356B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.gaitobot2", "gaitbox2\de.springwald.gaitobot2.csproj", "{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.gaitobot.publizierung", "publish\de.springwald.gaitobot.publizierung.csproj", "{C622441E-2ACE-4867-B165-E014ACB8E611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.toolbox", "toolbox\de.springwald.toolbox.csproj", "{17F96DCD-D46B-48FE-874C-672005A7F94F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.springwald.xml", "xml\de.springwald.xml.csproj", "{99D80389-08F3-49DC-89BE-22F4B72A04BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BC770A-195E-4436-80CF-DEF7F26C8860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BC770A-195E-4436-80CF-DEF7F26C8860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BC770A-195E-4436-80CF-DEF7F26C8860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BC770A-195E-4436-80CF-DEF7F26C8860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA92560-72B6-4AEA-81B9-588BD11E1879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA92560-72B6-4AEA-81B9-588BD11E1879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA92560-72B6-4AEA-81B9-588BD11E1879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA92560-72B6-4AEA-81B9-588BD11E1879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F148EBF-805D-4941-A053-F8068606356B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F148EBF-805D-4941-A053-F8068606356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F148EBF-805D-4941-A053-F8068606356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F148EBF-805D-4941-A053-F8068606356B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E616B8D-FB75-47E0-B28D-DAC0F73A6535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C622441E-2ACE-4867-B165-E014ACB8E611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C622441E-2ACE-4867-B165-E014ACB8E611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C622441E-2ACE-4867-B165-E014ACB8E611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C622441E-2ACE-4867-B165-E014ACB8E611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F96DCD-D46B-48FE-874C-672005A7F94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F96DCD-D46B-48FE-874C-672005A7F94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F96DCD-D46B-48FE-874C-672005A7F94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F96DCD-D46B-48FE-874C-672005A7F94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D80389-08F3-49DC-89BE-22F4B72A04BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D80389-08F3-49DC-89BE-22F4B72A04BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D80389-08F3-49DC-89BE-22F4B72A04BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D80389-08F3-49DC-89BE-22F4B72A04BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6137F38-9857-4DDA-B44A-93476188DDC3}
+	EndGlobalSection
+EndGlobal

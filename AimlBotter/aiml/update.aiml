@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<category>
+<pattern>MOVE FORWARD</pattern>
+<template>I can move forward. [forward()]</template>
+</category>
+
+<category>
+<pattern>STOP</pattern>
+<template>Stopping. [stop()]</template>
+</category>
+
+<category>
+<pattern>What Is The Weather</pattern>
+<template>The Weather is. [speakrss("http://www.rssweather.com/wx/ca/ab/calgary/rss.php", 1)
+]</template>
+</category>
+ 
+</aiml>

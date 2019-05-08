@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ContentElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 	<ReadOnly>true</ReadOnly>
+  <NurFuerGaitoBotExportieren>true</NurFuerGaitoBotExportieren>
+  <UniqueKey>neutral.startup</UniqueKey>
+  <SortKey>0000</SortKey>
+  <Beschreibung>Diese sprachneutralen Ersetzungen machen in jedem GaitoBot Projekt Sinn
+  These language-neutral replacements can be used in nearly every GaitoBot project</Beschreibung>
+  <Name>Neutral replacements | neutrale Ersetzungen</Name>
+  <DateiPattern>de.springwald.gaitobot.content.content.neutral.startup</DateiPattern>
+  <AbhaengigkeitenUniqueIds>
+  </AbhaengigkeitenUniqueIds>
+</ContentElementInfo>

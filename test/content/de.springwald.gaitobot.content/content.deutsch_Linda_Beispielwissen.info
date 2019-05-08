@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ContentElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 	<ReadOnly>true</ReadOnly>
+  <NurFuerGaitoBotExportieren>true</NurFuerGaitoBotExportieren>
+  <UniqueKey>gaitobot.deutsch.lindabeispielwissen</UniqueKey>
+  <Beschreibung>Dieses Wissenspaket stellt einen kompletten Beispiel-GaitoBot dar. Es handelt sich um Linda, mit welcher Sie auch auf gaitobot.de chatten können. Hier können Sie zum Beispiel praxisnah sehen, wie Standard-Pattern, Eingangsaufrufe und Notfallantworten verwendet werden.</Beschreibung>
+  <Name>GaitoBot - Deutsch Linda Beispielwissen</Name>
+  <SortKey>0230</SortKey>
+  <DateiPattern>de.springwald.gaitobot.content.content.GaitoBot_deutsch_Linda_Beispielwissen.*</DateiPattern>
+    <AbhaengigkeitenUniqueIds>
+    <string>gaitobot.deutsch.grundwissen</string>
+  </AbhaengigkeitenUniqueIds>
+</ContentElementInfo>

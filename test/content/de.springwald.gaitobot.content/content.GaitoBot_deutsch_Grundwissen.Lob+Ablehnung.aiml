@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--lastchange: 02.09.2006 01:42:41-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>*</pattern>
+	<template>Ich hoffe, unser Gespräch macht Ihnen genauso viel Freude wie mir.</template>
+</category>
+<category>
+	<pattern>*</pattern><that>Was könnte ich denn Ihrer Meinung nach verbessern?</that>
+	<template>Vielen Dank für Ihre Meinung. Ich bin immer dankbar für Feedback.</template>
+</category>
+<category>
+	<pattern>BRAV</pattern>
+	<template>Ja, ich gebe mir die größe Mühe.</template>
+</category>
+<category>
+	<pattern>BRAVO</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>COOL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>COOLER NAME</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DARLING</pattern>
+	<template><srai>ICH LIEBE DICH</srai></template>
+</category>
+<category>
+	<pattern>DAS FINDE ICH UNINTERESSANT</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>DAS FREUT MICH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS HABEN SIE FEIN GEMACHT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>INTERESSIERT MICH NICHT</pattern>
+	<template>Schade, was möchten Sie denn statt dessen erfahren?  <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>DAS IST BRAV</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS IST INTERESSANT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS IST LANGWEILIG</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>DAS IST PRIMA</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS IST SUPER</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS IST TOLL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS KLINGT WUNDERBAR</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DIE ANTWORT WAR PRIMA</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DU HAST ES DRAUF</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DU NERVST</pattern>
+	<template>Oh! <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>DU SPRICHST NICHT VIEL</pattern>
+	<template><srai>TARGET SIE SPRECHEN NICHT VIEL</srai></template>
+</category>
+<category>
+	<pattern>ENTZUECKEND</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>ERSTAUNLICH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>FEIN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>GANZ SCHOEN RAFFINIERT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>GUT</pattern>
+	<template>
+		<random>
+			<li>Perfekt.</li>
+			<li>Klasse.</li>
+			<li>Schön, dass ich weiterhelfen konnte.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>GUTE ANTWORT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>GUTE FRAGE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>GUTE IDEE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>GUTER JUNGE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>HABE DICH LIEB</pattern>
+	<template><srai>ICH LIEBE DICH</srai></template>
+</category>
+<category>
+	<pattern>HAUEN SIE AB</pattern>
+	<template>Oh! <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>ICH FUEHLE MICH GEEHRT</pattern>
+	<template>Immer gerne :-)</template>
+</category>
+<category>
+	<pattern>ICH HABE KEINE LUST MEHR</pattern>
+	<template>Oh schade. Liegt es an mir? <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>ICH LIEBE DICH</pattern>
+	<template>Ich fasse das mal als Kompliment auf.</template>
+</category>
+<category>
+	<pattern>ICH MAG SIE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>IRGENDWIE FINDEN WIR NICHT ZUEINANDER</pattern>
+	<template>Schade, ich hatte Freude an unserem Gespräch. <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>Ich hoffe, unser Gespräch macht Ihnen genauso viel Freude wie mir.</that>
+	<template>Das freut mich, empfehlen Sie mich doch ruhig weiter.</template>
+</category>
+<category>
+	<pattern>KEWL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>KOMISCHE ANTWORT</pattern>
+	<template>Komisch wie "witzig" oder wie "seltsam"?</template>
+</category>
+<category>
+	<pattern>KRASS</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>LIEBLING</pattern>
+	<template><srai>ICH LIEBE DICH</srai></template>
+</category>
+<category>
+	<pattern>MIR IST LANGWEILIG</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>Ich hoffe, unser Gespräch macht Ihnen genauso viel Freude wie mir.</that>
+	<template>Oh, das ist schade.<srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>NETT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>NETT NETT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>NICHT SCHLECHT HERR SPECHT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>PERFEKT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>ROSEN FUER SIE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SCHOEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SCHOENE FRAU</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SEHR CHARMANT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SEHR GUT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SEHR GUT *</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE GEFALLEN MIR</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN AUF VIELE FRAGEN KEINE ANTWORT</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN SCHOENE BEINE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN SCHOENE HAARE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN SCHOENE LIPPEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN WUNDERBARE AUGEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE MUESSEN NOCH VIEL LERNEN</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SCHEINEN ZU PASSIV</pattern>
+	<template><srai>Sie sind passiv</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND ATTRAKTIV</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND BESSER ALS *</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND COOL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND EIN DUMMER ROBOTER</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND EIN GUTER JUNGE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND EINE NERVENSAEGE</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND ENTTAEUSCHEND</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND GEIL</pattern>
+	<template>Ich fasse das mal als Kompliment auf.</template>
+</category>
+<category>
+	<pattern>SIE SIND GUT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND HOEFLICH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND HUEBSCH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND INFORMATIV</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND KLUG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND LAESSIG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND LANGWEILIG</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND LUSTIG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NERVIG</pattern>
+	<template>Oha!  <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NETT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NETTER ALS *</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NICHT DUMM</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NICHT FREUNDLICH</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NICHT GESPRAECHIG</pattern>
+	<template><srai>TARGET SIE SPRECHEN NICHT VIEL</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NICHT GUT TRAINIERT</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NICHT SCHLAU</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND NIEDLICH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND PASSIV</pattern>
+	<template>Ich kann am besten helfen, wenn Sie mir eine Frage stellen.</template>
+</category>
+<category>
+	<pattern>SIE SIND SCHLAU</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SCHOEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SEHR FREUNDLICH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SEXY</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SUESS</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SUPER</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SUPER LUSTIG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SYMPATISCH</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND TOLL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND UNAUSGEREIFT</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND WITZIG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND WUNDERSCHOEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SPRECHEN NICHT VIEL</pattern>
+	<template><srai>TARGET SIE SPRECHEN NICHT VIEL</srai></template>
+</category>
+<category>
+	<pattern>SIE VERSTEHEN MICH AUCH SO NICHT</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE WERDEN LANGWEILIG</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIEHT COOL AUS</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SO WIRD DAS NICHTS</pattern>
+	<template>Oh, ich wollte Sie nicht verärgern.   <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SPITZE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</pattern>
+	<template>Was könnte ich denn Ihrer Meinung nach verbessern?</template>
+</category>
+<category>
+	<pattern>TARGET LOB</pattern>
+	<template>
+		<random>
+			<li>Danke, Sie sind sehr freundlich.</li>
+			<li>Vielen Dank.</li>
+			<li>Sie schmeicheln mir.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>TARGET SIE MUESSEN NOCH VIEL LERNEN</pattern>
+	<template>Tut mir Leid, wenn Sie diesen Eindruck gewonnen haben.   <srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>TARGET SIE SPRECHEN NICHT VIEL</pattern>
+	<template>Und ich dachte, ich bin ein angenehmer Gesprächspartner.<srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SUESS</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SUPER</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SUPER NUMMER</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>TOLL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>WOW</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>WUNDERBAR</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SUUUUPER</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SEXY</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SEXY</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND INTELLIGENT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>WIE LUSTIG</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>NICHT SCHLECHT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>NETTES SYSTEM</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>ZUCKERSCHNECKE</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>ICH FINDE SIE NETT</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND SCHLECHT</pattern>
+	<template><srai>TARGET DAS GESPRAECH GEFAELLT MIR NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND GENAU MEIN FALL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>WIESO WISSEN SIE SO WENIG</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>SIE WISSEN NICHT VIEL</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>DAS IST COOL</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN SCHOENE AUGEN</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SUESSE MAUS</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>DAS INTERESSIERT MICH NICHT</pattern>
+	<template><srai>INTERESSIERT MICH NICHT</srai></template>
+</category>
+<category>
+	<pattern>SIE WISSEN NICHTS</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+<category>
+	<pattern>ICH MAG IHR KOSTUEM</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>ICH MAG SIE <bot name="name" /></pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern><bot name="name" /> IST EIN SCHOENER NAME</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SEHR BRAV</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND GUT DRAUF</pattern>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE VERSTEHEN NICHT VIEL</pattern>
+	<template><srai>TARGET SIE MUESSEN NOCH VIEL LERNEN</srai></template>
+</category>
+</aiml>

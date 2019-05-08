@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{17F96DCD-D46B-48FE-874C-672005A7F94F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.toolbox</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="de.springwald.toolbox.caching\ICacheParameter.cs" />
+    <Compile Include="de.springwald.toolbox.caching\IFileNameBasedCache.cs" />
+    <Compile Include="de.springwald.toolbox.caching\ObjectCacheContainer.cs" />
+    <Compile Include="de.springwald.toolbox.caching\ObjektCache.cs" />
+    <Compile Include="de.springwald.toolbox.caching\XmlDomDokFileCache.cs" />
+    <Compile Include="de.springwald.toolbox.Cyprography\Hasher.cs" />
+    <Compile Include="de.springwald.toolbox.Error\Fehlerbehandlung.cs" />
+    <Compile Include="de.springwald.toolbox.file\DateiChecksumme.cs" />
+    <Compile Include="de.springwald.toolbox.Impressum\Impressum.cs" />
+    <Compile Include="de.springwald.toolbox.IO\FileInfoRelative.cs" />
+    <Compile Include="de.springwald.toolbox.IO\FileTools.cs" />
+    <Compile Include="de.springwald.toolbox.IO\IFileLeseZugriff.cs" />
+    <Compile Include="de.springwald.toolbox.IO\IOTools.cs" />
+    <Compile Include="de.springwald.toolbox.Serialisierung\DeepCloner.cs" />
+    <Compile Include="de.springwald.toolbox.Serialisierung\GenericSerializationHelperClass.cs" />
+    <Compile Include="de.springwald.toolbox.Serialisierung\IObjektSerialisierVerwaltbar.cs" />
+    <Compile Include="de.springwald.toolbox.Serialisierung\ObjektSerialisiererVerwaltung.cs" />
+    <Compile Include="de.springwald.toolbox.Serialisierung\ObjektSerialisierVerwaltungTiefe2.cs" />
+    <Compile Include="de.springwald.toolbox.Text\EncodingTools.cs" />
+    <Compile Include="de.springwald.toolbox.Text\StringTools.cs" />
+    <Compile Include="de.springwald.toolbox.Web\EmailTools.cs" />
+    <Compile Include="de.springwald.toolbox.Web\MirrorControl.cs" />
+    <Compile Include="de.springwald.toolbox.Web\UrlBuilder.cs" />
+    <Compile Include="de.springwald.toolbox.Web\WebAnwendungsKontext.cs" />
+    <Compile Include="de.springwald.toolbox.Web\WebPlaceholderTools.cs" />
+    <Compile Include="de.springwald.toolbox.Web\WebUserDetector.cs" />
+    <Compile Include="de.springwald.toolbox\ConfigDatei.cs" />
+    <Compile Include="de.springwald.toolbox\Debugger.cs" />
+    <Compile Include="de.springwald.toolbox\DebuggerNeueZeileEventArgs.cs" />
+    <Compile Include="de.springwald.toolbox\DebuggerNeueZeileEventHandler.cs" />
+    <Compile Include="de.springwald.toolbox\EventArgs.cs" />
+    <Compile Include="de.springwald.toolbox\FormObjektDatenTransporter.cs" />
+    <Compile Include="de.springwald.toolbox\frmFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="de.springwald.toolbox\frmFehlerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="de.springwald.toolbox\frmInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="de.springwald.toolbox\GenericConverter.cs" />
+    <Compile Include="de.springwald.toolbox\InputBox.cs" />
+    <Compile Include="de.springwald.toolbox\InterceptKeys.cs" />
+    <Compile Include="de.springwald.toolbox\IntSorterComparer.cs" />
+    <Compile Include="de.springwald.toolbox\IntSorterComparerReverse.cs" />
+    <Compile Include="de.springwald.toolbox\IntSorterItem.cs" />
+    <Compile Include="de.springwald.toolbox\KlappbareGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="de.springwald.toolbox\LPTPort.cs" />
+    <Compile Include="de.springwald.toolbox\RebootRegistry.cs" />
+    <Compile Include="de.springwald.toolbox\RectangleCollection.cs" />
+    <Compile Include="de.springwald.toolbox\ResReader.cs" />
+    <Compile Include="de.springwald.toolbox\RessourcenReader.cs" />
+    <Compile Include="de.springwald.toolbox\ToolboxSonstiges.cs" />
+    <Compile Include="de.springwald.toolbox\ToolboxStrings.cs" />
+    <Compile Include="de.springwald.toolbox\ToolboxUsercontrols.cs" />
+    <Compile Include="de.springwald.toolbox\ToolboxXML.cs" />
+    <Compile Include="de.springwald.toolbox\TransportRichtungen.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolboxImaging.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

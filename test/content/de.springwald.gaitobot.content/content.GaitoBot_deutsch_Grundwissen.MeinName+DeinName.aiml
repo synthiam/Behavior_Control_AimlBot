@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml>
+<!--lastchange: 02.09.2006 01:48:52-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern><bot name="name" /></pattern>
+	<template>Oh, Sie kennen meinen Namen.</template>
+</category>
+<category>
+	<pattern>*</pattern><that>Wie heissen Sie denn?</that>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>*</pattern><that>Wie heissen Sie?</that>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>* IST MEIN NAME</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>_ MEIN NAME IST *</pattern>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>EBENFALLS</pattern><that>Schoen Sie kennen zu lernen *</that>
+	<template>Danke, Sie sind sehr freundlich.<br /><br />Jetzt wo wir uns beide kennen: Womit kann ich Ihnen helfen?</template>
+</category>
+<category>
+	<pattern>HABEN SIE EINEN NAMEN</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>HALLO ICH HEISSE *</pattern>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN *</pattern><that>Wie heissen Sie?</that>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN DER *</pattern><that>Wie heissen Sie?</that>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN DIE *</pattern><that>Wie heissen Sie?</that>
+	<template><srai>Ich heisse <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH HEISS *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH HEISS NICHT SO</pattern>
+	<template>Oh. <srai>TARGET USER NACH NAMEN FRAGEN</srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE *</pattern>
+	<template><think><set name="name"><formal><star /></formal></set></think><condition name="name"><li value="das"><think>Auffang für so etwas wie "Das ist mein Name"</think>Entschuldigung, ich habe Ihren Namen jetzt nicht ganz verstanden.<srai>TARGET USER NACH NAMEN FRAGEN</srai></li><li value="gott">Das erscheint mir wenig glaubwürdig. Aber ok - machen wir uns den Spaß und nennen wir Sie "Gott".</li><li exists="true">Schön Sie kennen zu lernen, <get name="name" />.<br /><br /> <srai>TARGET WERBUNG</srai></li></condition></template>
+</category>
+<category>
+	<pattern>ICH HEISSE * UND *</pattern>
+	<template><srai>Ich heisse <star index="1" /></srai><srai><star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE * UND DU</pattern>
+	<template><srai>Ich heisse <star /></srai><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE * UND SIE</pattern>
+	<template><srai>Ich heisse <star /></srai><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE AUCH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE ICH</pattern>
+	<template>Sie heißen "ich"?<br />Ist das vielleicht ein Wortwitz?<br />So wie bei Grobi in der Sesamstraße mit "ich bin hier und Du bist dort"?</template>
+</category>
+<category>
+	<pattern>ICH HEISSE NICHT *</pattern>
+	<template>Oh. <srai>TARGET USER NACH NAMEN FRAGEN</srai></template>
+</category>
+<category>
+	<pattern>ICH HEISSE NICHT SO</pattern>
+	<template>Oh. <srai>TARGET USER NACH NAMEN FRAGEN</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE * GENANNT WERDEN</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH SAGE IHNEN NICHT MEINEN NAMEN </pattern>
+	<template>Schade.</template>
+</category>
+<category>
+	<pattern>KANN ICH SIE AUCH * NENNEN</pattern>
+	<template>Ich würde mich mehr freuen, wenn Sie mich <bot name="name" /> nennen. Immerhin ist das mein Name. <condition name="name" exists="true">Dafür nenne ich Sie dann auch <bot name="name" /> :-)</condition></template>
+</category>
+<category>
+	<pattern>MAN NENNT MICH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>MEIN NAME IST *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>MEIN NAME IST IRRELEVANT</pattern>
+	<template>Ok, wenn Sie meinen.</template>
+</category>
+<category>
+	<pattern>MEIN NAME IST IRRELEVANT</pattern>
+	<template>Ok, wenn Sie meinen.</template>
+</category>
+<category>
+	<pattern>MEIN NAME IST NICHT *</pattern>
+	<template>Oh. <srai>TARGET USER NACH NAMEN FRAGEN</srai></template>
+</category>
+<category>
+	<pattern>MEIN NAME LAUTET *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NEIN ICH HEISSE *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NEIN MEIN NAME IST *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NEIN MEIN NAME IST *</pattern>
+	<template><srai>Mein Name ist <star /></srai></template>
+</category>
+<category>
+	<pattern>NENNE MICH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NENNE MICH DOCH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NENNEN SIE MICH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>NENNEN SIE MICH DOCH *</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>SCHOEN SIE KENNEN ZU LERNEN <bot name="name" /></pattern>
+	<template>Die Freude ist ganz meinerseits.</template>
+</category>
+<category>
+	<pattern>SCHOEN SIE KENNEN ZU LERNEN *</pattern>
+	<template>Die Freude ist ganz meinerseits.</template>
+</category>
+<category>
+	<pattern>SCHOENER NAME</pattern><that>Ich heisse *</that>
+	<template><srai>TARGET LOB</srai></template>
+</category>
+<category>
+	<pattern>SIE DUERFEN MICH * NENNEN</pattern>
+	<template><srai>ICH HEISSE <star /></srai></template>
+</category>
+<category>
+	<pattern>SIE HABEN MEINEN NAMEN BEHALTEN</pattern>
+	<template>Natürlich - damit ich Sie angemessen begrüßen kann.</template>
+</category>
+<category>
+	<pattern>SIE HEISSEN <bot name="name" /></pattern>
+	<template><srai>TARGET SIE HEISSEN BOTNAME</srai></template>
+</category>
+<category>
+	<pattern>SIE KENNEN MICH</pattern>
+	<template><condition name="name"><li exists="true">Aber natürlich, Sie sind <get name="name" />.</li><li exists="false">Nein, Sie haben mir Ihren Namen noch nicht gesagt. <srai>TARGET USER NACH NAMEN FRAGEN</srai></li></condition></template>
+</category>
+<category>
+	<pattern>SIE SIND</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND <bot name="name" /></pattern>
+	<template><srai>TARGET SIE HEISSEN BOTNAME</srai></template>
+</category>
+<category>
+	<pattern>SIE SIND <bot name="name" /></pattern>
+	<template><srai>TARGET SIE HEISSEN BOTNAME</srai></template>
+</category>
+<category>
+	<pattern>SO HEISSE ICH NICHT</pattern>
+	<template>Oh. <srai>TARGET USER NACH NAMEN FRAGEN</srai></template>
+</category>
+<category>
+	<pattern>TARGET SIE HEISSEN BOTNAME</pattern>
+	<template>Genau, ich heisse <bot name="name" />.</template>
+</category>
+<category>
+	<pattern>TARGET USER NACH NAMEN FRAGEN</pattern>
+	<template>Wie heißen Sie?</template>
+</category>
+<category>
+	<pattern>TARGET WIE HEISSEN SIE</pattern>
+	<template>Ich heiße <bot name="name" />.<condition name="name" exists="false"><srai>TARGET USER NACH NAMEN FRAGEN</srai></condition></template>
+</category>
+<category>
+	<pattern>WER BIN ICH</pattern>
+	<template><srai>WIE IST MEIN NAME?</srai></template>
+</category>
+<category>
+	<pattern>WIE DARF ICH SIE NENNEN</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE HEISS ICH</pattern>
+	<template><srai>WIE IST MEIN NAME?</srai></template>
+</category>
+<category>
+	<pattern>WIE HEISSE ICH</pattern>
+	<template><srai>WIE IST MEIN NAME?</srai></template>
+</category>
+<category>
+	<pattern>WIE HEISSEN SIE</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE HEISST DU</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE IST IHR NAME</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE IST MEIN NAME</pattern>
+	<template><condition name="name"><li exists="false">Sie haben mir Ihren Namen noch nicht genannt. <srai>TARGET USER NACH NAMEN FRAGEN</srai></li><li value="gott">Nun, Sie selbst nannten sich "Gott". Ich habe ja schon gesagt, dass ich an der Richtigkeit gewisse Zweifel habe...</li><li exists="true">Soweit ich mich erinnere, heißen Sie <get name="name" /></li>.</condition></template>
+</category>
+<category>
+	<pattern>WIE NENNEN SIE MICH</pattern>
+	<template><srai>WIE IST MEIN NAME</srai></template>
+</category>
+<category>
+	<pattern>WIE SOLL ICH DICH NENNEN</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE SOLL ICH SIE NENNEN</pattern>
+	<template><srai>TARGET WIE HEISSEN SIE</srai></template>
+</category>
+<category>
+	<pattern>WIE WAR MEIN NAME</pattern>
+	<template><srai>WIE IST MEIN NAME</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE MEINEN NAMEN</pattern>
+	<template><srai>WIE IST MEIN NAME?</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE WER ICH BIN</pattern>
+	<template><srai>Wer bin ich</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE WIE ICH HEISSE</pattern>
+	<template><srai>WIE IST MEIN NAME?</srai></template>
+</category>
+</aiml>

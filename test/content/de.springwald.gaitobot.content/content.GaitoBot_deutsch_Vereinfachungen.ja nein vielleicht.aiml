@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>ABER GERN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER IMMER</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER IMMER WENN DU MAGST</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER IMMER WENN SIE MOEGEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER JA</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>ABER JA DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER NATUERLICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ABER SICHER</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>AUF GAR KEINEN FALL</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ABSOLUT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>AUF JEDEN FALL</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>AUF KEINEN FALL</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>BESTIMMT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>BESTIMMT NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>BIS JETZT NOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>BITTE WENN SIE MOECHTEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DARAUS WIRD LEIDER NICHTS</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>DARAUS WIRD NICHTS</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>DAS FINDE ICH AUCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS IST RICHTIG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS IST WAHR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS KANN MAN WOHL SAGEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS SCHEINT MIR AUCH SO</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS STIMMT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GANZ SICHER</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GERN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GERNE</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>GERNE DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GLAUBE ICH WENIGER</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ICH DENKE SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ICH DENKE NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ICH GLAUBE NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ICH GLAUBE SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IMMER DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IN DER TAT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IWO</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>JA *</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA BITTE</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA BITTE</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA DAS IST WAHR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA EIGENTLICH SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA FINDE ICH AUCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA GANZ SICHER</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA GERN</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA GERNE</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA HEUTE MORGEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA IRGENDWIE SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JA JA</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA LEIDER</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA MACHT ES</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JA SEHR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JAAA</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JAJA</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JAP</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JAU</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JAWOHL</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JAWOLL</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>JEP</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JEPP</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JO</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>KLAR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>MANCHMAL</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>NA KLAR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NEE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEEE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN *</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN DANKE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN DAS MACHE ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN DU</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN DU DENN</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN EIGENTLICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN NIEMALS</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NEIN NOCH NIE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NICHT WIRKLICH</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NOCH NIE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NOE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NUR ZU</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>OKAY</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>OKAY *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>RICHTIG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SEHR SOGAR</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SICHER</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>SICHER NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>SICHERLICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SO AEHNLICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>STIMMT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>WENN DU MAGST</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>WENN DU WILLST</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>WENN SIE MOECHTEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>WENN SIE MOEGEN</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>WENN SIE WOLLEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>WENN SIE WOLLEN</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>YEAH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>YEP</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>KLAR DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ICH BITTE DARUM</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DANN LOS</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>OKIDOKI</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS WAERE SCHOEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>OH JA</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>OH JA *</pattern>
+	<template><srai>Ja <star /></srai></template>
+</category>
+<category>
+	<pattern>ABER KLAR DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>EIGENTLICH SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GENAU</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>LEIDER NEIN</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ICH AUCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>LIEBER NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>UNWAHRSCHEINLICH</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NATUERLICH TUT ES DAS</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NA GUT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IM MOMENT NICHT SO</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NAECHSTES MAL</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>BIN ICH MIR SICHER</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>ALLERDINGS</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JOA</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>WILL ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>EBEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>WIR SIND UNS EINIG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DA HABEN SIE RECHT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>MIR WURST</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>IST MIR WURST</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>GANZ SICHER NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>LASS MAL</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>GANZ BESTIMMT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SO IST DAS </pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS MOECHTE ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>HOFFE ICH DOCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SEHR GERNE</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS WAERE NETT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>EIGENTLICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>BESSER NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>SICHER DOCH</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>GERADE LEIDER NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NOCH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>FINDE ICH AUCH</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>NEGATIV</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>SEHR RICHTIG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JOP</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JAJA *</pattern>
+	<template><srai>JA <star /></srai></template>
+</category>
+<category>
+	<pattern>DAS HOFFE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ES GEHT</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>DAS MACHE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NAJA *</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>JAAAA</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS HABE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>EIGENTLICH GAR NICHT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GEHT</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>DAS WEISS ICH NICHT</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>JEIN</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>BENOETIGE ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NUR BEDINGT</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>VIELLEICHT EIN ANDERMAL</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NICHT UNBEDINGT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>DAS WILL ICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>UEBERHAUPT NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>DAZU HABE ICH KEINE LUST</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>MIR IST DAS EGAL</pattern>
+	<template><srai>Vielleicht</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>FUER MICH NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>YO</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NE DANKE</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>OH ICH AUCH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DARUM BITTE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS FINDE ICH SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NOEOEOE</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>DAS GLAUBE ICH NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>KANN NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>MOECHTE ICH NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>MACHE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>JAPP</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IN ORDNUNG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ZUM GLUECK NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>DAS WAERE GUT</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>FINDE SCHON</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>ZUR ZEIT NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>SCHEINBAR NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>EIGENTLICH NICHT UNBEDINGT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NOE WOHL KAUM</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>AUCH NICHT</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>WORAUF DU EINEN LASSEN KANNST</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS TUE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS WERDE ICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>SOWIESO</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>GEWISS</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>NICHT GANZ</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>DAS WILL ICH HOFFEN</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DA BIN ICH MIR GANZ SICHER</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>YA ICH MOECHTE</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>IN ORDNUNG</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+<category>
+	<pattern>DAS WEISS ICH BEREITS</pattern>
+	<template><srai>JA</srai></template>
+</category>
+<category>
+	<pattern>NOE *</pattern>
+	<template><srai>NEIN</srai></template>
+</category>
+<category>
+	<pattern>ICH MAG NICHT</pattern>
+	<template><srai>Nein</srai></template>
+</category>
+<category>
+	<pattern>NATUERLICH</pattern>
+	<template><srai>Ja</srai></template>
+</category>
+</aiml>

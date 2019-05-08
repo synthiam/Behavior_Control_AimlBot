@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C622441E-2ACE-4867-B165-E014ACB8E611}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>de.springwald.gaitobot.publizierung</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\AIMLDateiUebertragung.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\AlteOderGeloeschteDateienLoeschenUndHochzuladendeZurueckGebenCompletedEventArgs.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\AlteOderGeloeschteDateienLoeschenUndHochzuladendeZurueckGebenCompletedEventHandler.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\DateiPublizierungsInfos.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\ExistsGaitoBotIDCompletedEventArgs.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\ExistsGaitoBotIDCompletedEventHandler.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\MaxKBWissenCompletedEventArgs.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\MaxKBWissenCompletedEventHandler.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\Publizieren.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\ReseteGaitoBotCompletedEventHandler.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Gaitobot_de_publizieren\UebertrageAIMLDateiCompletedEventHandler.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung.Properties\Settings.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung\AIMLDateiUebertragung.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung\DateiPublizierungsInfos.cs" />
+    <Compile Include="de.springwald.gaitobot.publizierung\PublizierDienst.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\toolbox\de.springwald.toolbox.csproj">
+      <Project>{17f96dcd-d46b-48fe-874c-672005a7f94f}</Project>
+      <Name>de.springwald.toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

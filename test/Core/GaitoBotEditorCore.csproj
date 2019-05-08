@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5F148EBF-805D-4941-A053-F8068606356B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GaitoBotEditorCore</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GaitoBotEditorCore.ContentHinzulinken\ContentHinzulinken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.ContentHinzulinken\ContentInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\CategoryCollectionLister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\Publizieren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucBotDenkprotokoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucBotTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucMeisteSRAIs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucWorkflow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucWorkflowScrollbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.controls\ucWorkflowToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore.Properties\Resources.cs" />
+    <Compile Include="GaitoBotEditorCore.Properties\Settings.cs" />
+    <Compile Include="GaitoBotEditorCore.Publizieren\ArbeitsbereichPublizieren.cs" />
+    <Compile Include="GaitoBotEditorCore.Publizieren\PublizierenEventArgs.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLCategory.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLCategoryNodeSortierer.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLDatei.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLDateiKommentare.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLDTD.cs" />
+    <Compile Include="GaitoBotEditorCore\AIMLTopic.cs" />
+    <Compile Include="GaitoBotEditorCore\AimlXmlRegelwerk.cs" />
+    <Compile Include="GaitoBotEditorCore\Arbeitsbereich.cs" />
+    <Compile Include="GaitoBotEditorCore\ArbeitsbereichDateiverwaltung.cs" />
+    <Compile Include="GaitoBotEditorCore\ArbeitsbereichFokus.cs" />
+    <Compile Include="GaitoBotEditorCore\ArbeitsbereichMetaInfos.cs" />
+    <Compile Include="GaitoBotEditorCore\ArbeitsbereichVerlauf.cs" />
+    <Compile Include="GaitoBotEditorCore\ArbeitsbereichVerwaltung.cs" />
+    <Compile Include="GaitoBotEditorCore\Config.cs" />
+    <Compile Include="GaitoBotEditorCore\Export.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\IArbeitsbereichDatei.cs" />
+    <Compile Include="GaitoBotEditorCore\LizenzManager.cs" />
+    <Compile Include="GaitoBotEditorCore\MultiLang.cs" />
+    <Compile Include="GaitoBotEditorCore\ResReader.cs" />
+    <Compile Include="GaitoBotEditorCore\StartupDatei.cs" />
+    <Compile Include="GaitoBotEditorCore\StartupDateiDtd.cs" />
+    <Compile Include="GaitoBotEditorCore\StartupDatei_XmlRegelwerk.cs" />
+    <Compile Include="GaitoBotEditorCore\StartUpDTD.cs" />
+    <Compile Include="GaitoBotEditorCore\Suchen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\ucAIMLDateiListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\ucArbeitsbereichToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\ucCategoryListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\ucCategoryXMLEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\ucTopicListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GaitoBotEditorCore\WorkflowAnalyser.cs" />
+    <Compile Include="GaitoBotEditorCore\WorkflowElementCategory.cs" />
+    <Compile Include="GaitoBotEditorCore\WorkflowKlickbereich.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GaitoBotEditorCore\Resources.aiml.dtd" />
+    <EmbeddedResource Include="GaitoBotEditorCore\Resources.startup.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\content\de.springwald.gaitobot.content.csproj">
+      <Project>{1da92560-72b6-4aea-81b9-588bd11e1879}</Project>
+      <Name>de.springwald.gaitobot.content</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gaitbox2\de.springwald.gaitobot2.csproj">
+      <Project>{9e616b8d-fb75-47e0-b28d-dac0f73a6535}</Project>
+      <Name>de.springwald.gaitobot2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\publish\de.springwald.gaitobot.publizierung.csproj">
+      <Project>{c622441e-2ace-4867-b165-e014acb8e611}</Project>
+      <Name>de.springwald.gaitobot.publizierung</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\toolbox\de.springwald.toolbox.csproj">
+      <Project>{17f96dcd-d46b-48fe-874c-672005a7f94f}</Project>
+      <Name>de.springwald.toolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xml\de.springwald.xml.csproj">
+      <Project>{99d80389-08f3-49dc-89be-22f4b72a04ba}</Project>
+      <Name>de.springwald.xml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

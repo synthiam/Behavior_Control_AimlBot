@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ContentElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 	<ReadOnly>true</ReadOnly>
+  <NurFuerGaitoBotExportieren>true</NurFuerGaitoBotExportieren>
+  <UniqueKey>de.startup</UniqueKey>
+  <SortKey>0200</SortKey>
+  <Beschreibung>Binden Sie diese Datei für deutschsprachiges Wissen ein. Dadurch erlernt Ihr GaitoBot die passende Gramatik und Eingabe-Normierungen.</Beschreibung>
+  <Name>Deutsche Ersetzungen</Name>
+  <DateiPattern>de.springwald.gaitobot.content.content.deutsch.startup</DateiPattern>
+  <AbhaengigkeitenUniqueIds>
+  	<string>neutral.startup</string>
+  </AbhaengigkeitenUniqueIds>
+</ContentElementInfo>

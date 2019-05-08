@@ -1,0 +1,6 @@
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\obj\Debug\de.springwald.toolbox.csproj.CoreCompileInputs.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\obj\Debug\de.springwald.toolbox.csprojResolveAssemblyReference.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\bin\Debug\de.springwald.toolbox.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\bin\Debug\de.springwald.toolbox.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\obj\Debug\de.springwald.toolbox.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\toolbox\obj\Debug\de.springwald.toolbox.pdb

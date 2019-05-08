@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<PluginV1XML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FRIENDLY_NAME>AimlBot</FRIENDLY_NAME>
+  <DLL_FILENAME>AIMLBOTTER.DLL</DLL_FILENAME>
+  <AUTHOR_NAME>DJ Sures</AUTHOR_NAME>
+  <LICENSE_URL>http://www.ez-robot.com/tutorials/plugin-license.aspx</LICENSE_URL>
+  <PLUGIN_GUID>aa184830-399a-4716-bdfc-e766fd792a51</PLUGIN_GUID>
+  <CATEGORY_TYPE>Artificial Intelligence</CATEGORY_TYPE>
+  <DESCRIPTION />
+  <VersionRelease>11</VersionRelease>
+</PluginV1XML>

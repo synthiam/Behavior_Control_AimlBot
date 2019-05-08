@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--lastchange: 01.09.2006 18:46:09-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.2.0.28115-->
+<category>
+	<pattern>* CHATBOTSOFTWARE</pattern>
+	<template><srai><star /> GAITOBOT</srai></template>
+</category>
+<category>
+	<pattern>* CHATBOTSOFTWARE *</pattern>
+	<template><srai><star index="1" /> GAITOBOT <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* EIN GAITO</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* EIN GAITO *</pattern>
+	<template><srai><star index="1" /> GAITO <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* EINE GAITO</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* EINE GAITO *</pattern>
+	<template><srai><star index="1" /> GAITO <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* EINEN GAITO</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* EINEN GAITO *</pattern>
+	<template><srai><star index="1" /> GAITO <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* GAITOS</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* GAITOS *</pattern>
+	<template><srai><star index="1" /> GAITO <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DER GAITO</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* DER GAITO *</pattern>
+	<template><srai><star index="1" /> GAITO <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DES GAITO</pattern>
+	<template><srai><star /> GAITO</srai></template>
+</category>
+<category>
+	<pattern>* GAITOBOT AIML EDITOR *</pattern>
+	<template><srai><star index="1" /> AIML Editor <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* GAITOBOT AIML EDITOR</pattern>
+	<template><srai><star /> AIML Editor</srai></template>
+</category>
+<category>
+	<pattern>* GAITOBOT EDITOR *</pattern>
+	<template><srai><star index="1" /> AIML Editor <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* GAITOBOT EDITOR</pattern>
+	<template><srai><star /> AIML Editor</srai></template>
+</category>
+<category>
+	<pattern>* AIMLEDITOR</pattern>
+	<template><srai><star /> AIML Editor</srai></template>
+</category>
+<category>
+	<pattern>* AIMLEDITOR *</pattern>
+	<template><srai><star index="1" /> AIML Editor <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* GAITO BOT *</pattern>
+	<template><srai><star index="1" /> GaitoBot <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* NEUEN DARSTELLER *</pattern>
+	<template><star index="1" /> Darsteller <star index="2" /></template>
+</category>
+<category>
+	<pattern>* NEUE DARSTELLER *</pattern>
+	<template><star index="1" /> Darsteller <star index="2" /></template>
+</category>
+<category>
+	<pattern>* NEUE DARSTELLER</pattern>
+	<template><srai><star /> Darsteller</srai></template>
+</category>
+<category>
+	<pattern>* NEUEN DARSTELLER</pattern>
+	<template><srai><star /> Darsteller</srai></template>
+</category>
+<category>
+	<pattern>* EINEN DARSTELLER</pattern>
+	<template><srai><star /> Darsteller</srai></template>
+</category>
+<category>
+	<pattern>* EIN DARSTELLER</pattern>
+	<template><srai><star /> Darsteller</srai></template>
+</category>
+<category>
+	<pattern>* EINEN DARSTELLER *</pattern>
+	<template><srai><star index="1" /> Darsteller <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* EIN DARSTELLER *</pattern>
+	<template><srai><star index="1" /> Darsteller <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* TUTORIALS</pattern>
+	<template><srai><star /> TUTORIAL</srai></template>
+</category>
+<category>
+	<pattern>* GAITO BOTS *</pattern>
+	<template><srai><star index="1" /> GaitoBot <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* GAITO BOTS</pattern>
+	<template><srai><star /> GaitoBot</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTEN GAITO</pattern>
+	<template><srai>Was kostet GAITO?</srai></template>
+</category>
+<category>
+	<pattern>* GAITOBOT AIML EDITOR</pattern>
+	<template><srai><star /> AIML EDITOR</srai></template>
+</category>
+<category>
+	<pattern>* EIN WINGAITO</pattern>
+	<template><srai><star /> WinGaito</srai></template>
+</category>
+<category>
+	<pattern>* BOT PROGRAMM *</pattern>
+	<template><srai><star index="1" /> GAITOBOT <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEN AIML EDITOR *</pattern>
+	<template><srai><star index="1" /> AIML EDITOR <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEN AIML EDITOR</pattern>
+	<template><srai><star /> AIML EDITOR</srai></template>
+</category>
+<category>
+	<pattern>* DAS PRODUKT</pattern>
+	<template><srai><star /> Gaito</srai></template>
+</category>
+<category>
+	<pattern>* DAS PRODUKT *</pattern>
+	<template><srai><star index="1" /> Gaito <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DEN EDITOR *</pattern>
+	<template><srai><star index="1" /> AIML EDITOR <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DAS PROGRAMM *</pattern>
+	<template><srai><star index="1" /> Gaito <star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>* DAS PROGRAMM</pattern>
+	<template><srai><star /> Gaito</srai></template>
+</category>
+<category>
+	<pattern>* GAITO BOT</pattern>
+	<template><srai><star /> GaitoBot</srai></template>
+</category>
+</aiml>

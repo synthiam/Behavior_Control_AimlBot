@@ -1,0 +1,9 @@
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\obj\Debug\de.springwald.gaitobot2.csproj.CoreCompileInputs.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\obj\Debug\de.springwald.gaitobot2.csprojResolveAssemblyReference.cache
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\bin\Debug\de.springwald.gaitobot2.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\bin\Debug\de.springwald.gaitobot2.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\bin\Debug\de.springwald.toolbox.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\bin\Debug\Jint.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\bin\Debug\de.springwald.toolbox.pdb
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\obj\Debug\de.springwald.gaitobot2.dll
+C:\My Documents\SVN\Developer - Windows\EZ-Builder Plugins\AimlBot\test\gaitbox2\obj\Debug\de.springwald.gaitobot2.pdb

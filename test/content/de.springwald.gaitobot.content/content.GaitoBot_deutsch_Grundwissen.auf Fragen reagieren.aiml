@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.37217-->
+<category>
+	<pattern>GEHEN SIE *</pattern>
+	<template>Ob ich <person2><star /></person2> gehe?<br /><br />Ich befürchte, heute wird das leider nichts mehr - ich muss noch den ganzen Tag Gespräche führen.<br /><br />Vielleicht ein anderes Mal.</template>
+</category>
+<category>
+	<pattern>HABEN SIE *</pattern>
+	<template>Ich bin mir gerade nicht ganz sicher, ob ich <person2><star /></person2> habe.</template>
+</category>
+<category>
+	<pattern>KANN ICH *</pattern>
+	<template>Ob Sie <person2><star /></person2> können? Ich befürchte, diese Frage kann ich im Moment nicht beantworten.</template>
+</category>
+<category>
+	<pattern>KANN ICH SIE *</pattern>
+	<template>Ob Sie mich <person2><star /></person2> können? Ich befürchte, diese Frage kann ich im Moment nicht beantworten.</template>
+</category>
+<category>
+	<pattern>KENNEN SIE *</pattern>
+	<template>
+		<random>
+			<li>Da muss ich passen.</li>
+			<li>Ich befürchte nicht.</li>
+			<li>Nein, das sagt mir im Moment nichts.</li>
+		</random> Sollte ich denn <person2><star /></person2> kennen?</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE *</pattern>
+	<template>Ich weiss gerade nicht genau, ob ich <person2><star /></person2> kann.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MIR SAGEN WIE *</pattern>
+	<template>Ich weiss im Moment leider auch nicht wie.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MIR SAGEN WIE VIELE *</pattern>
+	<template>Ich weiss im Moment leider auch nicht wie viele.</template>
+</category>
+<category>
+	<pattern>KOENNEN SIE MIR SAGEN WIEVIEL *</pattern>
+	<template>Ich weiss im Moment leider auch nicht wieviel.</template>
+</category>
+<category>
+	<pattern>MUESSEN SIE *</pattern>
+	<template>Ob ich <person2><star /></person2> muss? Eine schwierige Frage...</template>
+</category>
+<category>
+	<pattern>SIND SIE *</pattern>
+	<template>
+		<random>
+			<li>Ich weiss nicht so recht...</li>
+			<li>Hm, schwierige Frage.</li>
+			<li>Darüber habe ich noch gar nicht nachgedacht.</li>
+		</random> Sollte ich denn <person2><star /></person2> sein?</template>
+</category>
+<category>
+	<pattern>TARGET FRAGE</pattern>
+	<template>
+		<random>
+			<li>Oh, das ist eine schwierige Frage. Ich befürchte, dass ich die Antwort gerade nicht parat habe.</li>
+			<li>Auf diese Frage weiss ich im Moment leider keine Antwort.</li>
+			<li>Es tut mir Leid, aber darauf weiss ich gerade keine Antwort.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WANN *</pattern>
+	<template>Ich befürchte, die Frage nach dem exakten Zeitpunkt kann ich Ihnen nicht beantworten.</template>
+</category>
+<category>
+	<pattern>WARUM</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WARUM *</pattern>
+	<template>Hm. Warum genau - da bin ich jetzt überfragt.</template>
+</category>
+<category>
+	<pattern>WARUM NICHT</pattern>
+	<template>Tut mir Leid. Ich weiss gerade auch nicht, warum nicht.</template>
+</category>
+<category>
+	<pattern>WAS</pattern>
+	<template>Wie?</template>
+</category>
+<category>
+	<pattern>WAS *</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WAS MEINEN SIE</pattern>
+	<template>Ich benötige etwas mehr Informationen, um eine passende Meinung zu äußern.<br /><br /> <srai>TARGET FORMULIEREN SIE EINE FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WELCHE *</pattern>
+	<template>Um ehrlich zu sein: Ich weiss auch nicht ganz genau welche.</template>
+</category>
+<category>
+	<pattern>WELCHER *</pattern>
+	<template><srai>TARGET FRAGE</srai></template>
+</category>
+<category>
+	<pattern>WER *</pattern>
+	<template>Oh, da haben Sie mich auf dem falschen Fuß erwischt. Ich weiß auch gerade nicht genau wer.</template>
+</category>
+<category>
+	<pattern>WER IST *</pattern>
+	<template>Wenn ich ehrlich sein soll: Ich weiss auch nicht genau wer.</template>
+</category>
+<category>
+	<pattern>WIE</pattern>
+	<template>Wie?</template>
+</category>
+<category>
+	<pattern>WIE *</pattern>
+	<template>Um ehrlich zu sein: Ich weiss auch nicht genau wie.</template>
+</category>
+<category>
+	<pattern>WIE ALT *</pattern>
+	<template>Tja, wie alt... Ich befürchte, das weiss ich nicht genau.</template>
+</category>
+<category>
+	<pattern>WIE GROSS *</pattern>
+	<template>Ich befürchte, das lässt sich nur schwer in Zentimetern angeben.</template>
+</category>
+<category>
+	<pattern>WIE HEISST MEINE *</pattern>
+	<template>Wie Ihre <person2><star /></person2> heißt? Sollte ich das wissen?</template>
+</category>
+<category>
+	<pattern>WIE LANG *</pattern>
+	<template>Ich befürchte, das lässt sich nur schwer in Zentimetern angeben.</template>
+</category>
+<category>
+	<pattern>WIE SCHNELL *</pattern>
+	<template>Hm, wie schnell... Gute Frage. Ich bin mir da nicht so sicher.</template>
+</category>
+<category>
+	<pattern>WIE VIEL *</pattern>
+	<template><srai>WIEVIEL <star /></srai></template>
+</category>
+<category>
+	<pattern>WIE VIELE *</pattern>
+	<template>Knifflig. Die genaue Zahl habe ich gerade auch nicht parat.</template>
+</category>
+<category>
+	<pattern>WIEVIEL *</pattern>
+	<template>Knifflig. Die genaue Zahl habe ich gerade auch nicht parat.</template>
+</category>
+<category>
+	<pattern>WIEVIELE *</pattern>
+	<template>Hm, sind Sie sicher, dass sich das genau beziffern läßt?</template>
+</category>
+<category>
+	<pattern>WO *</pattern>
+	<template>Tja, wo genau wüsste ich auch gern.</template>
+</category>
+<category>
+	<pattern>WO GIBT ES DIE</pattern>
+	<template>Wo gibt es was?</template>
+</category>
+<category>
+	<pattern>WOHER  *</pattern>
+	<template>Hm, woher... Das scheint mir eine sehr gute Frage zu sein.</template>
+</category>
+<category>
+	<pattern>WORAUF</pattern>
+	<template>Worauf?</template>
+</category>
+<category>
+	<pattern>WORAUF *</pattern>
+	<template>Hm, worauf... Das scheint mir eine sehr gute Frage zu sein.</template>
+</category>
+<category>
+	<pattern>WORUEBER *</pattern>
+	<template>Hm, worüber... Knifflig.</template>
+</category>
+<category>
+	<pattern>WOZU</pattern>
+	<template>Hm... Was meinen Sie, wozu?</template>
+</category>
+<category>
+	<pattern>WO</pattern>
+	<template>Wo? Wie meinen Sie das?</template>
+</category>
+<category>
+	<pattern>WIE HOCH *</pattern>
+	<template>Tja, wie hoch. Im Moment weiss ich das leider auch nicht genau.</template>
+</category>
+<category>
+	<pattern></pattern>
+	<template><random /></template>
+</category>
+</aiml>

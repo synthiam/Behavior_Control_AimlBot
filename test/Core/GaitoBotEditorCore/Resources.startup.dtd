@@ -1,0 +1,36 @@
+<!ELEMENT gaitobot-startup (bot?, predicates?, substitutions?, sentence-splitters?)>
+
+<!ELEMENT bot (property*) >
+
+<!ELEMENT property EMPTY>
+<!ATTLIST property
+  name		CDATA #REQUIRED
+  value		CDATA #REQUIRED
+  >
+
+<!ELEMENT predicates (predicate*) >
+<!ELEMENT predicate EMPTY>
+<!ATTLIST predicate
+  name			CDATA #REQUIRED
+  default		CDATA #REQUIRED
+  set-return	CDATA #REQUIRED
+  >
+
+<!ELEMENT substitutions (input?, gender?, person?, person2?) >
+
+<!ELEMENT input (substitute*) >
+<!ELEMENT gender (substitute*) >
+<!ELEMENT person (substitute*) >
+<!ELEMENT person2 (substitute*) >
+
+<!ELEMENT substitute EMPTY>
+<!ATTLIST substitute
+  find     CDATA #REQUIRED
+  replace  CDATA #REQUIRED
+  >
+
+<!ELEMENT sentence-splitters (splitter*) >
+<!ELEMENT splitter EMPTY>
+<!ATTLIST splitter
+  value     CDATA #REQUIRED
+  >

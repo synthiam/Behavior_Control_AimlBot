@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.2.0.28115-->
+<category>
+	<pattern>GIBT ES DICH ZU KAUFEN</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>IST IHRE SOFTWARE FREI VERFUEGBAR</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN DICH DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN SIE DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WANN GIBT ES DICH ZU KAUFEN</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTEST DU</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET DIESES SYSTEM</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE BEKOMME ICH DICH</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS WERDEN SIE KOSTEN</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIEVIEL KOSTEST DU</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET SIE</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET DICH</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WO KANN ICH DICH DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO BEKOMMT MAN DICH</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>SIND SIE KOSTENLOS</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH SIE DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO KANN ICH GAITO DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO KANN MAN SIE DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WIE TEUER</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SIE</pattern>
+	<template>Das freut mich sehr.<br /><br /> <srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET ES</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE KANN ICH SELBST EINEN CHATBOT PROGRAMMIEREN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTEN DIE</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SIE DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO GIBT ES SOWAS WIE SIE</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KAUFEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET SO EIN PROGRAMM</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET DAS</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH SIE DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH SIE IRGENDWO DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN SIE HERUNTERLADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH SIE FUER MEINE EIGENE SEITE HABEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET DIE SOFTWARE</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>WIE KANN ICH ES DOWNLOADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO BEKOMMT MAN SIE</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WOHER SIND SIE</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO KANN ICH AIML EDITOR DOWNLOADEN</pattern>
+	<template><srai>TARGET DOWNLOAD AIMLEDITOR</srai></template>
+</category>
+<category>
+	<pattern>TARGET DOWNLOAD AIMLEDITOR</pattern>
+	<template>Den GaitoBot AIML Editor können Sie <a href="http://www.gaito.de/content/produkte_gaitobot/editor.asp?language=de" target="_blank">hier downloaden</a>.</template>
+</category>
+<category>
+	<pattern>DOWNLOAD</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KOSTEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOBOT</srai></template>
+</category>
+</aiml>

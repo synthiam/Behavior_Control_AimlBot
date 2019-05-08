@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><gaitobot-startup>
+<bot>
+		<property name="name" value="Linda" />
+		<property name="birthday" value="28.09.2008" />
+		<property name="birthplace" value="Bochum" />
+		<property name="location" value="Bochum" />
+		<property name="botmaster" value="Springwald Software" />
+		<property name="country" value="Deutschland" />
+		<property name="email" value="info@springwald.de" />
+		<property name="favoritecolor" value="blau" />
+		<property name="gender" value="weiblich" /></bot></gaitobot-startup>

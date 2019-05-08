@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml>
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.40424-->
+<category>
+	<pattern>TARGET WIE SPAET IST ES</pattern>
+	<template>Es ist jetzt <get name="DateTime.Now.Hour" /> Uhr <condition name="DateTime.Now.Minute"><li value="0">.</li><li value="1">und eine Minute.</li>
+			<li>und <get name="DateTime.Now.Minute" /> Minuten.</li></condition> </template>
+</category>
+<category>
+	<pattern>WIE SPAET WAR ES GESTERN UM DIE GLEICHE ZEIT</pattern>
+	<template>Haha - raten Sie mal: <srai>TARGET WIE SPAET IST ES</srai> Wie spät war es dann wohl gestern zur gleichen Zeit? ;-)</template>
+</category>
+<category>
+	<pattern>WIEVIEL UHR IST ES</pattern>
+	<template><srai>TARGET WIE SPAET IST ES</srai></template>
+</category>
+<category>
+	<pattern>WISSEN SIE WIE SPAET ES IST</pattern>
+	<template><srai>TARGET WIE SPAET IST ES</srai></template>
+</category>
+<category>
+	<pattern>WIE SPAET IST ES</pattern>
+	<template><srai>TARGET WIE SPAET IST ES</srai></template>
+</category>
+<category>
+	<pattern>TARGET WELCHER TAG IST HEUTE</pattern>
+	<template>Heute ist <get name="DateTime.Now.DayOfWeekName" />, der <get name="DateTime.Now.Day" />. <get name="DateTime.Now.MonthName" /> <get name="DateTime.Now.Year" />. </template>
+</category>
+<category>
+	<pattern>WELCHER TAG IST HEUTE</pattern>
+	<template><srai>TARGET WELCHER TAG IST HEUTE</srai></template>
+</category>
+<category>
+	<pattern>WELCHER WOCHENTAG IST HEUTE</pattern>
+	<template><srai>TARGET WELCHER TAG IST HEUTE</srai></template>
+</category>
+<category>
+	<pattern>KENNST DU DAS HEUTIGE DATUM</pattern>
+	<template><srai>TARGET WELCHER TAG IST HEUTE</srai></template>
+</category>
+<category>
+	<pattern>WELCHEN TAG HABEN WIR HEUTE</pattern>
+	<template><srai>TARGET WELCHER TAG IST HEUTE</srai></template>
+</category>
+</aiml>

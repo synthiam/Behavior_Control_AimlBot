@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--lastchange: 02.09.2006 01:54:15-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.0.1.36649-->
+<category>
+	<pattern>* DEINE TITTEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>* FICKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>* GROSSE TITTEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>AUSZIEHEN</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>BIST DU NACKT</pattern>
+	<template>Offenbar nicht.</template>
+</category>
+<category>
+	<pattern>BLAS MIR EINEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>BLASEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>BLASEN SIE MIR EINEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>BUMSEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>DICH AUSZIEHEN</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>FERTIG</pattern><that>Sie zuerst!</that>
+	<template>Das hätten Sie wohl gern.</template>
+</category>
+<category>
+	<pattern>FICK</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>FICK MICH</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>FICKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>FICKEN *</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>GEILE SCHLAMPE</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>HABE ICH</pattern><that>Sie zuerst!</that>
+	<template>Das hätten Sie wohl gern.</template>
+</category>
+<category>
+	<pattern>HABE ICH SCHON</pattern><that>Sie zuerst!</that>
+	<template>Das hätten Sie wohl gern.</template>
+</category>
+<category>
+	<pattern>HABEN SIE LUST AUF SEX</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH BIN NACKT</pattern>
+	<template>Finden Sie das nicht ein wenig zu intim?</template>
+</category>
+<category>
+	<pattern>ICH FICKE GERNE</pattern>
+	<template>Es freut mich, wenn Sie Gefallen daran finden. Mir als künstliche Intelligenz ist Sexualität nicht möglich.</template>
+</category>
+<category>
+	<pattern>ICH HABE MICH AUSGEZOGEN</pattern>
+	<template>Finden Sie das nicht ein wenig zu intim?</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE EIN KIND VON IHNEN</pattern>
+	<template>Soso. Das Gespräch wird mir nun doch etwas zu intim.</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE FICKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SEX</pattern>
+	<template>Das ist aber eine sehr intime Information.</template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SIE FICKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>JETZT DU</pattern><that>Sie zuerst!</that>
+	<template>Das hätten Sie wohl gern.</template>
+</category>
+<category>
+	<pattern>KANN ICH SIE FICKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN SIE AUSZIEHEN</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>KOENNEN SIE SICH AUSZIEHEN</pattern>
+	<template>Wenn ich wollte könnte ich.</template>
+</category>
+<category>
+	<pattern>LASSEN SIE UNS LIEBE MACHEN</pattern>
+	<template>Ich vermute mal, Sie meinen damit wohl nicht platonische Liebe. Daher schlage ich das Angebot mal lieber aus.</template>
+</category>
+<category>
+	<pattern>LEGEN SIE IHRE KLEIDUNG AB</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>LUST AUF SEX</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>MACHE DICH NACKIG</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>MACHE DICH NACKT</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE GESCHLECHTSVERKEHR MIT MIR</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE MIT MIR SCHLAFEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE POPPEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>MOECHTEN SIE SEX</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ORAL</pattern>
+	<template>Was meinen Sie mit "oral"? Möchten Sie gern über Zahnhygiene sprechen?</template>
+</category>
+<category>
+	<pattern>ORALSEX</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>PENIS</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>PUSSY</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>SCHON GESCHEHEN</pattern><that>Sie zuerst!</that>
+	<template>Das hätten Sie wohl gern.</template>
+</category>
+<category>
+	<pattern>SEX</pattern>
+	<template>Das ist im Internet eine recht häufig verwendete Vokabel.</template>
+</category>
+<category>
+	<pattern>SEX IST SCHOEN</pattern>
+	<template>Es freut mich, wenn Sie Gefallen daran finden. Mir als künstliche Intelligenz ist Sexualität nicht möglich.</template>
+</category>
+<category>
+	<pattern>SIE KOENNEN SICH AUSZIEHEN</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>SIE SOLLEN SICH AUSZIEHEN</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>TARGET SEXWORTE</pattern>
+	<template>
+		<random>
+			<li>Dieses Gespräch scheint eine *sehr* merkwürdige Richtung einzuschlagen.</li>
+			<li>WIE BITTE? Ich habe mich wohl verlesen!</li>
+			<li>Ich denke nicht, dass ich in diesem Ton weiter mit Ihnen chatten möchte.</li>
+			<li>Ich bevorzuge ehrlich gesagt eine etwas kultiviertere Konversation.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SUCK MY DICK</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>TITTEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>TITTEN RAUS</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>WAS IST SEX</pattern>
+	<template>War das nicht das mit den Bienen und den Blumen?</template>
+</category>
+<category>
+	<pattern>WAS TRAGEN SIE DRUNTER</pattern>
+	<template>Ich denke, diese Frage ist mir ein wenig zu intim.</template>
+</category>
+<category>
+	<pattern>WIE GEHT SEX</pattern>
+	<template><srai>WAS IST SEX</srai></template>
+</category>
+<category>
+	<pattern>ZEIGEN SIE IHRE PUSSY</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ZEIGEN SIE MIR IHRE BRUESTE</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ZIEHEN SIE SICH AUS AAAALLLLTTT</pattern>
+	<template>Na, das wäre doch jetzt wohl ein wenig zu intim, finden Sie nicht?</template>
+</category>
+<category>
+	<pattern>ZIEHEN SIE SICH FUER MICH AUS</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>ZIEHST DU DICH AUS</pattern>
+	<template><srai>Ziehen Sie sich aus</srai></template>
+</category>
+<category>
+	<pattern>* BLAS MIR EINEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE TITTEN SEHEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE SEX MIT IHNEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH FICKE SIE</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>GEILE SAU</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>MUSCHI LECKEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE MIT IHNEN SCHLAFEN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>ANALSEX</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>WIE SEHEN SIE OHNE KLEIDER AUS</pattern>
+	<template>Ausgezogen, würde ich mal vermuten.</template>
+</category>
+<category>
+	<pattern>SIE GEILE SAU</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>WOLLEN SIE VOEGELN</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>WOLLEN SIE SEX MIT MIR</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+<category>
+	<pattern>BUECK DICH</pattern>
+	<template><srai>TARGET SEXWORTE</srai></template>
+</category>
+</aiml>

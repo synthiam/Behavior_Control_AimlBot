@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ContentElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 	<ReadOnly>true</ReadOnly>
+  <NurFuerGaitoBotExportieren>true</NurFuerGaitoBotExportieren>
+  <UniqueKey>gaitobot.deutsch.grundwissen</UniqueKey>
+  <Beschreibung>Dieses Paket enthält zahlreiche Antworten auf die häufigsten deutschen Benutzereingaben. Konzentrieren Sie sich auf das echte Wissen Ihres GaitoBots und lassen Sie Beleidigungen und Standardfragen durch dieses Wissenspaket beantworten.</Beschreibung>
+  <Name>GaitoBot - Deutsches Grundwissen</Name>
+  <SortKey>0220</SortKey>
+  <DateiPattern>de.springwald.gaitobot.content.content.GaitoBot_deutsch_Grundwissen.*</DateiPattern>
+	<AbhaengigkeitenUniqueIds>
+			<string>gaitobot.deutsch.vereinfachungen</string>
+  </AbhaengigkeitenUniqueIds>
+</ContentElementInfo>

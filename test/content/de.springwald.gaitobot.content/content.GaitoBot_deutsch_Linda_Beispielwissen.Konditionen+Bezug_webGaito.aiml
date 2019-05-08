@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+<!--lastchange: 01.09.2006 22:37:37-->
+<!--author: Daniel Springwald-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V1.2.0.28115-->
+<category>
+	<pattern>KANN ICH GAITO AUF MEINE WEBSITE *</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>TARGET WAS KOSTET GAITO</pattern>
+	<template>Die Konditionen für webGAITO zum Einsatz in kleineren oder privaten Projekten <a target="_blank" href="http://www.gaito.de/content/produkte_webgaito/kaufen.asp?language=de">finden sie hier</a>.<br /><br />Die Preise für natürlichsprachige Projekte mit GaitoBot <a href="http://www.gaito.de/content/produkte_gaitobot/kaufen.asp?language=de" target="_blank">können Sie hier aufrufen</a>.</template>
+</category>
+<category>
+	<pattern>TARGET WO BEKOMMT MAN GAITOS</pattern>
+	<template>Die Gaitos sind auf der <a href="http://www.gaito.de" target="_blank">Gaito-Homepage</a> zu Hause. Dort erfahren Sie alles darüber, wie Sie einen eigenen Gaito bekommen können.<br /><br /><srai>TARGET WUENSCHEN SIE MEHR INFOS ZU GAITO</srai></template>
+</category>
+<category>
+	<pattern>WAS BRAUCHE ICH FUER GAITO</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WIE KANN ICH GAITO AUF MEINE WEBSITE *</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO BEKOMMT MAN GAITO</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WO BEKOMMT MAN GAITO FUER MEINE HOMEPAGE</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>WAS KOSTET GAITO</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>KANN ICH EINEN CHATBOT ERSTELLEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>KANN MAN GAITO RUNTERLADEN</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>EIGENER GAITO</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE GAITO</pattern>
+	<template><srai>TARGET WO BEKOMMT MAN GAITOS</srai></template>
+</category>
+<category>
+	<pattern>ICH MOECHTE GAITO KAUFEN</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>IST GAITO OPEN SOURCE</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+<category>
+	<pattern>UNTER WELCHER LIZENZ STEHT GAITO</pattern>
+	<template><srai>TARGET WAS KOSTET GAITO</srai></template>
+</category>
+</aiml>

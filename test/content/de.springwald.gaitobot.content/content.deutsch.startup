@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><gaitobot-startup>
+	<substitutions>
+<input>
+		<substitute find=" O K " replace=" OK " />
+		<substitute find=" P S " replace=" PS " />
+		<substitute find=" OHHH" replace=" OH" />
+		<substitute find=" C++ " replace=" C plus plus " />
+		<substitute find=" A.L.I.C.E " replace=" ALICE " />
+		<substitute find=" A.L.I.C.E. " replace=" ALICE " />
+		<substitute find=" AHBE " replace=" habe " />
+		<substitute find=" ANATOMI " replace=" Anatomie " />
+		<substitute find=" ANDRES " replace=" anderes " />
+		<substitute find=" AUFS " replace=" auf das " />
+		<substitute find=" BEMUEH " replace=" bemuehe " />
+		<substitute find=" BISTE " replace=" bist Du " />
+		<substitute find=" BISDU " replace=" bist Du " />
+		<substitute find=" BISSU " replace=" bist Du " />
+		<substitute find=" BIDDE " replace=" bitte " />
+		<substitute find=" BRAUCH ICH " replace=" brauche ich " />
+		<substitute find=" CHATEN " replace=" chattem " />
+		<substitute find=" CHATEST " replace=" chattest " />
+		<substitute find=" CHATET " replace=" chattet " />
+		<substitute find=" CMPUTER " replace=" Computer " />
+		<substitute find=" DANKESCHOEN " replace=" danke schön " />
+		<substitute find=" DACHT " replace=" dachte " />
+		<substitute find=" DIRS " replace=" Dir es " />
+		<substitute find=" DIHC " replace=" Dich " />
+		<substitute find=" DR. " replace=" Doktor " />
+		<substitute find=" DRUEBER " replace=" darueber " />
+		<substitute find=" DRUMM " replace=" darum " />
+		<substitute find=" DUS " replace=" Du es " />
+		<substitute find=" DU SPRICHTS " replace=" Du sprichst " />
+		<substitute find=" EIGENTLCI " replace=" eigentlich " />
+		<substitute find=" ERGIEBT " replace=" ergibt " />
+		<substitute find=" ERKLAER " replace=" erklaere " />
+		<substitute find=" ERZAEHL " replace=" erzaehle " />
+		<substitute find=" FANG " replace=" fange " />
+		<substitute find=" FIND " replace=" finde " />
+		<substitute find=" FINDS " replace=" finde es " />
+		<substitute find=" FRAG " replace=" frage " />
+		<substitute find=" FREUD MICH " replace=" freut mich " />
+		<substitute find=" GET DICH " replace=" geht Dich " />
+		<substitute find=" GET SIE " replace=" geht Sie " />
+		<substitute find=" GEHTS " replace=" geht es " />
+		<substitute find=" GETS " replace=" geht es " />
+		<substitute find=" GEH " replace=" gehe " />
+		<substitute find=" GEHN " replace=" gehen " />
+		<substitute find=" GHTS " replace=" geht es " />
+		<substitute find=" GEHT S " replace=" geht es " />
+		<substitute find=" GERN " replace=" gerne " />
+		<substitute find=" GETZ " replace=" jetzt " />
+		<substitute find=" GIBTS " replace=" gibt es " />
+		<substitute find=" GINGS " replace=" ging es " />
+		<substitute find=" GIBS " replace=" gib es " />
+		<substitute find=" GLAUB " replace=" glaube " />
+		<substitute find=" GLAUBS " replace=" glaube es " />
+		<substitute find=" GRAD " replace=" gerade " />
+		<substitute find=" HAB " replace=" habe " />
+		<substitute find=" HABS " replace=" habe es " />
+		<substitute find=" HALO " replace=" hallo " />
+		<substitute find=" HAS DU " replace=" hast Du " />
+		<substitute find=" HASTE " replace=" hast Du " />
+		<substitute find=" HAELTS " replace=" haeltst " />
+		<substitute find=" HAELST " replace=" haeltst " />
+		<substitute find=" HAELLST " replace=" haeltst " />
+		<substitute find=" HATEST " replace=" hattest " />
+		<substitute find=" HEIST " replace=" heisst " />
+		<substitute find=" HEISSST " replace=" heisst " />
+		<substitute find=" HERRAUS " replace=" heraus " />
+		<substitute find=" hoff ich " replace=" hoffe ich " />
+		<substitute find=" DU HST " replace=" Du hast " />
+		<substitute find=" ICH HAB " replace=" ich habe " />
+		<substitute find=" ICHS " replace=" ich es " />
+		<substitute find=" INTELIGENT " replace=" intelligent " />
+		<substitute find=" INTERESANT " replace=" interessant " />
+		<substitute find=" IS " replace=" ist " />
+		<substitute find=" ISSES " replace=" ist es " />
+		<substitute find=" ISTS " replace=" ist es " />
+		<substitute find=" IST S " replace=" ist es " />
+		<substitute find=" ISSET " replace=" ist es " />
+		<substitute find=" JETZ " replace=" jetzt " />
+		<substitute find=" JUUT " replace=" gut " />
+		<substitute find=" KANST " replace=" kannst " />
+		<substitute find=" KATHEGORIE " replace=" Kategorie " />
+		<substitute find=" KATHEGORIEN " replace=" Kategorien " />
+		<substitute find=" KATHEGORISCH " replace=" kategorisch " />
+		<substitute find=" KENNSTE " replace=" kennst Du " />
+		<substitute find=" KENST " replace=" kennst " />
+		<substitute find=" KENNSE " replace=" kennst Du " />
+		<substitute find=" KANNSTE " replace=" kennst Du " />
+		<substitute find=" KANNSE " replace=" kennst Du " />
+		<substitute find=" KENST DU " replace=" kennst Du " />
+		<substitute find=" KENNT DU " replace=" kennst Du " />
+		<substitute find=" KENN " replace=" kenne " />
+		<substitute find=" KUCKE " replace=" gucke " />
+		<substitute find=" LASS " replace=" lasse " />
+		<substitute find=" LESPISCH " replace=" lesbisch " />
+		<substitute find=" MR. " replace=" Mister " />
+		<substitute find=" MA " replace=" mal " />
+		<substitute find=" MACHS " replace=" mache es " />
+		<substitute find=" MACH " replace=" mache " />
+		<substitute find=" MACHSTE " replace=" machst Du " />
+		<substitute find=" MAENLICH " replace=" maennlich " />
+		<substitute find=" MAGSTE " replace=" magst Du " />
+		<substitute find=" MANS " replace=" man es " />
+		<substitute find=" MASCHIENE " replace=" Maschine " />
+		<substitute find=" MGAST " replace=" magst " />
+		<substitute find=" MIER " replace=" nir " />
+		<substitute find=" MIRS " replace=" mir es " />
+		<substitute find=" MOECHT " replace=" moechte " />
+		<substitute find=" MUST " replace=" musst " />
+		<substitute find=" NEIEN " replace=" nein " />
+		<substitute find=" NEN " replace=" einen " />
+		<substitute find=" NENN " replace=" nenne " />
+		<substitute find=" NEHMS " replace=" nehme es " />
+		<substitute find=" NEUGIRIG " replace=" neugierig " />
+		<substitute find=" NIEN " replace=" nein " />
+		<substitute find=" NIHC " replace=" nicht " />
+		<substitute find=" NICH " replace=" nicht " />
+		<substitute find=" NIHTS " replace=" nichts " />
+		<substitute find=" NCIHT " replace=" nicht " />
+		<substitute find=" NIMMS " replace=" nimm es " />
+		<substitute find=" NIMM S " replace=" nimm es " />
+		<substitute find=" NIX " replace=" nichts " />
+		<substitute find=" OHH " replace=" OH " />
+		<substitute find=" PROBIER " replace=" probiere " />
+		<substitute find=" PROBIERS " replace=" probiere es " />
+		<substitute find=" PROGRAM " replace=" Programm " />
+		<substitute find=" PROGRAMIERT " replace=" programmiert " />
+		<substitute find=" SAG " replace=" sage " />
+		<substitute find=" SEH " replace=" sehe " />
+		<substitute find=" SCHO " replace=" schon " />
+		<substitute find=" SCHONMAL " replace=" schon einmal " />
+		<substitute find=" SONS " replace=" sonst " />
+		<substitute find=" SPEZIEL " replace=" speziell " />
+		<substitute find=" SPIELN " replace=" spielen " />
+		<substitute find=" STELL " replace=" stelle " />
+		<substitute find=" STIMMTS " replace=" stimmt es " />
+		<substitute find=" TACH " replace=" Tag " />
+		<substitute find=" TELEFONIERN " replace=" telefonieren " />
+		<substitute find=" TSCHUES " replace=" tschuess " />
+		<substitute find=" UMS " replace=" um es " />
+		<substitute find=" VIIIEL" replace=" viel " />
+		<substitute find=" VIIEL" replace=" viel " />
+		<substitute find=" VERBOTTEN " replace=" verboten " />
+		<substitute find=" VERSTEH " replace=" verstehe " />
+		<substitute find=" VERSUCHS " replace=" versuche es " />
+		<substitute find=" WAS SIN " replace=" was sind " />
+		<substitute find=" WAT " replace=" was " />
+		<substitute find=" WAEHRE " replace=" waere " />
+		<substitute find=" WAERS " replace=" waere es " />
+		<substitute find=" WEILS " replace=" weil es " />
+		<substitute find=" WERS " replace=" wer es " />
+		<substitute find=" WERD " replace=" werde " />
+		<substitute find=" WERDS " replace=" werde es " />
+		<substitute find=" WEIS " replace=" weiss " />
+		<substitute find=" WEIST " replace=" weisst " />
+		<substitute find=" WIEDE " replace=" wieder " />
+		<substitute find=" WIELANGE " replace=" wie lange " />
+		<substitute find=" WIELANG " replace=" wie lang " />
+		<substitute find=" WIRSTE " replace=" wirst du " />
+		<substitute find=" WUESSTESTE " replace=" wüsstest du " />
+		<substitute find=" ZEIG " replace=" zeige " />
+		<substitute find=" ZIEH " replace=" ziehe " /></input></substitutions></gaitobot-startup>

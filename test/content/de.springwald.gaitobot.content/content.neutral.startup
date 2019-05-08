@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><gaitobot-startup>
+	<substitutions>
+<input>
+		<substitute find=")))))" replace=")" />
+		<substitute find="))))" replace=")" />
+		<substitute find=")))" replace=")" />
+		<substitute find="))" replace=")" />
+		<substitute find="...." replace="." />
+		<substitute find="..." replace="." />
+		<substitute find=".." replace="." />
+		<substitute find=";o)" replace=" SMILE " />
+		<substitute find=";O)" replace=" SMILE " />
+		<substitute find=":)" replace=" SMILE " />
+		<substitute find=",)" replace=" SMILE " />
+		<substitute find=";)" replace=" SMILE " />
+		<substitute find="=)" replace=" SMILE " />
+		<substitute find=";-)" replace=" SMILE " />
+		<substitute find=",-)" replace=" SMILE " />
+		<substitute find=":-)" replace=" SMILE " />
+		<substitute find="&lt;g&gt;" replace=" SMILE " />
+		<substitute find="&lt;G&gt;" replace=" SMILE " />
+		<substitute find=".-)" replace=" SMILE " />
+		<substitute find=":P" replace=" SMILE " />
+		<substitute find=":-P" replace=" SMILE " />
+		<substitute find="^^" replace=" SMILE " />
+		<substitute find="'" replace="" />
+		<substitute find="?" replace="" />
+		<substitute find="`" replace="" />
+		<substitute find=" \" replace=" " />
+		<substitute find=" A. " replace=" a " />
+		<substitute find=" B. " replace=" b " />
+		<substitute find=" C. " replace=" c " />
+		<substitute find=" D. " replace=" d " />
+		<substitute find=" E. " replace=" e " />
+		<substitute find=" F. " replace=" f " />
+		<substitute find=" G. " replace=" g " />
+		<substitute find=" H. " replace=" h " />
+		<substitute find=" I. " replace=" i " />
+		<substitute find=" J. " replace=" j " />
+		<substitute find=" K. " replace=" k " />
+		<substitute find=" L. " replace=" l " />
+		<substitute find=" M. " replace=" m " />
+		<substitute find=" N. " replace=" n " />
+		<substitute find=" P. " replace=" p " />
+		<substitute find=" O. " replace=" o " />
+		<substitute find=" Q. " replace=" q " />
+		<substitute find=" R. " replace=" r " />
+		<substitute find=" S. " replace=" s " />
+		<substitute find=" T. " replace=" t " />
+		<substitute find=" U. " replace=" u " />
+		<substitute find=" V. " replace=" v " />
+		<substitute find=" X. " replace=" x " />
+		<substitute find=" Y. " replace=" y " />
+		<substitute find=" W. " replace=" w " />
+		<substitute find=" Z. " replace=" z " />
+		<substitute find="=REPLY" replace="" />
+		<substitute find="NAME=RESET" replace="" />
+		<substitute find="&amp;QUOT;" replace="" />
+		<substitute find="/" replace=" " />
+		<substitute find="(" replace=" " />
+		<substitute find=")" replace=" " />
+		<substitute find="`" replace=" " />
+		<substitute find="," replace=" " />
+		<substitute find=":" replace=" " />
+		<substitute find="=" replace=" " />
+		<substitute find="&amp;AMP;" replace=" " />
+		<substitute find="&amp;GT;" replace=" gt " />
+		<substitute find="&amp;LT;" replace=" lt " />
+		<substitute find=" {" replace=" beginscript " />
+		<substitute find=" }" replace=" endscript " />
+		<substitute find=".AU " replace=" dot au " />
+		<substitute find=".AC " replace=" dot ac " />
+		<substitute find=".CH " replace=" dot au " />
+		<substitute find=".CO " replace=" dot co " />
+		<substitute find=".COM " replace=" dot com " />
+		<substitute find=".DE " replace=" dot de " />
+		<substitute find=".EDU " replace=" dot edu " />
+		<substitute find=".EU " replace=" dot eu " />
+		<substitute find=".JP " replace=" dot jp " />
+		<substitute find=".NET " replace=" dot net " />
+		<substitute find=".ORG " replace=" dot org " />
+		<substitute find=".ORG.UK " replace=" dot org dot uk " />
+		<substitute find=".UK " replace=" dot uk " />
+		<substitute find="WWW." replace=" www dot " />
+		<substitute find=" U S A " replace=" USA " />
+		<substitute find=" U. S. A. " replace=" USA " />
+		<substitute find=" U.S.A. " replace=" USA " />
+		<substitute find=" U.S. " replace=" USA " />
+		<substitute find="P.S." replace=" ps " />
+		<substitute find=" p s " replace=" ps " />
+		<substitute find=" ohh" replace=" oh " />
+		<substitute find="O.K." replace=" ok " />
+		<substitute find=" O. K. " replace=" ok " />
+		<substitute find=" o k " replace=" ok " />
+		<substitute find="  " replace=" " /></input></substitutions></gaitobot-startup>
